@@ -16,14 +16,10 @@ Radius 16
 
 ACTOR D64HomingFireBallLauncher
 {
-Speed 0
-MONSTER
--COUNTKILL
--SHOOTABLE
 +NOGRAVITY
 +FLOAT
 +LOOKALLAROUND
-+THRUACTORS
++NOCLIP
 +MISSILEMORE
 +MISSILEEVENMORE
 	States
@@ -32,14 +28,12 @@ MONSTER
 		TNT1 AAAAAAA 1 A_Chase
 		Goto Missile
 	Missile:
-		TNT1 A 1
-		TNT1 A 0 A_CheckSight("DontFire")
-		TNT1 A 1 A_FaceTarget
-		TNT1 A 0 A_CustomMissile("RevenantTracer",40)
-		TNT1 A 1 A_NoBlocking
+		TNT1 A 1 A_CheckSight("DontFire")
+		TNT1 A 2 A_FaceTarget
+		TNT1 A 1 A_CustomMissile("RevenantTracer",40)
 		Stop
 	DontFire:
-		TNT1 A 1 A_NoBlocking
+		TNT1 A 1
 		Stop
 	}
 }
