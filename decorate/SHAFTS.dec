@@ -1,4 +1,4 @@
-Actor BD64HangingTechLampb 9923
+/*Actor BD64HangingTechLampb 9923
 {
 //$category "Maps/BD64_Lights
 Game Doom
@@ -35,7 +35,7 @@ Radius 16
 		CEIL A -1
 		Stop
 	}
-}
+}*/
 
 actor BD64LightShaft1
 {
@@ -271,7 +271,7 @@ Radius 4
 	}
 }
 
-actor BD64GroundFire 9929
+/*actor BD64GroundFire 9929
 {
 //$category "Maps/BD64_Lights
 Game Doom
@@ -312,7 +312,7 @@ RenderStyle Add
 		F2RE ABCDEFGH 1
 		Goto Stay
 	}
-}
+}*/
 
 Actor BD64Flare_General
 {

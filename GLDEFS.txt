@@ -76,16 +76,6 @@ object ThunderEffects
 frame THUN { light ThunderPointer }
 }
 
-// Fire
-flickerlight2 GROUNDFIRE
-{
-color 1.0 0.9 0.0
-size 65
-secondarySize 45
-interval 1.0
-offset 0 35 0
-}
-
 //BRIGHTMAPS
 //SWITCHES
 brightmap sprite SW2TEN		{map "brightmaps/SW2METBR.png"}
