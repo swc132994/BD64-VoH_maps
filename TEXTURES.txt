@@ -483,6 +483,12 @@ Texture "CLEAR", 1, 1
 	NullTexture
 }
 
+Texture "CAMTEX", 1, 1
+{
+	NoDecals
+	NullTexture
+}
+
 Texture "F_SKY1", 64, 64
 {
 	Patch "SKY1", 0, 0

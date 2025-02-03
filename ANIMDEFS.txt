@@ -1,4 +1,9 @@
-cameraTEXTURE SKY01 128 128 fit 64 64
+//Camera Textures
+Cameratexture CAMTEX1 128 128 fit 64 64
+Cameratexture CAMTEX2 128 128 fit 64 64
+Cameratexture CAMTEX3 128 128 fit 64 64
+Cameratexture CAMTEX4 128 128 fit 64 64
+Cameratexture CAMTEX5 128 128 fit 64 64
 
 //MAIN MENU ANIMATED SKULL
 TEXTURE M_SKULL1
