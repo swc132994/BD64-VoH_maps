@@ -345,7 +345,7 @@ Actor BD64WhiteFlareCeilingTexture : BD64Flare_General
 {
 XScale 0.55
 YScale 0.25
-alpha 0.8
+alpha 0.7
 -FORCEYBILLBOARD
 +FORCEXYBILLBOARD
 +NOCLIP
@@ -374,7 +374,7 @@ Actor BD64WhiteFlareFloorTexture : BD64Flare_General
 {
 XScale 0.55
 YScale 0.25
-alpha 0.8
+alpha 0.7
 -NOGRAVITY
 -FLOAT
 -NOCLIP
@@ -404,7 +404,7 @@ Actor BD64ShortWhiteFlareSmall : BD64Flare_General
 {
 XScale 0.5
 Yscale 0.2
-alpha 0.6
+alpha 0.5
 -FORCEYBILLBOARD
 +FORCEXYBILLBOARD
 	states
@@ -447,7 +447,7 @@ Yscale 0.3
 Actor BD64ShortWhiteFlareSmallPermanent : BD64Flare_General
 {
 XScale 1
-Yscale 0.6
+Yscale 0.5
 alpha 1
 -FORCEYBILLBOARD
 +FORCEXYBILLBOARD
