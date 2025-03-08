@@ -14,6 +14,11 @@ Episode 64DM1
 Name = "Deathmatch (Zandronum)"
 }
 
+Episode D64TM
+{
+Name = "Test Facility"
+}
+
 //GAME SETTINGS
 GameInfo
 {
@@ -701,4 +706,9 @@ map REC03 Lookup "Delta Quadrant"
 	Next = "REC04"
 	InterMusic = "N64INTER"
 	exitpic = "INTERPI1"
+}
+
+map D64TM "Test Facility"
+{
+	Next = "D6400"
 }
