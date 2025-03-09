@@ -711,4 +711,6 @@ map REC03 Lookup "Delta Quadrant"
 map D64TM "Test Facility"
 {
 	Next = "D6400"
+	AllowRespawn
+	NoIntermission
 }
