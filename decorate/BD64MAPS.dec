@@ -1,6 +1,6 @@
 ACTOR TeleportHelishSound 8741
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Height 16
 Radius 16
 +NOINTERACTION
@@ -40,7 +40,7 @@ ACTOR D64HomingFireBallLauncher
 
 ACTOR D64Icon 8347
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Scale 0.2
 Speed 0
 MONSTER
@@ -62,7 +62,7 @@ MONSTER
 
 ACTOR TopLight1Red 8892
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 XScale 0.5
 YScale 1.0
 Height 1
@@ -85,7 +85,7 @@ Renderstyle Add
 
 ACTOR FloorLight1Red 7892
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 XScale 0.5
 YScale -1.0
 Height 1
@@ -121,7 +121,7 @@ Alpha 0.4
 
 ACTOR TopLight1Green : TopLight1Red 8893
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 	States
 	{
 	Spawn:
@@ -143,7 +143,7 @@ ACTOR WorldGreenFlare : WorldRedFlare
 
 ACTOR TopLight1White : TopLight1Red 8894
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Alpha 0.2
 	States
 	{
@@ -194,7 +194,7 @@ Alpha 1.0
 
 ACTOR TopLight1WhiteLarge : TopLight1Red 8694
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Scale 1.2
 Alpha 0.2
 	States
@@ -208,7 +208,7 @@ Alpha 0.2
 
 ACTOR TopLight1Yellow : TopLight1Red 8895
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 	States
 	{
 	Spawn:
@@ -230,7 +230,7 @@ ACTOR WorldYellowFlare : WorldRedFlare
 
 ACTOR TopLight1Blue : TopLight1Red 8896
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 	States
 	{
 	Spawn:
@@ -252,7 +252,7 @@ ACTOR WorldBlueFlare: WorldRedFlare
 
 ACTOR LowerLight1White : TopLight1Red 8897
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 -SPAWNCEILING
 -NOGRAVITY
 	States
@@ -266,7 +266,7 @@ ACTOR LowerLight1White : TopLight1Red 8897
 
 ACTOR TopLight1Orange : TopLight1Red 8898
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 	States
 	{
 	Spawn:
@@ -288,7 +288,7 @@ ACTOR WorldOrangeFlare : WorldRedFlare
 
 ACTOR TunnelLights 3826
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 XScale 1.4
 YScale 2.0
 Height 1
@@ -308,7 +308,7 @@ Renderstyle Add
 
 Actor LightsUnderwaterSpawner 4828
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Radius 4
 Height 4
 +NOGRAVITY
@@ -345,7 +345,7 @@ Renderstyle Add
 
 ACTOR LightsUnderWaterBlue : LightsUnderWater 4830
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 	States
 	{
 	Spawn:
@@ -359,7 +359,7 @@ ACTOR LightsUnderWaterBlue : LightsUnderWater 4830
 
 ACTOR LightsUnderWaterOrange : LightsUnderWater 4831
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 	States
 	{
 	Spawn:
@@ -373,7 +373,7 @@ ACTOR LightsUnderWaterOrange : LightsUnderWater 4831
 
 ACTOR LightsUnderWaterRed : LightsUnderWater 4832
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 	States
 	{
 	Spawn:
@@ -387,7 +387,7 @@ ACTOR LightsUnderWaterRed : LightsUnderWater 4832
 
 ACTOR LightsUnderWaterGreen : LightsUnderWater 4833
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 	States
 	{
 	Spawn:
@@ -401,7 +401,7 @@ ACTOR LightsUnderWaterGreen : LightsUnderWater 4833
 
 ACTOR ThunderSpawner : LightsUnderWater 4834
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 	States
 	{
 	Spawn:
@@ -446,7 +446,7 @@ Renderstyle Add
 
 ACTOR VolumetricLight 3436
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 XScale 2.9
 YScale 2.9
 Height 8
@@ -467,14 +467,14 @@ Renderstyle Add
 
 ACTOR VolumetricLightLong : VolumetricLight 3476
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 XScale 1.0
 YScale 3.0
 }
 
 ACTOR VolumetricLightGreen : VolumetricLight 3437
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 	States
 	{
 	Spawn:
@@ -485,7 +485,7 @@ ACTOR VolumetricLightGreen : VolumetricLight 3437
 
 ACTOR VolumetricLightOrange : VolumetricLight 3438
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 	States
 	{
 	Spawn:
@@ -496,7 +496,7 @@ ACTOR VolumetricLightOrange : VolumetricLight 3438
 
 ACTOR VolumetricLightRed : VolumetricLight 3439
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 	States
 	{
 	Spawn:
@@ -507,7 +507,7 @@ ACTOR VolumetricLightRed : VolumetricLight 3439
 
 ACTOR TunnelLightsLowContrast : TunnelLights 3827
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 XScale 0.9
 YScale 0.5
 Alpha 0.15
@@ -515,7 +515,7 @@ Alpha 0.15
 
 actor SpawnSpark_Down 8914
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 height 8
 radius 4
 +NOBLOCKMAP
@@ -578,7 +578,7 @@ radius 4
 
 actor SpawnSpark_Up 8901
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 height 8
 radius 4
 +NOBLOCKMAP
@@ -713,7 +713,7 @@ Speed 0
 
 Actor FirePitsOfHell 1276
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Scale 1.5
 height 32
 radius 32
@@ -753,7 +753,7 @@ radius 64
 
 Actor SFXRainSpawner256 4543
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Height 4
 Radius 6
 +NOCLIP
@@ -802,7 +802,7 @@ Renderstyle Translucent
 
 Actor SnowSpawner512 7544		//repurposed to ash for fire sky maps
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Height 1
 Radius 6
 +NOCLIP
@@ -849,7 +849,7 @@ RenderStyle Translucent
 
 ACTOR WaterDriping 2225
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Height 1
 +NOBLOCKMAP
 +SPAWNCEILING
@@ -892,7 +892,7 @@ ActiveSound "world/waterdrips"
 
 Actor ExplosiveArea 1437
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Scale 0.5
 Health 40
 Mass 0x7FFFFFFF
@@ -920,7 +920,7 @@ radius 1
 
 Actor ExplosiveArea2 : ExplosiveArea 1438
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 height 96
 radius 32
 Health 200
@@ -928,7 +928,7 @@ Health 200
 
 Actor ExplosiveArea3 : ExplosiveArea 1439
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 height 96
 radius 32
 Health 400
@@ -936,7 +936,7 @@ Health 400
 
 Actor WallDestroySpawnRubble : ExplosiveArea 5439
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Health 30
 	states
 	{
@@ -955,7 +955,7 @@ Health 30
 
 Actor WallDestroySpawnWood : ExplosiveArea 5441
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Health 30
 	states
 	{
@@ -973,7 +973,7 @@ Health 30
 
 Actor WallDestroySpawnGlass : ExplosiveArea 5440
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Health 30
 	states
 	{
@@ -1009,7 +1009,7 @@ Actor D4Map02TerraformingParticles : ExplosiveArea
 
 Actor SummonGlass 1336
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Height 0
 Radius 0
 +NOINTERACTION
@@ -1504,7 +1504,7 @@ Gravity 0
 
 ACTOR ReflectionStaticGreen : TopLight1Red 8291
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 XScale 2.0
 YScale 3.5
 Health 9
@@ -1525,7 +1525,7 @@ Alpha 0.4
 
 ACTOR ReflectionStaticBlue : ReflectionStaticGreen 8292
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 	States
 	{
 	Spawn:
@@ -1536,7 +1536,7 @@ ACTOR ReflectionStaticBlue : ReflectionStaticGreen 8292
 
 ACTOR ReflectionStaticRed : ReflectionStaticGreen 8293
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 	States
 	{
 	Spawn:
@@ -1547,7 +1547,7 @@ ACTOR ReflectionStaticRed : ReflectionStaticGreen 8293
 
 ACTOR ReflectionStaticYellow : ReflectionStaticGreen 8294
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 	States
 	{
 	Spawn:
@@ -1558,7 +1558,7 @@ ACTOR ReflectionStaticYellow : ReflectionStaticGreen 8294
 
 ACTOR ReflectionStaticWhite : ReflectionStaticGreen 8295
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 	States
 	{
 	Spawn:
@@ -1569,7 +1569,7 @@ ACTOR ReflectionStaticWhite : ReflectionStaticGreen 8295
 
 ACTOR ReflectionStaticOrange : ReflectionStaticGreen 8296
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 	States
 	{
 	Spawn:
@@ -1580,7 +1580,7 @@ ACTOR ReflectionStaticOrange : ReflectionStaticGreen 8296
 
 ACTOR ReflectionStaticWhiteLarge : ReflectionStaticGreen 8297
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 XScale 5.0
 	States
 	{
@@ -1592,7 +1592,7 @@ XScale 5.0
 
 ACTOR AmbientSoundWaterFall1 21006
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 -SHOOTABLE
 +NOBLOCKMAP
 +NOGRAVITY
@@ -1607,7 +1607,7 @@ ACTOR AmbientSoundWaterFall1 21006
 
 ACTOR AmbientSoundWaterFall2 21007
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 -SHOOTABLE
 +NOBLOCKMAP
 +NOGRAVITY
@@ -1622,7 +1622,7 @@ ACTOR AmbientSoundWaterFall2 21007
 
 ACTOR FirefightIndoorMap01 1476
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Height 16
 Radius 16
 +NOINTERACTION
@@ -1638,7 +1638,7 @@ Radius 16
 
 ACTOR FireFightClose 1477
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Height 16
 Radius 16
 +NOINTERACTION
@@ -1655,7 +1655,7 @@ Radius 16
 
 ACTOR AmbientSoundWaterFlowing 21008
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 -SHOOTABLE
 +NOBLOCKMAP
 +NOGRAVITY
@@ -1670,7 +1670,7 @@ ACTOR AmbientSoundWaterFlowing 21008
 
 ACTOR AmbientSoundHeavyWind 21009
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 -SHOOTABLE
 +NOBLOCKMAP
 +NOGRAVITY
@@ -1685,7 +1685,7 @@ ACTOR AmbientSoundHeavyWind 21009
 
 ACTOR SplashGenerator 8859
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Scale 0.3
 Height 8
 Radius 8
@@ -1702,7 +1702,7 @@ Mass 15
 
 ACTOR WaterMistGenerator 8860
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Scale 0.3
 Height 8
 Radius 8
@@ -1735,7 +1735,7 @@ Renderstyle Add
 
 ACTOR SummonFighterType1 2179
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Game Doom
 Height 32
 Radius 12
@@ -1821,7 +1821,7 @@ PROJECTILE
 
 ACTOR SummonFighterType2 2669
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 Game Doom
 Height 32
 Radius 12
@@ -1871,7 +1871,7 @@ FastSpeed 30
 
 ACTOR SummonFighterType2Random: SummonFighterType1 2174
 {
-//$category "Maps/BD64_Effects
+//$category "Maps/BD64_Effects"
 	States
 	{
 	Spawn:
@@ -1939,7 +1939,7 @@ PROJECTILE
 //IMPORTED FAKE KEYS FROM D64 RETRIBUTION
 ACTOR 64FakeBlueCard 1511
 {
-//$category "Maps/BD64_Fake_Items
+//$category "Maps/BD64_Fake_Items"
 Game Doom
 -SOLID
 	States
@@ -1953,7 +1953,7 @@ Game Doom
 
 ACTOR 64FakeBlueSkull 1512
 {
-//$category "Maps/BD64_Fake_Items
+//$category "Maps/BD64_Fake_Items"
 Game Doom
 -SOLID
 	States
@@ -1967,7 +1967,7 @@ Game Doom
 
 ACTOR 64FakeRedCard 1513
 {
-//$category "Maps/BD64_Fake_Items
+//$category "Maps/BD64_Fake_Items"
 Game Doom
 -SOLID
 	States
@@ -1981,7 +1981,7 @@ Game Doom
 
 ACTOR 64FakeRedSkull 1514
 {
-//$category "Maps/BD64_Fake_Items
+//$category "Maps/BD64_Fake_Items"
 Game Doom
 -SOLID
 	States
@@ -1995,7 +1995,7 @@ Game Doom
 
 ACTOR 64FakeYellowCard 1515
 {
-//$category "Maps/BD64_Fake_Items
+//$category "Maps/BD64_Fake_Items"
 	Game Doom
 	-SOLID
 
@@ -2010,7 +2010,7 @@ ACTOR 64FakeYellowCard 1515
 
 ACTOR 64FakeYellowSkull 1516
 {
-//$category "Maps/BD64_Fake_Items
+//$category "Maps/BD64_Fake_Items"
 Game Doom
 -SOLID
 	States
@@ -2024,7 +2024,7 @@ Game Doom
 
 ACTOR 64FakeSoulSphere : Soulsphere 1523
 {
-//$category "Maps/BD64_Fake_Items
+//$category "Maps/BD64_Fake_Items"
 SpawnID 225
 -SOLID
 }
