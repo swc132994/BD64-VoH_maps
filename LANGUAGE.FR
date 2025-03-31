@@ -1,0 +1,223 @@
+//=====================================
+//French strings updated by Pygargue00fr.
+//=====================================
+
+[fr]
+
+D64QUIT = "Quitter Brutal Doom 64 ?";
+
+////////////////////////////////////////////////////////////////////////////////
+// Level names
+
+TITLEMAP = "Menu principal";
+D6400 = "Site d'atterrissage";
+D6401 = "Zone de transit";
+D6402 = "Le Terraformateur";
+D6403 = "Ingénierie principale";
+D6404 = "Zone de stockage";
+D6405 = "Centre technique";
+D6406 = "Quadrant Alpha";
+D6407 = "Laboratoire de recherche";
+D6408 = "Avant-poste final";
+D6409 = "Désherbage mortel";
+D6410 = "Le saignement";
+D6411 = "Noyau de la terreur";
+D6412 = "Autel de la souffrance";
+D6413 = "Citadelle sombre";
+D6414 = "L'oeil du cyclone";
+D6415 = "Entrées maudites";
+D6416 = "Donjon sanglant";
+D6417 = "Attention à la marche";
+D6418 = "Peur rationnelle";
+D6419 = "La spirale";
+D6420 = "Rupture";
+D6421 = "Pièges d'Enfer";
+D6422 = "Offrandes brûlées";
+D6423 = "Temple impie";
+D6424 = "Aucune issue";
+D6425 = "Chat et souris";
+D6426 = "Cœur du mal";
+D6427 = "Aire de jeux";
+D6428 = "L'Absolution";
+D6428A = "L'absolution ultime";
+D6429 = "Avant-poste Oméga";
+D6430 = "Le repaire";
+D6431 = "Dans le vide";
+D6432 = "Trépidant";
+
+ENDINGMA = "La fin";
+
+D6407TC = "Installation nucléaire (TC)";
+D6427TC = "Interdit plus profond (TC)";
+D6428TC = "Tapis dans l'ombre (TC)";
+D6434TC = "Crise (TC)";
+
+////////////////////////////////////////////////////////////////////////////////
+// Intermission screens
+
+INTER01_TXT1 = "Les ordres de l'UAC étaient d'éliminer la menace démoniaque était clairs,";
+INTER01_TXT2 = "alors vous avez nettoyé la base et atteint le portail.";
+INTER01_TXT3 = "Cependant, on dirait bien que l'UAC n'ait toujours rien appris";
+INTER01_TXT4 = "depuis la première invasion démoniaque !";
+INTER01_TXT5 = "Vous envisagez de désactiver la séquence de destruction, ";
+INTER01_TXT6 = "mais vous savez que l'UAC ne reculera devant rien.";
+INTER01_TXT7 = "Vous allez vous assurer que tant que vous vivrez plus jamais";
+INTER01_TXT8 = "L'UAC ne pourra tout ruiner !";
+INTER01_TXT9 = "De cette base, comme le portail et leurs experiences, ";
+INTER01_TXT10 = "vous n'en laisserez \cgaucune trace\c-."
+
+INTER01_TXT11 = "Alors que vous franchissez le portail et que la brume se dissipe,";
+INTER01_TXT12 = "la familiarité de la situation vous apparaît comme un fantôme du passé.";
+INTER01_TXT13 = "Votre cri sanguinaire résonne dans la pénombre";
+INTER01_TXT14 = "alors qu'une fois de plus vous vous retrouvez ";
+INTER01_TXT15 = "seul dans les tréfonds...";
+
+INTER02_TXT1 = "Le vaste silence ";
+INTER02_TXT2 = "appelle la morgue militaire.";
+INTER02_TXT3 = "Vous saviez que l'installation";
+INTER02_TXT4 = "avait un niveau classée top secret.";
+INTER02_TXT5 = "L'UAC devais avoir une bonne raison";
+INTER02_TXT6 = "de garder cet endroit à l'abri des regards.";
+INTER02_TXT7 = "Que peut-il bien ce trouver";
+INTER02_TXT8 = "dans ces murs ?...";
+
+INTER03_TXT1 = "Le sourir au lèvres, vous vous demandez";
+INTER03_TXT2 = "dans quel autre endroit sordide";
+INTER03_TXT3 = "avez-vous donc mis les pieds ?";
+INTER03_TXT4 = "Aucun démon n'aurait imaginé";
+INTER03_TXT5 = "vous voir survivre aussi longtemp.";
+INTER03_TXT6 = "La corruption empeste les lieux ";
+INTER03_TXT7 = "trallissant leur maudite présence...";
+INTER03_TXT8 = "Qu'ils baignent dans leur jus !";
+
+INTER04_TXT1 = "Continuant sans relâche";
+INTER04_TXT2 = "Semant mort et carcasses de démons à chaque pas, ";
+INTER04_TXT3 = "l'odeur âcre est à vous en rendre malade !";
+INTER04_TXT4 = "Aucun cauchemard n'aurait pu";
+INTER04_TXT5 = "vous préparer à une telle réalitée.";
+INTER04_TXT6 = "Vous réalisez avec effroi";
+INTER04_TXT7 = "que ce lieu n'avait jamais eu pour but";
+INTER04_TXT8 = "d'acceuillir les vivants.";
+
+INTER05_TXT1 = "Congratulations!";
+INTER05_TXT2 = "Vous avez atteint...";
+INTER05_TXT3 = "HECTIC";
+INTER05_TXT4 = "Seuls les meilleurs récolteront";
+INTER05_TXT5 = "les récompenses.";
+
+INTER06_TXT1 = "Après de nombreux efforts...";
+INTER06_TXT2 = "La \clMère maudite\c- tomba sous vos coups!";
+INTER06_TXT3 = "Pour la première fois, les démons découvrent ce qu’est la peur.";
+INTER06_TXT4 = "Seul témoin de leurs fuite impétueuse,";
+INTER06_TXT5 = "tandis que sang et sueur s'écoulent de votre casque.";
+INTER06_TXT6 = "Vacances et thérapie s'anonçaient enfin,";
+INTER06_TXT7 = "Malheuresement votre victoire ne dura qu'un temps.";
+INTER06_TXT8 = "La base et le portail détruits. Vous êtes aux abois !";
+INTER06_TXT9 = "La violence et la folie ayant consumé votre âme,";
+INTER06_TXT10 = "quitte à ce que l'UAC vous croient mort au combat.";
+INTER06_TXT11 = "Sachant mieux que quiconque que l'Enfer ne se repose pas,";
+INTER06_TXT12 = "Vous décidez de rester vous battre pour";
+INTER06_TXT13 = "éradiquer l'engeance démoniaque.";
+INTER06_TXT14 = "Plus jamais malheur ne reviendra tant que l'Enfer craindra votre \cgnom\c-...";
+
+INTER07_TXT1 = "Vous avez réussi à passer à travers !";
+INTER07_TXT2 = "Alors que la porte de l'ascenseur se ferme derrière vous,";
+INTER07_TXT3 = "Les hurlement de vos semblables se perdent avec ceux des démons.";
+INTER07_TXT4 = "Le tout mélangé à coups de feu et explosions.";
+INTER07_TXT5 = "Au bout d'un moment, plus rien d'autre que le silence.";
+INTER07_TXT6 = "Votre esquade n'auvait aucune chance";
+INTER07_TXT7 = "face aux monstres vous attendant dehors.";
+INTER07_TXT8 = "Vous êtes désormais l'unique survivant.";
+INTER07_TXT9 = "Une odeur putride au delà des portes vous pris en étau,";
+INTER07_TXT10 = "c'est l'odeur de la mort. Une amie familière.";
+INTER07_TXT11 = "Dorénavant impossible de faire demi-tour,";
+INTER07_TXT12 = "vous préparez votre arme pour une entrée dans la base.";
+
+INTER08_TXT1 = "Avant de comfronter la menace directement en Enfer";
+INTER08_TXT2 = "Vous avez choisi un petit détour vers l'inconnu.";
+INTER08_TXT3 = "Une fois le pied posé dans une étrange dimension,";
+INTER08_TXT4 = "Un \csvieil ami\c- vous invita à dîner.";
+INTER08_TXT5 = "Que le spectacle \cgcommence !";
+
+INTER09_TXT1 = "Après avoir combattu en Enfer, vous voilà enfin devant son repère.";
+INTER09_TXT2 = "Bientôt, la Mère démon sera devant vous,";
+INTER09_TXT3 = "alors allez lui rendre un dernier hommage";
+INTER09_TXT4 = "Elle vous \cgattend\c-...";
+
+//////////////////////////////////////////////////////////////////
+//Tags for Bots
+TAGBD_BOT1 = "Bidasse";
+TAGBD_BOT2 = "Destructeur";
+TAGBD_BOT3 = "Exécuteur";
+TAGBD_BOT4 = "Belliciste";
+
+BOT1_INTRO_TXT1 = "Bienvenue au paradis !";
+BOT1_INTRO_TXT2 = "Que la fête commence !.";
+BOT1_INTRO_TXT3 = "Il est temps de s'amuser un peu !";
+BOT1_INTRO_TXT4 = "Super,encore ce foutu trou à rats !";
+BOT1_INTRO_TXT5 = "Combien de temps allons-nous devoir nous battre dans ces trous à rats ?";
+BOT1_INTRO_TXT6 = "Je vais tous vous massacrer !";
+BOT1_INTRO_TXT7 = "C'est parti !";
+BOT1_INTRO_TXT8 = "Je vous vous chercher !";
+BOT1_INTRO_TXT9 = "Part te planquer, je te retrouverai tôt ou tard !";
+BOT1_INTRO_TXT10 = "Je vais vraiment me faire plaisir.";
+BOT1_INTRO_TXT11 = "Je vais vous exploser les dents !".;
+BOT1_INTRO_TXT12 = "Vous n'avez aucune chance, bande d'abrutis !";
+
+BOT1_FRAG_TXT1 = "Reste à terre !";
+BOT1_FRAG_TXT2 = "Reste mort cette fois !";
+BOT1_FRAG_TXT3 = "Que je ne te revois plus dans le coin !"
+BOT1_FRAG_TXT4 = "Surprise ! t'es mort !";
+BOT1_FRAG_TXT5 = "Aussi avare qu'un  gros rat !";
+BOT1_FRAG_TXT6 = "Comment ça se passe là-dessous ?";
+BOT1_FRAG_TXT7 = "Il en reste que des boyaux.";
+BOT1_FRAG_TXT8 = "Bah alors, tu dors au travail ?";
+BOT1_FRAG_TXT9 = "Génial !";
+BOT1_FRAG_TXT10 = "Relève-toi, espèce de fainéant. Ce n'est qu'une blessure superficielle !";
+BOT1_FRAG_TXT11 = "Pendant un instant, vos doux cris d'agonie ont fait taire les voix.";
+BOT1_FRAG_TXT12 = "Je me souviens de toi sur Phobos. Tu t'es enfui. Je t'ai retrouvé.";
+
+BOT1_KILLED_TXT = "Chance de cocu !";
+BOT1_KILLED_TXT = "Tu vas payer pour ça ,salopard !";
+BOT1_KILLED_TXT = "Sale petit con !";
+BOT1_KILLED_TXT = "D'où diable viens-tu ?!";
+BOT1_KILLED_TXT = "Ça crains, putain !";
+
+BOT1_ROAMING_TXT1 = "Où es-tu, bordel ?";
+BOT1_ROAMING_TXT2 = "Rammène toi où vas bien te faire foutre !";
+BOT1_ROAMING_TXT3 = "Tu ne peux pas te planquer pour toujours !";
+BOT1_ROAMING_TXT4= "On va repeindre les murs avec ton sang";
+BOT1_ROAMING_TXT4 = "Sort, sort, où que tu soit !";
+
+BOT1_NOROAMING_TXT1 = "Vous ne m'arrêterez pas, bande de connards !";
+BOT1_NOROAMING_TXT2 = "J'en est pas fini avec vous !";
+BOT1_NOROAMING_TXT3 = "Ramenez-vous, on en à pas encore fini !";
+BOT1_NOROAMING_TXT4 = "Donnez-moi une putain de chance !";
+BOT1_NOROAMING_TXT5 = "Ça devient vraiment embarassant !";
+
+BOT1_ENRAGED_TXT1 = "VAS TE FAIRE FOUTRE, CONNARD !";
+BOT1_ENRAGED_TXT2 = "VOUS ALLEZ SUBIR DE LA TORTURE !!";
+BOT1_ENRAGED_TXT3 = "JE VAIS TOUS VOUS ENCULER !!";
+BOT1_ENRAGED_TXT4 = "ALLEZ VOUS FAIRE FOUTRES !";
+BOT1_ENRAGED_TXT5 = "VOUS ME LE PAYREZ !";
+
+BOT1_DEMORALIZED_TXT1 = "J'aimerais tellement que ce foutoire s'arrête.";
+BOT1_DEMORALIZED_TXT2 = "Je vais faire une sieste. Réveillez-moi quand sa sera fini.";
+BOT1_DEMORALIZED_TXT3 = "Je me faisais toujours avoir à chaque fois !";
+BOT1_DEMORALIZED_TXT4 = "Je n'en peut plus de toute cette merde !";
+BOT1_DEMORALIZED_TXT5 = "I might as well quit!";
+
+BOT1_WIN_TXT1 = "J'adore repeindre la carte avec du sang et des tripes !";
+BOT1_WIN_TXT2 = "Et bah, ça s'est bien passé !";
+BOT1_WIN_TXT3 = "J'ai apprécié votre agonie !";
+BOT1_WIN_TXT4 = "Mon travail ici est terminé. Il est temps de passer à autre chose…";
+BOT1_WIN_TXT5 = "All roads lead to hell for you.";
+
+BOT1_LOSE_TXT = "La prochaine fois, tu ferais mieux de surveiller tes arrières.";
+BOT1_LOSE_TXT = "Bordel c'est enfin fini !";
+BOT1_LOSE_TXT = "Quel merdier !";
+BOT1_LOSE_TXT = "Je pense que j'en ai fini pour aujourd'hui !";
+BOT1_LOSE_TXT = "Vous n’aurez pas autant de chance la prochaine fois !";
+BOT1_LOSE_TXT = "Donnez-vous une grande tape dans le dos !";
+BOT1_LOSE_TXT = "Chanceux salaupard !";
+BOT1_LOSE_TXT = "Ce n'est pas fini. Je reviendrai pour te refaire le portrait !";

@@ -1,0 +1,229 @@
+//=====================================
+//English strings updated by Pygargue00fr.
+//=====================================
+
+[enu default]
+
+D64QUIT = "Quit Brutal Doom 64?";
+
+////////////////////////////////////////////////////////////////////////////////
+// Level names
+
+TITLEMAP = "Main Menu";
+D6400 = "Landing Site";
+D6401 = "Staging Area";
+D6402 = "The Terraformer";
+D6403 = "Main Engineering";
+D6404 = "Holding Area";
+D6405 = "Tech Center";
+D6406 = "Alpha Quadrant";
+D6407 = "Research Lab";
+D6408 = "Final Outpost";
+D6409 = "Even Simpler";
+D6410 = "The Bleeding";
+D6411 = "Terror Core";
+D6412 = "Altar of Pain";
+D6413 = "Dark Citadel";
+D6414 = "Eye of the Storm";
+D6415 = "Dark Entries";
+D6416 = "Blood Keep";
+D6417 = "Watch Your Step";
+D6418 = "Spawned Fear";
+D6419 = "The Spiral";
+D6420 = "Breakdown";
+D6421 = "Pitfalls";
+D6422 = "Burnt Offerings";
+D6423 = "Unholy Temple";
+D6424 = "No Escape";
+D6425 = "Cat And Mouse";
+D6426 = "HardCore";
+D6427 = "Playground";
+D6428 = "The Absolution";
+D6428A = "The Ultimate Absolution";
+D6429 = "Outpost Omega";
+D6430 = "The Lair";
+D6431 = "In The Void";
+D6432 = "Hectic";
+
+ENDINGMA = "End";
+
+D6407TC = "Nukage Facility (TC)";
+D6427TC = "Forbidden Deeper (TC)";
+D6428TC = "Shadows Watching (TC)";
+D6434TC = "Crisis (TC)";
+
+////////////////////////////////////////////////////////////////////////////////
+// Intermission screens
+
+INTER01_TXT1 = "The UAC's orders were to eliminate the demonic threat.";
+INTER01_TXT2 = "You have cleared the base and made it to the portal.";
+INTER01_TXT3 = "However, It seems the UAC hasn't learnt anything";
+INTER01_TXT4 = "since the first demonic invasion!";
+INTER01_TXT5 = "You consider deactivating the destuct sequence, ";
+INTER01_TXT6 = "but you know that the UAC will never learn.";
+INTER01_TXT7 = "You are going to make sure that the";
+INTER01_TXT8 = "UAC won't be able to screw it up again!";
+INTER01_TXT9 = "Let the gate and the UAC experiments be \cgdestroyed\c-";
+INTER01_TXT10 = "along with the base.";
+
+INTER01_TXT11 = "As you step through the portal and the haze clears,";
+INTER01_TXT12 = "the familiarity of the situation dawns on you.";
+INTER01_TXT13 = "Your cackle and bloodthirsty scream echo as";
+INTER01_TXT14 = "once again you find yourself";
+INTER01_TXT15 = "amidst...";
+
+INTER02_TXT1 = "The vast silence reminds";
+INTER02_TXT2 = "you of the military morgue.";
+INTER02_TXT3 = "You knew the installation";
+INTER02_TXT4 = "had a classified level.";
+INTER02_TXT5 = "The UAC. had some good";
+INTER02_TXT6 = "reason to hide this place.";
+INTER02_TXT7 = "You wonder what it";
+INTER02_TXT8 = "could be...";
+
+INTER03_TXT1 = "You smile.";
+INTER03_TXT2 = "What strange place have";
+INTER03_TXT3 = "you stumbled upon?";
+INTER03_TXT4 = "The Demons did not expect";
+INTER03_TXT5 = "you to survive this far.";
+INTER03_TXT6 = "You feel their demonic";
+INTER03_TXT7 = "presence waiting for you...";
+INTER03_TXT8 = "Let them taste their guts!";
+
+INTER04_TXT1 = "As you step through";
+INTER04_TXT2 = "the acrid odour makes you feel wretched.";
+INTER04_TXT3 = "Death and demon carcasses everywhere!";
+INTER04_TXT4 = "No nightmare could have";
+INTER04_TXT5 = "prepared you for this reality.";
+INTER04_TXT6 = "You realise that this";
+INTER04_TXT7 = "place was not meant for";
+INTER04_TXT8 = "the living.";
+
+INTER05_TXT1 = "Congratulations!";
+INTER05_TXT2 = "You found...";
+INTER05_TXT3 = "HECTIC";
+INTER05_TXT4 = "Only the best will reap";
+INTER05_TXT5 = "its rewards.";
+
+INTER06_TXT1 = "Finally...";
+INTER06_TXT2 = "The \clmother beast\c- has been slain!";
+INTER06_TXT3 = "For the first time, the demons know what fear is.";
+INTER06_TXT4 = "while blood and sweat pour from your helmet,";
+INTER06_TXT5 = "you witness the pure terror of the demons as they escape.";
+INTER06_TXT6 = "You wanted to have your vacation and therapy,";
+INTER06_TXT7 = "but unfortunately, your sense of victory is short lived.";
+INTER06_TXT8 = "The base and portal are destoyed. There is no way back!";
+INTER06_TXT9 = "As the madness and bloodlust slowly consume your mind,";
+INTER06_TXT10 = "you think it's better to let the UAC think you died.";
+INTER06_TXT11 = "Knowing that Hell cannot be destroyed,";
+INTER06_TXT12 = "you decide to remain in Hell.";
+INTER06_TXT13 = "You continue your endless slaying to ensure that";
+INTER06_TXT14 = "Doom shall not return, while hell fears your \cgname\c-...";
+
+INTER07_TXT1 = "You succesfully made it through!";
+INTER07_TXT2 = "As the elevator's door closes behind you,";
+INTER07_TXT3 = "you hear human and demonic moans and screams,";
+INTER07_TXT4 = "mixed with gun fire and explosions.";
+INTER07_TXT5 = "Eventually you hear nothing but silence.";
+INTER07_TXT6 = "Your team were utterly unprepared for what";
+INTER07_TXT7 = "was waiting at the landing site";
+INTER07_TXT8 = "After a moment you come to realise that you are alone";
+INTER07_TXT9 = "The feeling inside the base feels wrong and that smell,";
+INTER07_TXT10 = "you remember well that smell of death.";
+INTER07_TXT11 = "There is no turning back now.";
+INTER07_TXT12 = "You ready your weapon and proceed into the base.";
+
+INTER08_TXT1 = "You have decided to venture off into the unknown";
+INTER08_TXT2 = "before confronting the menace that lurks at the heart of Hell.";
+INTER08_TXT3 = "After arriving in a strange dimension, you"
+INTER08_TXT4 = "see an \csold friend\c- wants to have you for dinner."
+INTER08_TXT5 = "Let the entertainment \cgbegin!"
+
+INTER09_TXT1 = "At last you have finally arrived at the mother demons lair";
+INTER09_TXT2 = "After battling through hell, the mother of demons is now before you";
+INTER09_TXT3 = "Go and pay her your respects";
+INTER09_TXT4 = "She is \cgwaiting for you\c-...";
+
+//////////////////////////////////////////////////////////////////
+//Tags for bots
+TAGBD_BOT1 = "Grunt";
+TAGBD_BOT2 = "Destroyer";
+TAGBD_BOT3 = "Executioner";
+TAGBD_BOT4 = "Warmonger";
+
+BOT1_INTRO_TXT1 = "Welcome to paradise!";
+BOT1_INTRO_TXT2 = "Let's get this party started.";
+BOT1_INTRO_TXT3 = "Well, time for some fun!";
+BOT1_INTRO_TXT4 = "Great, it's this shit hole again!";
+BOT1_INTRO_TXT5 = "How long do we have to slog it out in these shit holes?";
+BOT1_INTRO_TXT6 = "I'm going to kill you all!";
+BOT1_INTRO_TXT7 = "Let's rock!";
+BOT1_INTRO_TXT8 = "I'm coming to get you!";
+BOT1_INTRO_TXT9 = "Just wait there. I'll be there for you soon";
+BOT1_INTRO_TXT10 = "I'm going to enjoy this.";
+BOT1_INTRO_TXT11 = "Time to kick some teeth in!";
+BOT1_INTRO_TXT12 = "You twats don't stand a bloody chance!";
+
+BOT1_FRAG_TXT1 = "Stay the fuck down!";
+BOT1_FRAG_TXT2 = "Stay dead this time!";
+BOT1_FRAG_TXT3 = "Don't get back up on my account!";
+BOT1_FRAG_TXT4 = "Surprise! You're dead!";
+BOT1_FRAG_TXT5 = "As greedy as a pig!";
+BOT1_FRAG_TXT6 = "How are things going down there?";
+BOT1_FRAG_TXT7 = "Rest in pieces.";
+BOT1_FRAG_TXT8 = "Are you sleeping on the job?";
+BOT1_FRAG_TXT9 = "Groovy!";
+BOT1_FRAG_TXT10 = "Get back up you lazy bastard. It's only a flesh wound!";
+BOT1_FRAG_TXT11 = "For just a moment, your sweet screams of agony made the voices stop.";
+BOT1_FRAG_TXT12 = "I remember you on Phobos. You ran away. I've found you now.";
+
+BOT1_KILLED_TXT1 = "Lucky bastard!";
+BOT1_KILLED_TXT2 = "You're going to fucking pay for that!";
+BOT1_KILLED_TXT3 = "You little shit!";
+BOT1_KILLED_TXT4 = "Where the fuck did you come from!";
+BOT1_KILLED_TXT5 = "This smells of shite!";
+
+BOT1_ROAMING_TXT1 = "?";
+BOT1_ROAMING_TXT2 = "Back off or get fucked off!";
+BOT1_ROAMING_TXT3 = "You can't hide from me forever!";
+BOT1_ROAMING_TXT4= "Let's do some decorating";
+BOT1_ROAMING_TXT4 = "Come out, come out wherever you are!";
+
+BOT1_NOROAMING_TXT1 = "You fuckers arn't stopping me!";
+BOT1_NOROAMING_TXT2 = "We're not done yet!";
+BOT1_NOROAMING_TXT3 = "Hold on! We're not done yet!";
+BOT1_NOROAMING_TXT4 = "Give me a bloody chance!";
+BOT1_NOROAMING_TXT5 = "This is turning to crap!";
+
+BOT1_ENRAGED_TXT1 = "PISS OFF, TOSSER!";
+BOT1_ENRAGED_TXT2 = "YOU ARE BEGGING FOR TORTURE!!";
+BOT1_ENRAGED_TXT3 = "I'M GOING TO FUCK YOU UP!";
+BOT1_ENRAGED_TXT4 = "GET YOURSELF FUCKED OFF!";
+BOT1_ENRAGED_TXT5 = "I WILL MAKE YOU PAY!";
+
+BOT1_DEMORALIZED_TXT1 = "I wish this shit show would just stop.";
+BOT1_DEMORALIZED_TXT2 = "I am going to take a nap. Wake me up after.";
+BOT1_DEMORALIZED_TXT3 = "I just keeped getting screwed over every time!";
+BOT1_DEMORALIZED_TXT4 = "I can't take much more of this crap!";
+BOT1_DEMORALIZED_TXT5 = "I might as well quit!";
+
+BOT1_WIN_TXT1 = "I love painting the map with blood and guts!";
+BOT1_WIN_TXT2 = "Well, that went well!";
+BOT1_WIN_TXT3 = "I enjoyed that!";
+BOT1_WIN_TXT4 = "My job is done here. Time to move on...";
+BOT1_WIN_TXT5 = "All roads lead to hell for you.";
+
+BOT1_LOSE_TXT = "Next time you better watch out";
+BOT1_LOSE_TXT = "I'm glad that's over";
+BOT1_LOSE_TXT = "What a load of shite!";
+BOT1_LOSE_TXT = "I think I'm done for today!";
+BOT1_LOSE_TXT = "You won't be as lucky next time!";
+BOT1_LOSE_TXT = "Give yourself a big pat on the back!";
+BOT1_LOSE_TXT = "Lucky bastard!";
+BOT1_LOSE_TXT = "This isn't the end. I'll be back to finish this!";
+
+
+
+
+
+
