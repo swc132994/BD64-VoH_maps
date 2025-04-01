@@ -64,13 +64,13 @@ INTER01_TXT6 = "but you know that the UAC will never learn.",
 INTER01_TXT7 = "You are going to make sure that the",
 INTER01_TXT8 = "UAC won't be able to screw it up again!",
 INTER01_TXT9 = "Let the gate and the UAC experiments be \cgdestroyed\c-",
-INTER01_TXT10 = "along with the base.",
+INTER01_TXT10 = "along with the base."
 
 INTER01_TXT11 = "As you step through the portal and the haze clears,",
 INTER01_TXT12 = "the familiarity of the situation dawns on you.",
 INTER01_TXT13 = "Your cackle and bloodthirsty scream echo as",
 INTER01_TXT14 = "once again you find yourself",
-INTER01_TXT15 = "amidst...",
+INTER01_TXT15 = "amidst..."
 
 INTER02_TXT1 = "The vast silence reminds",
 INTER02_TXT2 = "you of the military morgue.",
@@ -79,7 +79,7 @@ INTER02_TXT4 = "had a classified level.",
 INTER02_TXT5 = "The UAC. had some good",
 INTER02_TXT6 = "reason to hide this place.",
 INTER02_TXT7 = "You wonder what it",
-INTER02_TXT8 = "could be...",
+INTER02_TXT8 = "could be..."
 
 INTER03_TXT1 = "You smile.",
 INTER03_TXT2 = "What strange place have",
@@ -88,7 +88,7 @@ INTER03_TXT4 = "The Demons did not expect",
 INTER03_TXT5 = "you to survive this far.",
 INTER03_TXT6 = "You feel their demonic",
 INTER03_TXT7 = "presence waiting for you...",
-INTER03_TXT8 = "Let them taste their guts!",
+INTER03_TXT8 = "Let them taste their guts!"
 
 INTER04_TXT1 = "As you step through",
 INTER04_TXT2 = "the acrid odour makes you feel wretched.",
@@ -97,13 +97,13 @@ INTER04_TXT4 = "No nightmare could have",
 INTER04_TXT5 = "prepared you for this reality.",
 INTER04_TXT6 = "You realise that this",
 INTER04_TXT7 = "place was not meant for",
-INTER04_TXT8 = "the living.",
+INTER04_TXT8 = "the living."
 
 INTER05_TXT1 = "Congratulations!",
 INTER05_TXT2 = "You found...",
 INTER05_TXT3 = "HECTIC",
 INTER05_TXT4 = "Only the best will reap",
-INTER05_TXT5 = "its rewards.",
+INTER05_TXT5 = "its rewards."
 
 INTER06_TXT1 = "Finally...",
 INTER06_TXT2 = "The \clmother beast\c- has been slain!",
@@ -118,7 +118,7 @@ INTER06_TXT10 = "you think it's better to let the UAC think you died.",
 INTER06_TXT11 = "Knowing that Hell cannot be destroyed,",
 INTER06_TXT12 = "you decide to remain in Hell.",
 INTER06_TXT13 = "You continue your endless slaying to ensure that",
-INTER06_TXT14 = "Doom shall not return, while hell fears your \cgname\c-...",
+INTER06_TXT14 = "Doom shall not return, while hell fears your \cgname\c-..."
 
 INTER07_TXT1 = "You succesfully made it through!",
 INTER07_TXT2 = "As the elevator's door closes behind you,",
@@ -131,18 +131,18 @@ INTER07_TXT8 = "After a moment you come to realise that you are alone",
 INTER07_TXT9 = "The feeling inside the base feels wrong and that smell,",
 INTER07_TXT10 = "you remember well that smell of death.",
 INTER07_TXT11 = "There is no turning back now.",
-INTER07_TXT12 = "You ready your weapon and proceed into the base.",
+INTER07_TXT12 = "You ready your weapon and proceed into the base."
 
 INTER08_TXT1 = "You have decided to venture off into the unknown",
 INTER08_TXT2 = "before confronting the menace that lurks at the heart of Hell.",
 INTER08_TXT3 = "After arriving in a strange dimension, you",
 INTER08_TXT4 = "see an \csold friend\c- wants to have you for dinner.",
-INTER08_TXT5 = "Let the entertainment \cgbegin!",
+INTER08_TXT5 = "Let the entertainment \cgbegin!"
 
 INTER09_TXT1 = "At last you have finally arrived at the mother demons lair",
 INTER09_TXT2 = "After battling through hell, the mother of demons is now before you",
 INTER09_TXT3 = "Go and pay her your respects",
-INTER09_TXT4 = "She is \cgwaiting for you\c-...",
+INTER09_TXT4 = "She is \cgwaiting for you\c-..."
 
 //////////////////////////////////////////////////////////////////
 //Tags for bots
