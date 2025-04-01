@@ -22,7 +22,7 @@ Name = "Test Facility"
 //GAME SETTINGS
 GameInfo
 {
-	QuitMessages = "Quit Brutal Doom 64?"
+	QuitMessages = "$D64QUIT"
 	maparrow = "ARROW","DDTARROW"
 }
 
@@ -446,135 +446,135 @@ cluster 1
 {
 	pic = "INTERPIC"
 	music = "PLOTA"
-	entertext =	"The UAC's orders were to eliminate the demonic threat.",
+	entertext =	"$INTER01_TXT1",
 			"",
-			"You have cleared the base and made it to the portal.",
-			"However, It seems the UAC hasn't learnt anything",
-			"since the first demonic invasion!",
+			"$INTER01_TXT2",
+			"$INTER01_TXT3",
+			"$INTER01_TXT4",
 			"",
-			"You consider deactivating the destuct sequence, ",
-			"but you know that the UAC will never learn.",
+			"$INTER01_TXT5",
+			"$INTER01_TXT6",
 			"",
-			"You are going to make sure that the",
-			"UAC won't be able to screw it up again!",
-			"Let the gate and the UAC experiments be destroyed",
-			"along with the base.",
+			"$INTER01_TXT7",
+			"$INTER01_TXT8",
+			"$INTER01_TXT9",
+			"$INTER01_TXT10",
 			"",
-			"As you step through the portal and the haze clears,",
-			"the familiarity of the situation dawns on you.",
-			"Your cackle and bloodthirsty scream echo as",
-			"once again you find yourself",
-			"amidst..."
+			"$INTER01_TXT11",
+			"$INTER01_TXT12",
+			"$INTER01_TXT13",
+			"$INTER01_TXT14",
+			"$INTER01_TXT15"
 }
 
 cluster 2
 {
 	pic = "INTERPIC"
 	music = "PLOTA"
-	entertext =	"The vast silence reminds",
-			"you of the military morgue.",
+	entertext =	"$INTER02_TXT1",
+			"$INTER02_TXT2",
 			"",
-			"You knew the installation",
-			"had a classified level.",
+			"$INTER02_TXT3",
+			"$INTER02_TXT4",
 			"",
-			"The UAC. had some good",
-			"reason to hide this place.",
+			"$INTER02_TXT5",
+			"$INTER02_TXT6",
 			"",
-			"You wonder what it",
-			"could be..."
+			"$INTER02_TXT7",
+			"$INTER02_TXT8"
 }
 
 cluster 3
 {
 	pic = "INTERPIC"
 	music = "PLOTB"
-	entertext =	"You smile.",
+	entertext =	"$INTER03_TXT1",
 			"",
-			"What strange place have",
-			"you stumbled upon?",
+			"$INTER03_TXT2",
+			"$INTER03_TXT3",
 			"",
-			"The Demons did not expect",
-			"you to survive this far.",
-			"You feel their demonic",
-			"presence waiting for you...",
+			"$INTER03_TXT4",
+			"$INTER03_TXT5",
+			"$INTER03_TXT6",
+			"$INTER03_TXT7",
 			"",
-			"Let them taste their guts!"
+			"$INTER03_TXT8"
 }
 
 cluster 4
 {
 	pic = "INTERPIC"
 	music = "PLOTB"
-	entertext =	"As you step through",
-			"the acrid odour makes you feel wretched.",
+	entertext =	"$INTER04_TXT1",
+			"$INTER04_TXT2",
 			"",
-			"Death and demon carcasses everywhere!",
+			"$INTER04_TXT3",
 			"",
-			"No nightmare could have",
-			"prepared you for this reality.",
+			"$INTER04_TXT4",
+			"$INTER04_TXT5",
 			"",
-			"You realise that this",
-			"place was not meant for",
-			"the living."
+			"$INTER04_TXT6",
+			"$INTER04_TXT7",
+			"$INTER04_TXT8"
 }
 
 cluster 5
 {
 	pic = "INTERPIC"
 	music = "PLOTC"
-	entertext =	"Congratulations!",
-			"You found...",
+	entertext =	"$INTER05_TXT1",
+			"$INTER05_TXT2",
 			"",
-			"HECTIC",
+			"$INTER05_TXT3",
 			"",
-			"Only the best will reap",
-			"its rewards."
+			"$INTER05_TXT4",
+			"$INTER05_TXT5"
 }
 
 clusterdef 15
 {
 	pic = "BOSBACK2"
 	music = "END"
-	exittext =	"Finally...",
-			"The mother beast has been slain!",
-			"For the first time, the demons know what fear is.",
-			"while blood and sweat pour from your helmet,",
-			"you witness the pure terror of the demons as they escape.",
+	exittext =	"$INTER06_TXT1",
+			"$INTER06_TXT2",
+			"$INTER06_TXT3",
+			"$INTER06_TXT4",
+			"$INTER06_TXT5",
 			"",
-			"You wanted to have your vacation and therapy,",
-			"but unfortunately, your sense of victory is short lived.",
+			"$INTER06_TXT6",
+			"$INTER06_TXT7",
 			"",
-			"The base and portal are destoyed. There is no way back!",
+			"$INTER06_TXT8",
 			"",
-			"As the madness and bloodlust slowly consume your mind,",
-			"you think it's better to let the UAC think you died.",
+			"$INTER06_TXT9",
+			"$INTER06_TXT10",
 			"",
-			"Knowing that Hell cannot be destroyed,",
-			"you decide to remain in Hell.",
-			"You continue your endless slaying to ensure that",
-			"Doom shall not return, while hell fears your name."
+			"$INTER06_TXT11",
+			"$INTER06_TXT12",
+			"$INTER06_TXT13",
+			"$INTER06_TXT14"
 }
 
 cluster 16	//Map00 exit intermission.
 {
 	pic = "INTERPIC"
 	music = "D_ALGMAN"
-	entertext =	"You succesfully made it through!",
-			"As the elevator's door closes behind you,",
-			"you hear human and demonic moans and screams,",
-			"mixed with gun fire and explosions.",
+	entertext =	"$INTER07_TXT1",
+			"$INTER07_TXT2",
+			"$INTER07_TXT3",
+			"$INTER07_TXT4",
 			"",
-			"Eventually you hear nothing but silence.",
-			"Your team were utterly unprepared for what",
-			"was waiting at the landing site",
+			"$INTER07_TXT5",
+			"$INTER07_TXT6",
+			"$INTER07_TXT7",
 			"",
-			"After a moment you come to realise that you are alone",
+			"$INTER07_TXT8",
 			"",
-			"The feeling inside the base feels wrong and that smell,",
-			"you remember well that smell of death.",
+			"$INTER07_TXT9",
+			"$INTER07_TXT10",
 			"",
-			"There is no turning back now.",
-			"You ready your weapon and proceed into the base."
+			"$INTER07_TXT11",
+			"$INTER07_TXT12"
 }
 
 cluster 17	//Map24 secret exit to Fun maps.
@@ -582,16 +582,16 @@ cluster 17	//Map24 secret exit to Fun maps.
 	pic = "INTERPIC3"
 	music = "PLOTC"
 	entertext = "",
+			"$INTER08_TXT1",
+			"$INTER08_TXT2",
 			"",
-			"You have decided to venture off into the unknown",
+			"$INTER08_TXT3",
 			"",
-			"before confronting the menace that lurks at the heart of Hell.",
+			"$INTER08_TXT4",
 			"",
-			"After arriving in a strange dimension, you",
+			"$INTER08_TXT5",
 			"",
-			"see an old friend wants to have you for dinner.",
-			"",
-			"Let the entertainment shall begin!"
+			"$INTER08_TXT6"
 }
 
 cluster 18	//R28.2 Arriving at the final battle
@@ -600,13 +600,13 @@ cluster 18	//R28.2 Arriving at the final battle
 	music = "PLOTC"
 	entertext = "",
 			"",
-			"At last you have finally arrived at the mother demons lair",
+			"$INTER09_TXT1",
 			"",
-			"After battling through hell, the mother of demons is now before you",
+			"$INTER09_TXT2",
 			"",
-			"Go and pay her your respects",
+			"$INTER09_TXT3",
 			"",
-			"She is waiting for you"
+			"$INTER09_TXT4"
 }
 
 //DEATHMATCH MAPS
