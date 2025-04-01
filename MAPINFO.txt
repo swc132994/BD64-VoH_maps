@@ -34,14 +34,14 @@ DefaultMap
 }
 
 //MAPS
-map TITLEMAP lookup "Main Menu"	//was called "Title"
+map TITLEMAP lookup "$TITLEMAP"	//was called "Title"
 {
 //	Music = "d_dm2ttl"	//script changes music
 	noinfighting
 	compat_crossdropoff = 0
 }
 
-map D6400 Lookup "Landing Site"
+map D6400 Lookup "$D6400"
 {
 	Sky1 = "SKY08"
 	Music = "DINTRO"
@@ -49,7 +49,7 @@ map D6400 Lookup "Landing Site"
 	NOINTERMISSION
 }
 
-map D6401 Lookup "Staging Area"
+map D6401 Lookup "$D6401"
 {
 	cluster = "16"
 	Sky1 = "SKY08"
@@ -60,7 +60,7 @@ map D6401 Lookup "Staging Area"
 	exitpic = "INTERPI1"
 }
 
-map D6402 Lookup "The Terraformer"
+map D6402 Lookup "$D6402"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD02"
@@ -69,7 +69,7 @@ map D6402 Lookup "The Terraformer"
 	exitpic = "INTERPI1"
 }
 
-map D6403 Lookup "Main Engineering"
+map D6403 Lookup "$D6403"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD03"
@@ -78,7 +78,7 @@ map D6403 Lookup "Main Engineering"
 	exitpic = "INTERPI1"
 }
 
-map D6404 Lookup "Holding Area"
+map D6404 Lookup "$D6404"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD04"
@@ -88,7 +88,7 @@ map D6404 Lookup "Holding Area"
 	exitpic = "INTERPI1"
 }
 
-map D6405 Lookup "Tech Center"
+map D6405 Lookup "$D6405"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD05"
@@ -97,7 +97,7 @@ map D6405 Lookup "Tech Center"
 	exitpic = "INTERPI1"
 }
 
-map D6406 Lookup "Alpha Quadrant"
+map D6406 Lookup "$D6406"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD06"
@@ -106,7 +106,7 @@ map D6406 Lookup "Alpha Quadrant"
 	exitpic = "INTERPI1"
 }
 
-map D6407 Lookup "Research Lab"
+map D6407 Lookup "$D6407"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD07"
@@ -116,7 +116,7 @@ map D6407 Lookup "Research Lab"
 	REDIRECT = "TCMapCheck","D6407TC"	//Jumps to TC NUKAGE FACILITY
 }
 
-map D6408A Lookup "Final Outpost"	//vanilla version
+map D6408A Lookup "$D6408"	//vanilla version
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD08"
@@ -125,7 +125,7 @@ map D6408A Lookup "Final Outpost"	//vanilla version
 	exitpic = "INTERPI1"
 }
 
-map D6408 Lookup "Final Outpost"
+map D6408 Lookup "$D6408"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD08"
@@ -135,7 +135,7 @@ map D6408 Lookup "Final Outpost"
 	REDIRECT = "VMapCheck","D6408A"	//Jumps to VAMILLA FINAL OUTPOST
 }
 
-map D6409 Lookup "Even Simpler"
+map D6409 Lookup "$D6409"
 {
 	Cluster = "1"
 	Sky1 = "SKY05"
@@ -145,7 +145,7 @@ map D6409 Lookup "Even Simpler"
 	exitpic = "INTERPI2"
 }
 
-map D6410 Lookup "The Bleeding"
+map D6410 Lookup "$D6410"
 {
 	Sky1 = "SKY05"
 	Music = "MAPWD10"
@@ -154,7 +154,7 @@ map D6410 Lookup "The Bleeding"
 	exitpic = "INTERPI2"
 }
 
-map D6411 Lookup "Terror Core"
+map D6411 Lookup "$D6411"
 {
 	Sky1 = "SKY09"
 	Music = "MAPWD11"
@@ -163,7 +163,7 @@ map D6411 Lookup "Terror Core"
 	exitpic = "INTERPI2"
 }
 
-map D6412 Lookup "Altar of Pain"
+map D6412 Lookup "$D6412"
 {
 	Sky1 = "SKY04"
 	Music = "MAPWD12"
@@ -173,7 +173,7 @@ map D6412 Lookup "Altar of Pain"
 	exitpic = "INTERPI2"
 }
 
-map D6413 Lookup "Dark Citadel"
+map D6413 Lookup "$D6413"
 {
 	Sky1 = "SKYSTAR3"
 	Music = "MAPWD13"
@@ -182,7 +182,7 @@ map D6413 Lookup "Dark Citadel"
 	exitpic = "INTERPI2"
 }
 
-map D6414 Lookup "Eye of the Storm"
+map D6414 Lookup "$D6414"
 {
 	Sky1 = "SKY04"
 	Music = "MAPWD14"
@@ -191,7 +191,7 @@ map D6414 Lookup "Eye of the Storm"
 	exitpic = "INTERPI2"
 }
 
-map D6415 Lookup "Dark Entries"
+map D6415 Lookup "$D6415"
 {
 	Sky1 = "SKY05"
 	Music = "MAPWD15"
@@ -200,7 +200,7 @@ map D6415 Lookup "Dark Entries"
 	exitpic = "INTERPI2"
 }
 
-map D6416 Lookup "Blood Keep"
+map D6416 Lookup "$D6416"
 {
 	Sky1 = "SKY05"
 	Music = "MAPWD16"
@@ -209,7 +209,7 @@ map D6416 Lookup "Blood Keep"
 	exitpic = "INTERPI2"
 }
 
-map D6417 Lookup "Watch Your Step"
+map D6417 Lookup "$D6417"
 {
 	Sky1 = "SKY05"
 	fade = "3C 14 0A"
@@ -221,7 +221,7 @@ map D6417 Lookup "Watch Your Step"
 	exitpic = "INTERPI2"
 }
 
-map D6418 Lookup "Spawned Fear"
+map D6418 Lookup "$D6418"
 {
 	Sky1 = "SKY05"
 	Music = "MAPWD18"
@@ -231,7 +231,7 @@ map D6418 Lookup "Spawned Fear"
 	exitpic = "INTERPI2"
 }
 
-map D6419 Lookup "The Spiral"
+map D6419 Lookup "$D6419"
 {
 	Sky1 = "SKY05"
 	Music = "MAPWD19"
@@ -240,7 +240,7 @@ map D6419 Lookup "The Spiral"
 	exitpic = "INTERPI2"
 }
 
-map D6420 Lookup "Breakdown"
+map D6420 Lookup "$D6420"
 {
 	Sky1 = "SKY05"
 	Music = "MAPWD20"
@@ -249,7 +249,7 @@ map D6420 Lookup "Breakdown"
 	exitpic = "INTERPI3"
 }
 
-map D6421 Lookup "Pitfalls"
+map D6421 Lookup "$D6421"
 {
 	Sky1 = "SKY-0052"
 	Music = "MAPWD21"
@@ -258,7 +258,7 @@ map D6421 Lookup "Pitfalls"
 	exitpic = "INTERPI3"
 }
 
-map D6422 Lookup "Burnt Offerings"
+map D6422 Lookup "$D6422"
 {
 	Sky1 = "SKY-0052"
 	Music = "MAPWD22"
@@ -268,7 +268,7 @@ map D6422 Lookup "Burnt Offerings"
 	exitpic = "INTERPI3"
 }
 
-map D6423 Lookup "Unholy Temple"
+map D6423 Lookup "$D6423"
 {
 	Sky1 = "SKY-G052"
 	Music = "MAPWD23"
@@ -277,7 +277,7 @@ map D6423 Lookup "Unholy Temple"
 	exitpic = "INTERPI3"
 }
 
-map D6424 Lookup "No Escape"
+map D6424 Lookup "$D6424"
 {
 	Sky1 = "SKY-0052"
 	Music = "MAPWD24"
@@ -289,7 +289,7 @@ map D6424 Lookup "No Escape"
 	REDIRECT = "TCMapCheck","D6427TC"	//Jumps to TC Forbidden Deeper
 }
 
-map D6425 Lookup "Cat And Mouse"
+map D6425 Lookup "$D6425"
 {
 	Cluster = "17"
 	Sky1 = "VOIDSKY1"
@@ -302,7 +302,7 @@ map D6425 Lookup "Cat And Mouse"
 	exitpic = "INTERPI3"
 }
 
-map D6426 Lookup "HardCore"
+map D6426 Lookup "$D6426"
 {
 	Sky1 = "VOIDSKY1"
 	Fade = "00 56 56"
@@ -313,7 +313,7 @@ map D6426 Lookup "HardCore"
 	exitpic = "INTERPI3"
 }
 
-map D6427 Lookup "Playground"
+map D6427 Lookup "$D6427"
 {
 	Fade = "33 66 00"
 	fogdensity = 150
@@ -325,7 +325,7 @@ map D6427 Lookup "Playground"
 	exitpic = "INTERPI3"
 }
 
-map D6428A Lookup "The Absolution"
+map D6428A Lookup "$D6428A"
 {
 	Cluster = "18"
 	Sky1 = "SKY-b052"
@@ -336,7 +336,7 @@ map D6428A Lookup "The Absolution"
 	exitpic = "INTERPI3"
 }
 
-map D6428 Lookup "The Ultimate Absolution"
+map D6428 Lookup "$D6428"
 {
 	Cluster = "18"
 	Sky1 = "SKY-b052"
@@ -348,7 +348,7 @@ map D6428 Lookup "The Ultimate Absolution"
 	REDIRECT = "VMapCheck","D6428A"	//Jump to original BD64 Map28
 }
 
-map ENDINGMA Lookup "End"
+map ENDINGMA Lookup "$ENDINGMA"
 {
 	Cluster = "15"
 	Sky1 = "SKY-b052"
@@ -360,7 +360,7 @@ map ENDINGMA Lookup "End"
 	nointermission
 }
 
-map D6429 Lookup "Outpost Omega"
+map D6429 Lookup "$D6429"
 {
 	Cluster = "2"
 	Sky1 = "SKY08"
@@ -371,7 +371,7 @@ map D6429 Lookup "Outpost Omega"
 	SecretNext = "D6434TC"		//CRISIS TC MAP - UNAVAILABLE IF TCMAPCHECK NOT ENABLED
 }
 
-map D6430 Lookup "The Lair"
+map D6430 Lookup "$D6430"
 {
 	cluster = "3"
 	Sky1 = "SKY-g052"
@@ -381,7 +381,7 @@ map D6430 Lookup "The Lair"
 	exitpic = "INTERPI2"
 }
 
-map D6431 Lookup "In The Void"
+map D6431 Lookup "$D6431"
 {
 	Cluster = "4"
 	Fade = "00 56 56"
@@ -393,7 +393,7 @@ map D6431 Lookup "In The Void"
 	exitpic = "INTERPI2"
 }
 
-map D6432 "Hectic"
+map D6432 "$D6432"
 {
 	Cluster = "5"
 	Sky1 = "SKY-G052"
@@ -404,7 +404,7 @@ map D6432 "Hectic"
 }
 
 //TC MAPS
-map D6407TC Lookup "Nukage Facility (TC)"
+map D6407TC Lookup "$D6407TC"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD31"
@@ -413,7 +413,7 @@ map D6407TC Lookup "Nukage Facility (TC)"
 	exitpic = "INTERPI1"
 }
 
-map D6427TC Lookup "Forbidden Deeper (TC)"
+map D6427TC Lookup "$D6427TC"
 {
 	Sky1 = "VOIDSKYR"
 	Music = "MAPWD15"
@@ -423,7 +423,7 @@ map D6427TC Lookup "Forbidden Deeper (TC)"
 	exitpic = "INTERPI3"
 }
 
-map D6428TC Lookup "Shadows Watching (TC)"
+map D6428TC Lookup "$D6428TC"
 {
 	Sky1 = "SKY-B052"
 	Music = "MAPWD12"
@@ -432,7 +432,7 @@ map D6428TC Lookup "Shadows Watching (TC)"
 	exitpic = "INTERPI3"
 }
 
-map D6434TC Lookup "Crisis (TC)"
+map D6434TC Lookup "$D6434TC"
 {
 	Cluster = "2"
 	Sky1 = "SKY08"
