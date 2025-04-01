@@ -64,13 +64,13 @@ INTER01_TXT6 = "mais vous savez que l'UAC ne reculera devant rien.",
 INTER01_TXT7 = "Vous allez vous assurer que tant que vous vivrez plus jamais",
 INTER01_TXT8 = "L'UAC ne pourra tout ruiner !",
 INTER01_TXT9 = "De cette base, comme le portail et leurs experiences, ",
-INTER01_TXT10 = "vous n'en laisserez \cgaucune trace\c-.",
+INTER01_TXT10 = "vous n'en laisserez \cgaucune trace\c-."
 
 INTER01_TXT11 = "Alors que vous franchissez le portail et que la brume se dissipe,",
 INTER01_TXT12 = "la familiarité de la situation vous apparaît comme un fantôme du passé.",
 INTER01_TXT13 = "Votre cri sanguinaire résonne dans la pénombre",
 INTER01_TXT14 = "alors qu'une fois de plus vous vous retrouvez ",
-INTER01_TXT15 = "seul dans les tréfonds...",
+INTER01_TXT15 = "seul dans les tréfonds..."
 
 INTER02_TXT1 = "Le vaste silence ",
 INTER02_TXT2 = "appelle la morgue militaire.",
@@ -79,7 +79,7 @@ INTER02_TXT4 = "avait un niveau classée top secret.",
 INTER02_TXT5 = "L'UAC devais avoir une bonne raison",
 INTER02_TXT6 = "de garder cet endroit à l'abri des regards.",
 INTER02_TXT7 = "Que peut-il bien ce trouver",
-INTER02_TXT8 = "dans ces murs ?...",
+INTER02_TXT8 = "dans ces murs ?..."
 
 INTER03_TXT1 = "Le sourir au lèvres, vous vous demandez",
 INTER03_TXT2 = "dans quel autre endroit sordide",
@@ -88,7 +88,7 @@ INTER03_TXT4 = "Aucun démon n'aurait imaginé",
 INTER03_TXT5 = "vous voir survivre aussi longtemp.",
 INTER03_TXT6 = "La corruption empeste les lieux ",
 INTER03_TXT7 = "trallissant leur maudite présence...",
-INTER03_TXT8 = "Qu'ils baignent dans leur jus !",
+INTER03_TXT8 = "Qu'ils baignent dans leur jus !"
 
 INTER04_TXT1 = "Continuant sans relâche",
 INTER04_TXT2 = "Semant mort et carcasses de démons à chaque pas, ",
@@ -97,13 +97,13 @@ INTER04_TXT4 = "Aucun cauchemard n'aurait pu",
 INTER04_TXT5 = "vous préparer à une telle réalitée.",
 INTER04_TXT6 = "Vous réalisez avec effroi",
 INTER04_TXT7 = "que ce lieu n'avait jamais eu pour but",
-INTER04_TXT8 = "d'acceuillir les vivants.",
+INTER04_TXT8 = "d'acceuillir les vivants."
 
 INTER05_TXT1 = "Congratulations!",
 INTER05_TXT2 = "Vous avez atteint...",
 INTER05_TXT3 = "HECTIC",
 INTER05_TXT4 = "Seuls les meilleurs récolteront",
-INTER05_TXT5 = "les récompenses.",
+INTER05_TXT5 = "les récompenses."
 
 INTER06_TXT1 = "Après de nombreux efforts...",
 INTER06_TXT2 = "La \clMère maudite\c- tomba sous vos coups!",
@@ -118,7 +118,7 @@ INTER06_TXT10 = "quitte à ce que l'UAC vous croient mort au combat.",
 INTER06_TXT11 = "Sachant mieux que quiconque que l'Enfer ne se repose pas,",
 INTER06_TXT12 = "Vous décidez de rester vous battre pour",
 INTER06_TXT13 = "éradiquer l'engeance démoniaque.",
-INTER06_TXT14 = "Plus jamais malheur ne reviendra tant que l'Enfer craindra votre \cgnom\c-...",
+INTER06_TXT14 = "Plus jamais malheur ne reviendra tant que l'Enfer craindra votre \cgnom\c-..."
 
 INTER07_TXT1 = "Vous avez réussi à passer à travers !",
 INTER07_TXT2 = "Alors que la porte de l'ascenseur se ferme derrière vous,",
@@ -131,18 +131,18 @@ INTER07_TXT8 = "Vous êtes désormais l'unique survivant.",
 INTER07_TXT9 = "Une odeur putride au delà des portes vous pris en étau,",
 INTER07_TXT10 = "c'est l'odeur de la mort. Une amie familière.",
 INTER07_TXT11 = "Dorénavant impossible de faire demi-tour,",
-INTER07_TXT12 = "vous préparez votre arme pour une entrée dans la base.",
+INTER07_TXT12 = "vous préparez votre arme pour une entrée dans la base."
 
 INTER08_TXT1 = "Avant de comfronter la menace directement en Enfer",
 INTER08_TXT2 = "Vous avez choisi un petit détour vers l'inconnu.",
 INTER08_TXT3 = "Une fois le pied posé dans une étrange dimension,",
 INTER08_TXT4 = "Un \csvieil ami\c- vous invita à dîner.",
-INTER08_TXT5 = "Que le spectacle \cgcommence !",
+INTER08_TXT5 = "Que le spectacle \cgcommence !"
 
 INTER09_TXT1 = "Après avoir combattu en Enfer, vous voilà enfin devant son repère.",
 INTER09_TXT2 = "Bientôt, la Mère démon sera devant vous,",
 INTER09_TXT3 = "alors allez lui rendre un dernier hommage",
-INTER09_TXT4 = "Elle vous \cgattend\c-...",
+INTER09_TXT4 = "Elle vous \cgattend\c-..."
 
 //////////////////////////////////////////////////////////////////
 //Tags for Bots
