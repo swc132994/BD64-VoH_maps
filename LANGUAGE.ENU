@@ -183,7 +183,7 @@ BOT1_KILLED_TXT3 = "You little shit!";
 BOT1_KILLED_TXT4 = "Where the fuck did you come from!";
 BOT1_KILLED_TXT5 = "This smells of shite!";
 
-BOT1_ROAMING_TXT1 = "?";
+BOT1_ROAMING_TXT1 = "Where the fuck are you?";
 BOT1_ROAMING_TXT2 = "Back off or get fucked off!";
 BOT1_ROAMING_TXT3 = "You can't hide from me forever!";
 BOT1_ROAMING_TXT4= "Let's do some decorating";
