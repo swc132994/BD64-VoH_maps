@@ -34,14 +34,14 @@ DefaultMap
 }
 
 //MAPS
-map TITLEMAP lookup "$TITLEMAP"	//was called "Title"
+map TITLEMAP lookup "$Main Menu"	//was called "Title"
 {
 //	Music = "d_dm2ttl"	//script changes music
 	noinfighting
 	compat_crossdropoff = 0
 }
 
-map D6400 Lookup "$D6400"
+map D6400 Lookup "Landing Site"
 {
 	Sky1 = "SKY08"
 	Music = "DINTRO"
@@ -49,7 +49,7 @@ map D6400 Lookup "$D6400"
 	NOINTERMISSION
 }
 
-map D6401 Lookup "$D6401"
+map D6401 Lookup "Staging Area"
 {
 	cluster = "16"
 	Sky1 = "SKY08"
@@ -60,7 +60,7 @@ map D6401 Lookup "$D6401"
 	exitpic = "INTERPI1"
 }
 
-map D6402 Lookup "$D6402"
+map D6402 Lookup "The Terraformer"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD02"
@@ -69,7 +69,7 @@ map D6402 Lookup "$D6402"
 	exitpic = "INTERPI1"
 }
 
-map D6403 Lookup "$D6403"
+map D6403 Lookup "Main Engineering"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD03"
@@ -78,7 +78,7 @@ map D6403 Lookup "$D6403"
 	exitpic = "INTERPI1"
 }
 
-map D6404 Lookup "$D6404"
+map D6404 Lookup "Holding Area"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD04"
@@ -88,7 +88,7 @@ map D6404 Lookup "$D6404"
 	exitpic = "INTERPI1"
 }
 
-map D6405 Lookup "$D6405"
+map D6405 Lookup "Tech Center"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD05"
@@ -97,7 +97,7 @@ map D6405 Lookup "$D6405"
 	exitpic = "INTERPI1"
 }
 
-map D6406 Lookup "$D6406"
+map D6406 Lookup "Alpha Quadrant"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD06"
@@ -106,7 +106,7 @@ map D6406 Lookup "$D6406"
 	exitpic = "INTERPI1"
 }
 
-map D6407 Lookup "$D6407"
+map D6407 Lookup "Research Lab"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD07"
@@ -116,7 +116,7 @@ map D6407 Lookup "$D6407"
 	REDIRECT = "TCMapCheck","D6407TC"	//Jumps to TC NUKAGE FACILITY
 }
 
-map D6408A Lookup "$D6408"	//vanilla version
+map D6408A Lookup "Final Outpost"	//vanilla version
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD08"
@@ -125,7 +125,7 @@ map D6408A Lookup "$D6408"	//vanilla version
 	exitpic = "INTERPI1"
 }
 
-map D6408 Lookup "$D6408"
+map D6408 Lookup "Final Outpost"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD08"
@@ -135,7 +135,7 @@ map D6408 Lookup "$D6408"
 	REDIRECT = "VMapCheck","D6408A"	//Jumps to VAMILLA FINAL OUTPOST
 }
 
-map D6409 Lookup "$D6409"
+map D6409 Lookup "Even Simpler"
 {
 	Cluster = "1"
 	Sky1 = "SKY05"
@@ -145,7 +145,7 @@ map D6409 Lookup "$D6409"
 	exitpic = "INTERPI2"
 }
 
-map D6410 Lookup "$D6410"
+map D6410 Lookup "The Bleeding"
 {
 	Sky1 = "SKY05"
 	Music = "MAPWD10"
@@ -154,7 +154,7 @@ map D6410 Lookup "$D6410"
 	exitpic = "INTERPI2"
 }
 
-map D6411 Lookup "$D6411"
+map D6411 Lookup "Terror Core"
 {
 	Sky1 = "SKY09"
 	Music = "MAPWD11"
@@ -163,7 +163,7 @@ map D6411 Lookup "$D6411"
 	exitpic = "INTERPI2"
 }
 
-map D6412 Lookup "$D6412"
+map D6412 Lookup "Altar of Pain"
 {
 	Sky1 = "SKY04"
 	Music = "MAPWD12"
@@ -173,7 +173,7 @@ map D6412 Lookup "$D6412"
 	exitpic = "INTERPI2"
 }
 
-map D6413 Lookup "$D6413"
+map D6413 Lookup "Dark Citadel"
 {
 	Sky1 = "SKYSTAR3"
 	Music = "MAPWD13"
@@ -182,7 +182,7 @@ map D6413 Lookup "$D6413"
 	exitpic = "INTERPI2"
 }
 
-map D6414 Lookup "$D6414"
+map D6414 Lookup "Eye of the Storm"
 {
 	Sky1 = "SKY04"
 	Music = "MAPWD14"
@@ -191,7 +191,7 @@ map D6414 Lookup "$D6414"
 	exitpic = "INTERPI2"
 }
 
-map D6415 Lookup "$D6415"
+map D6415 Lookup "Dark Entries"
 {
 	Sky1 = "SKY05"
 	Music = "MAPWD15"
@@ -200,7 +200,7 @@ map D6415 Lookup "$D6415"
 	exitpic = "INTERPI2"
 }
 
-map D6416 Lookup "$D6416"
+map D6416 Lookup "Blood Keep"
 {
 	Sky1 = "SKY05"
 	Music = "MAPWD16"
@@ -209,7 +209,7 @@ map D6416 Lookup "$D6416"
 	exitpic = "INTERPI2"
 }
 
-map D6417 Lookup "$D6417"
+map D6417 Lookup "Watch Your Step"
 {
 	Sky1 = "SKY05"
 	fade = "3C 14 0A"
@@ -221,7 +221,7 @@ map D6417 Lookup "$D6417"
 	exitpic = "INTERPI2"
 }
 
-map D6418 Lookup "$D6418"
+map D6418 Lookup "Spawned Fear"
 {
 	Sky1 = "SKY05"
 	Music = "MAPWD18"
@@ -231,7 +231,7 @@ map D6418 Lookup "$D6418"
 	exitpic = "INTERPI2"
 }
 
-map D6419 Lookup "$D6419"
+map D6419 Lookup "The Spiral"
 {
 	Sky1 = "SKY05"
 	Music = "MAPWD19"
@@ -240,7 +240,7 @@ map D6419 Lookup "$D6419"
 	exitpic = "INTERPI2"
 }
 
-map D6420 Lookup "$D6420"
+map D6420 Lookup "Breakdown"
 {
 	Sky1 = "SKY05"
 	Music = "MAPWD20"
@@ -249,7 +249,7 @@ map D6420 Lookup "$D6420"
 	exitpic = "INTERPI3"
 }
 
-map D6421 Lookup "$D6421"
+map D6421 Lookup "Pitfalls"
 {
 	Sky1 = "SKY-0052"
 	Music = "MAPWD21"
@@ -258,7 +258,7 @@ map D6421 Lookup "$D6421"
 	exitpic = "INTERPI3"
 }
 
-map D6422 Lookup "$D6422"
+map D6422 Lookup "Burnt Offerings"
 {
 	Sky1 = "SKY-0052"
 	Music = "MAPWD22"
@@ -268,7 +268,7 @@ map D6422 Lookup "$D6422"
 	exitpic = "INTERPI3"
 }
 
-map D6423 Lookup "$D6423"
+map D6423 Lookup "Unholy Temple"
 {
 	Sky1 = "SKY-G052"
 	Music = "MAPWD23"
@@ -277,7 +277,7 @@ map D6423 Lookup "$D6423"
 	exitpic = "INTERPI3"
 }
 
-map D6424 Lookup "$D6424"
+map D6424 Lookup "No Escape"
 {
 	Sky1 = "SKY-0052"
 	Music = "MAPWD24"
@@ -289,7 +289,7 @@ map D6424 Lookup "$D6424"
 	REDIRECT = "TCMapCheck","D6427TC"	//Jumps to TC Forbidden Deeper
 }
 
-map D6425 Lookup "$D6425"
+map D6425 Lookup "Cat And Mouse"
 {
 	Cluster = "17"
 	Sky1 = "VOIDSKY1"
@@ -302,7 +302,7 @@ map D6425 Lookup "$D6425"
 	exitpic = "INTERPI3"
 }
 
-map D6426 Lookup "$D6426"
+map D6426 Lookup "HardCore"
 {
 	Sky1 = "VOIDSKY1"
 	Fade = "00 56 56"
@@ -313,7 +313,7 @@ map D6426 Lookup "$D6426"
 	exitpic = "INTERPI3"
 }
 
-map D6427 Lookup "$D6427"
+map D6427 Lookup "Playground"
 {
 	Fade = "33 66 00"
 	fogdensity = 150
@@ -325,7 +325,7 @@ map D6427 Lookup "$D6427"
 	exitpic = "INTERPI3"
 }
 
-map D6428A Lookup "$D6428A"
+map D6428A Lookup "The Absolution"
 {
 	Cluster = "18"
 	Sky1 = "SKY-b052"
@@ -336,7 +336,7 @@ map D6428A Lookup "$D6428A"
 	exitpic = "INTERPI3"
 }
 
-map D6428 Lookup "$D6428"
+map D6428 Lookup "The Absolution"
 {
 	Cluster = "18"
 	Sky1 = "SKY-b052"
@@ -348,7 +348,7 @@ map D6428 Lookup "$D6428"
 	REDIRECT = "VMapCheck","D6428A"	//Jump to original BD64 Map28
 }
 
-map ENDINGMA Lookup "$ENDINGMA"
+map ENDINGMA Lookup "The Ultimate Absolution"
 {
 	Cluster = "15"
 	Sky1 = "SKY-b052"
@@ -360,7 +360,7 @@ map ENDINGMA Lookup "$ENDINGMA"
 	nointermission
 }
 
-map D6429 Lookup "$D6429"
+map D6429 Lookup "Outpost Omega"
 {
 	Cluster = "2"
 	Sky1 = "SKY08"
@@ -371,7 +371,7 @@ map D6429 Lookup "$D6429"
 	SecretNext = "D6434TC"		//CRISIS TC MAP - UNAVAILABLE IF TCMAPCHECK NOT ENABLED
 }
 
-map D6430 Lookup "$D6430"
+map D6430 Lookup "The Lair"
 {
 	cluster = "3"
 	Sky1 = "SKY-g052"
@@ -381,7 +381,7 @@ map D6430 Lookup "$D6430"
 	exitpic = "INTERPI2"
 }
 
-map D6431 Lookup "$D6431"
+map D6431 Lookup "In The Void"
 {
 	Cluster = "4"
 	Fade = "00 56 56"
@@ -393,7 +393,7 @@ map D6431 Lookup "$D6431"
 	exitpic = "INTERPI2"
 }
 
-map D6432 "$D6432"
+map D6432 "Hectic"
 {
 	Cluster = "5"
 	Sky1 = "SKY-G052"
@@ -404,7 +404,7 @@ map D6432 "$D6432"
 }
 
 //TC MAPS
-map D6407TC Lookup "$D6407TC"
+map D6407TC Lookup "Nukage Facility (TC)"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD31"
@@ -413,7 +413,7 @@ map D6407TC Lookup "$D6407TC"
 	exitpic = "INTERPI1"
 }
 
-map D6427TC Lookup "$D6427TC"
+map D6427TC Lookup "Forbidden Deeper (TC)"
 {
 	Sky1 = "VOIDSKYR"
 	Music = "MAPWD15"
@@ -423,7 +423,7 @@ map D6427TC Lookup "$D6427TC"
 	exitpic = "INTERPI3"
 }
 
-map D6428TC Lookup "$D6428TC"
+map D6428TC Lookup "Shadows Watching (TC)"
 {
 	Sky1 = "SKY-B052"
 	Music = "MAPWD12"
@@ -432,7 +432,7 @@ map D6428TC Lookup "$D6428TC"
 	exitpic = "INTERPI3"
 }
 
-map D6434TC Lookup "$D6434TC"
+map D6434TC Lookup "Crisis (TC)"
 {
 	Cluster = "2"
 	Sky1 = "SKY08"
@@ -446,135 +446,135 @@ cluster 1
 {
 	pic = "INTERPIC"
 	music = "PLOTA"
-	entertext =	"$INTER01_TXT1",
+	entertext =	"The UAC's orders were to eliminate the demonic threat.",
 			"",
-			"$INTER01_TXT2",
-			"$INTER01_TXT3",
-			"$INTER01_TXT4",
+			"You have cleared the base and made it to the portal.",
+			"However, It seems the UAC hasn't learnt anything",
+			"since the first demonic invasion!",
 			"",
-			"$INTER01_TXT5",
-			"$INTER01_TXT6",
+			"You consider deactivating the destuct sequence, ",
+			"but you know that the UAC will never learn.",
 			"",
-			"$INTER01_TXT7",
-			"$INTER01_TXT8",
-			"$INTER01_TXT9",
-			"$INTER01_TXT10",
+			"You are going to make sure that the",
+			"UAC won't be able to screw it up again!",
+			"Let the gate and the UAC experiments be \cgdestroyed\c-",
+			"along with the base.",
 			"",
-			"$INTER01_TXT11",
-			"$INTER01_TXT12",
-			"$INTER01_TXT13",
-			"$INTER01_TXT14",
-			"$INTER01_TXT15"
+			"As you step through the portal and the haze clears,",
+			"the familiarity of the situation dawns on you.",
+			"Your cackle and bloodthirsty scream echo as",
+			"once again you find yourself",
+			"amidst..."
 }
 
 cluster 2
 {
 	pic = "INTERPIC"
 	music = "PLOTA"
-	entertext =	"$INTER02_TXT1",
-			"$INTER02_TXT2",
+	entertext =	"The vast silence reminds",
+			"you of the military morgue.",
 			"",
-			"$INTER02_TXT3",
-			"$INTER02_TXT4",
+			"You knew the installation",
+			"had a classified level.",
 			"",
-			"$INTER02_TXT5",
-			"$INTER02_TXT6",
+			"The UAC. had some good",
+			"reason to hide this place.",
 			"",
-			"$INTER02_TXT7",
-			"$INTER02_TXT8"
+			"You wonder what it",
+			"could be..."
 }
 
 cluster 3
 {
 	pic = "INTERPIC"
 	music = "PLOTB"
-	entertext =	"$INTER03_TXT1",
+	entertext =	"You smile.",
 			"",
-			"$INTER03_TXT2",
-			"$INTER03_TXT3",
+			"What strange place have",
+			"you stumbled upon?",
 			"",
-			"$INTER03_TXT4",
-			"$INTER03_TXT5",
-			"$INTER03_TXT6",
-			"$INTER03_TXT7",
+			"The Demons did not expect",
+			"you to survive this far.",
+			"You feel their demonic",
+			"presence waiting for you...",
 			"",
-			"$INTER03_TXT8"
+			"Let them taste their guts!"
 }
 
 cluster 4
 {
 	pic = "INTERPIC"
 	music = "PLOTB"
-	entertext =	"$INTER04_TXT1",
-			"$INTER04_TXT2",
+	entertext =	"As you step through",
+			"the acrid odour makes you feel wretched.",
 			"",
-			"$INTER04_TXT3",
+			"Death and demon carcasses everywhere!",
 			"",
-			"$INTER04_TXT4",
-			"$INTER04_TXT5",
+			"No nightmare could have",
+			"prepared you for this reality.",
 			"",
-			"$INTER04_TXT6",
-			"$INTER04_TXT7",
-			"$INTER04_TXT8"
+			"You realise that this",
+			"place was not meant for",
+			"the living."
 }
 
 cluster 5
 {
 	pic = "INTERPIC"
 	music = "PLOTC"
-	entertext =	"$INTER05_TXT1",
-			"$INTER05_TXT2",
+	entertext =	"Congratulations!",
+			"You found...",
 			"",
-			"$INTER05_TXT3",
+			"HECTIC",
 			"",
-			"$INTER05_TXT4",
-			"$INTER05_TXT5"
+			"Only the best will reap",
+			"its rewards."
 }
 
 clusterdef 15
 {
 	pic = "BOSBACK2"
 	music = "END"
-	exittext =	"$INTER06_TXT1",
-			"$INTER06_TXT2",
-			"$INTER06_TXT3",
-			"$INTER06_TXT4",
-			"$INTER06_TXT5",
+	exittext =	"Finally...",
+			"The \clmother beast\c- has been slain!",
+			"For the first time, the demons know what fear is.",
+			"while blood and sweat pour from your helmet,",
+			"you witness the pure terror of the demons as they escape.",
 			"",
-			"$INTER06_TXT6",
-			"$INTER06_TXT7",
+			"You wanted to have your vacation and therapy,",
+			"but unfortunately, your sense of victory is short lived.",
 			"",
-			"$INTER06_TXT8",
+			"The base and portal are destoyed. There is no way back!",
 			"",
-			"$INTER06_TXT9",
-			"$INTER06_TXT10",
+			"As the madness and bloodlust slowly consume your mind,",
+			"you think it's better to let the UAC think you died.",
 			"",
-			"$INTER06_TXT11",
-			"$INTER06_TXT12",
-			"$INTER06_TXT13",
-			"$INTER06_TXT14"
+			"Knowing that Hell cannot be destroyed,",
+			"you decide to remain in Hell.",
+			"You continue your endless slaying to ensure that",
+			"Doom shall not return, while hell fears your \cgname\c-..."
 }
 
 cluster 16	//Map00 exit intermission.
 {
 	pic = "INTERPIC"
 	music = "D_ALGMAN"
-	entertext =	"$INTER07_TXT1",
-			"$INTER07_TXT2",
-			"$INTER07_TXT3",
-			"$INTER07_TXT4",
+	entertext =	"You succesfully made it through!",
+			"As the elevator's door closes behind you,",
+			"you hear human and demonic moans and screams,",
+			"mixed with gun fire and explosions.",
 			"",
-			"$INTER07_TXT5",
-			"$INTER07_TXT6",
-			"$INTER07_TXT7",
+			"Eventually you hear nothing but silence.",
+			"Your team were utterly unprepared for what",
+			"was waiting at the landing site",
 			"",
-			"$INTER07_TXT8",
+			"After a moment you come to realise that you are alone",
 			"",
-			"$INTER07_TXT9",
-			"$INTER07_TXT10",
+			"The feeling inside the base feels wrong and that smell,",
+			"you remember well that smell of death.",
 			"",
-			"$INTER07_TXT11",
-			"$INTER07_TXT12"
+			"There is no turning back now.",
+			"You ready your weapon and proceed into the base."
 }
 
 cluster 17	//Map24 secret exit to Fun maps.
@@ -582,16 +582,14 @@ cluster 17	//Map24 secret exit to Fun maps.
 	pic = "INTERPIC3"
 	music = "PLOTC"
 	entertext = "",
-			"$INTER08_TXT1",
-			"$INTER08_TXT2",
+			"You have decided to venture off into the unknown",
+			"before confronting the menace that lurks at the heart of Hell.",
 			"",
-			"$INTER08_TXT3",
+			"After arriving in a strange dimension, you",
 			"",
-			"$INTER08_TXT4",
+			"see an \csold friend\c- wants to have you for dinner.",
 			"",
-			"$INTER08_TXT5",
-			"",
-			"$INTER08_TXT6"
+			"Let the entertainment \cgbegin!",
 }
 
 cluster 18	//R28.2 Arriving at the final battle
@@ -600,13 +598,13 @@ cluster 18	//R28.2 Arriving at the final battle
 	music = "PLOTC"
 	entertext = "",
 			"",
-			"$INTER09_TXT1",
+			"At last you have finally arrived at the mother demons lair",
 			"",
-			"$INTER09_TXT2",
+			"After battling through hell, the mother of demons is now before you",
 			"",
-			"$INTER09_TXT3",
+			"Go and pay her your respects",
 			"",
-			"$INTER09_TXT4"
+			"She is \cgwaiting for you\c-..."
 }
 
 //DEATHMATCH MAPS
