@@ -1,5 +1,5 @@
 {
-	name = "Grunt"
+	name = "$TAGBD_BOT1"
 	script = HUMANBOT
 	chatlump = BOTS1
 	gender = male
@@ -19,7 +19,7 @@
 }
 
 {
-	name = "Destroyer"
+	name = "$TAGBD_BOT2"
 	script = HUMANBOT
 	chatlump = BOTS1
 	gender = male
@@ -39,7 +39,7 @@
 }
 
 {
-	name = "Executioner"
+	name = "$TAGBD_BOT3"
 	script = HUMANBOT
 	chatlump = BOTS1
 	gender = male
@@ -59,7 +59,7 @@
 }
 
 {
-	name = "Warmonger"
+	name = "$$TAGBD_BOT4"
 	script = HUMANBOT
 	chatlump = BOTS1
 	gender = male
