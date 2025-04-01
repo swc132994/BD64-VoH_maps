@@ -213,14 +213,14 @@ BOT1_WIN_TXT3 = "I enjoyed that!";
 BOT1_WIN_TXT4 = "My job is done here. Time to move on...";
 BOT1_WIN_TXT5 = "All roads lead to hell for you.";
 
-BOT1_LOSE_TXT = "Next time you better watch out";
-BOT1_LOSE_TXT = "I'm glad that's over";
-BOT1_LOSE_TXT = "What a load of shite!";
-BOT1_LOSE_TXT = "I think I'm done for today!";
-BOT1_LOSE_TXT = "You won't be as lucky next time!";
-BOT1_LOSE_TXT = "Give yourself a big pat on the back!";
-BOT1_LOSE_TXT = "Lucky bastard!";
-BOT1_LOSE_TXT = "This isn't the end. I'll be back to finish this!";
+BOT1_LOSE_TXT1 = "Next time you better watch out";
+BOT1_LOSE_TXT2 = "I'm glad that's over";
+BOT1_LOSE_TXT3 = "What a load of shite!";
+BOT1_LOSE_TXT4 = "I think I'm done for today!";
+BOT1_LOSE_TXT5 = "You won't be as lucky next time!";
+BOT1_LOSE_TXT6 = "Give yourself a big pat on the back!";
+BOT1_LOSE_TXT7 = "Lucky bastard!";
+BOT1_LOSE_TXT8 = "This isn't the end. I'll be back to finish this!";
 
 
 
