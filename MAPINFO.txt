@@ -589,10 +589,10 @@ cluster 17	//Map24 secret exit to Fun maps.
 			"",
 			"see an \csold friend\c- wants to have you for dinner.",
 			"",
-			"Let the entertainment \cgbegin!",
+			"Let the entertainment \cgbegin!"
 }
 
-cluster 18	//R28.2 Arriving at the final battle
+cluster 18	//Arriving at the final battle
 {
 	pic = "INTERPIC3"
 	music = "PLOTC"
