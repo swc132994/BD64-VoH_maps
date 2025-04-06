@@ -23,7 +23,7 @@ D6409 = "Désherbage mortel";
 D6410 = "Le saignement";
 D6411 = "Noyau de la terreur";
 D6412 = "Autel de la souffrance";
-D6413 = "Citadelle sombre";
+D6413 = "Citadelle des ténebres";
 D6414 = "L'oeil du cyclone";
 D6415 = "Entrées maudites";
 D6416 = "Donjon sanglant";
@@ -32,7 +32,7 @@ D6418 = "Peur rationnelle";
 D6419 = "La spirale";
 D6420 = "Rupture";
 D6421 = "Pièges d'Enfer";
-D6422 = "Offrandes brûlées";
+D6422 = "Offrandes calcinées";
 D6423 = "Temple impie";
 D6424 = "Aucune issue";
 D6425 = "Chat et souris";
@@ -48,7 +48,7 @@ D6432 = "Trépidant";
 ENDINGMA = "La fin";
 
 D6407TC = "Installation nucléaire (TC)";
-D6427TC = "Interdit plus profond (TC)";
+D6427TC = "Profondeurs interdites (TC)";
 D6428TC = "Tapis dans l'ombre (TC)";
 D6434TC = "Crise (TC)";
 
