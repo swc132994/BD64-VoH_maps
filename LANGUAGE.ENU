@@ -55,94 +55,122 @@ D6434TC = "Crisis (TC)";
 ////////////////////////////////////////////////////////////////////////////////
 // Intermission screens
 
-INTER01_TXT1 = "The UAC's orders were to eliminate the demonic threat.",
-INTER01_TXT2 = "You have cleared the base and made it to the portal.",
-INTER01_TXT3 = "However, It seems the UAC hasn't learnt anything",
-INTER01_TXT4 = "since the first demonic invasion!",
-INTER01_TXT5 = "You consider deactivating the destuct sequence, ",
-INTER01_TXT6 = "but you know that the UAC will never learn.",
-INTER01_TXT7 = "You are going to make sure that the",
-INTER01_TXT8 = "UAC won't be able to screw it up again!",
-INTER01_TXT9 = "Let the gate and the UAC experiments be \cgdestroyed\c-",
-INTER01_TXT10 = "along with the base."
+INTRO01_TXT = "You succesfully made it through!\n"
+"As the elevator's door closes behind you,\n"
+"you hear human and demonic moans and screams,\n"
+"mixed with gun fire and explosions.\n"
+"\n"
+"Eventually you hear nothing but silence.\n"
+"Your team were utterly unprepared for what\n"
+"was waiting at the landing site.\n"
+"\n"
+"After a moment you come to realise that you are alone.\n"
+"\n"
+"The feeling inside the base feels wrong and that smell,\n"
+"you remember well that smell of death.\n"
+"\n"
+"There is no turning back now.\n"
+"You ready your weapon and proceed into the base.\n";
 
-INTER01_TXT11 = "As you step through the portal and the haze clears,",
-INTER01_TXT12 = "the familiarity of the situation dawns on you.",
-INTER01_TXT13 = "Your cackle and bloodthirsty scream echo as",
-INTER01_TXT14 = "once again you find yourself",
-INTER01_TXT15 = "amidst..."
+INTER01_TXT = "The UAC's orders were to eliminate the demonic threat.\n"
+"\n"
+"You have cleared the base and made it to the portal.\n"
+"However, It seems the UAC hasn't learnt anything\n"
+"since the first demonic invasion!\n"
+"\n"
+"You consider deactivating the destuct sequence,\n"
+"but you know that the UAC will never learn.\n"
+"\n"
+"You are going to make sure that the\n"
+"UAC won't be able to screw it up again!\n"
+"Let the gate and the UAC experiments be \cgdestroyed\c-\n"
+"along with the base.\n"
+"\n"
+"As you step through the portal and the haze clears,\n"
+"the familiarity of the situation dawns on you.\n"
+"Your cackle and bloodthirsty scream echo as\n"
+"once again you find yourself\n"
+"amidst...\n";
 
-INTER02_TXT1 = "The vast silence reminds",
-INTER02_TXT2 = "you of the military morgue.",
-INTER02_TXT3 = "You knew the installation",
-INTER02_TXT4 = "had a classified level.",
-INTER02_TXT5 = "The UAC. had some good",
-INTER02_TXT6 = "reason to hide this place.",
-INTER02_TXT7 = "You wonder what it",
-INTER02_TXT8 = "could be..."
+INTER02_TXT = "The vast silence reminds\n"
+	"you of the military morgue.\n"
+	"\n"
+	"You knew the installation\n"
+	"had a classified level.\n"
+	"\n"
+	"The U.A.C. had some good\n"
+	"reason to hide this place.\n"
+	"\n"
+	"You wonder what it\n"
+	"could be...";
 
-INTER03_TXT1 = "You smile.",
-INTER03_TXT2 = "What strange place have",
-INTER03_TXT3 = "you stumbled upon?",
-INTER03_TXT4 = "The Demons did not expect",
-INTER03_TXT5 = "you to survive this far.",
-INTER03_TXT6 = "You feel their demonic",
-INTER03_TXT7 = "presence waiting for you...",
-INTER03_TXT8 = "Let them taste their guts!"
+INTER03_TXT = "You smile.\n"
+"What strange place have\n"
+"you stumbled upon?\n"
+"\n"
+"The Demons did not expect\n"
+"you to survive this far.\n"
+"You feel their demonic\n"
+"presence waiting for you...\n"
+"\n"
+"Let them taste their guts!\n";
 
-INTER04_TXT1 = "As you step through",
-INTER04_TXT2 = "the acrid odour makes you feel wretched.",
-INTER04_TXT3 = "Death and demon carcasses everywhere!",
-INTER04_TXT4 = "No nightmare could have",
-INTER04_TXT5 = "prepared you for this reality.",
-INTER04_TXT6 = "You realise that this",
-INTER04_TXT7 = "place was not meant for",
-INTER04_TXT8 = "the living."
+INTER04_TXT = "As you step through\n"
+"the acrid odour makes you feel wretched.\n"
+"\n"
+"Death and demon carcasses everywhere!\n"
+"\n"
+"No nightmare could have\n"
+"prepared you for this reality.\n"
+"\n"
+"You realise that this\n"
+"place was not meant for\n"
+"the living.\n";
 
-INTER05_TXT1 = "Congratulations!",
-INTER05_TXT2 = "You found...",
-INTER05_TXT3 = "HECTIC",
-INTER05_TXT4 = "Only the best will reap",
-INTER05_TXT5 = "its rewards."
+INTER05_TXT = "Congratulations!\n"
+"You found...\n"
+"\n"
+"HECTIC\n"
+"\n"
+"Only the best will reap\n"
+"its rewards.\n";
 
-INTER06_TXT1 = "Finally...",
-INTER06_TXT2 = "The \clmother beast\c- has been slain!",
-INTER06_TXT3 = "For the first time, the demons know what fear is.",
-INTER06_TXT4 = "while blood and sweat pour from your helmet,",
-INTER06_TXT5 = "you witness the pure terror of the demons as they escape.",
-INTER06_TXT6 = "You wanted to have your vacation and therapy,",
-INTER06_TXT7 = "but unfortunately, your sense of victory is short lived.",
-INTER06_TXT8 = "The base and portal are destoyed. There is no way back!",
-INTER06_TXT9 = "As the madness and bloodlust slowly consume your mind,",
-INTER06_TXT10 = "you think it's better to let the UAC think you died.",
-INTER06_TXT11 = "Knowing that Hell cannot be destroyed,",
-INTER06_TXT12 = "you decide to remain in Hell.",
-INTER06_TXT13 = "You continue your endless slaying to ensure that",
-INTER06_TXT14 = "Doom shall not return, while hell fears your \cgname\c-..."
+INTER06_TXT = "Finally...\n"
+"The \clmother beast\c- has been slain!\n"
+"For the first time, the demons know what fear is.\n"
+"while blood and sweat pour from your helmet,\n"
+"you witness the pure terror of the demons as they escape.\n"
+"\n"
+"You wanted to have your vacation and therapy,\n"
+"but unfortunately, your sense of victory is short lived.\n"
+"\n"
+"The base and portal are destoyed. There is no way back!\n"
+"\n"
+"As the madness and bloodlust slowly consume your mind,\n"
+"you think it's better to let the UAC think you died.\n"
+"\n"
+"Knowing that Hell cannot be destroyed,\n"
+"you decide to remain in Hell.\n"
+"You continue your endless slaying to ensure that\n"
+"Doom shall not return, while hell fears your \cgname\c-...\n";
 
-INTER07_TXT1 = "You succesfully made it through!",
-INTER07_TXT2 = "As the elevator's door closes behind you,",
-INTER07_TXT3 = "you hear human and demonic moans and screams,",
-INTER07_TXT4 = "mixed with gun fire and explosions.",
-INTER07_TXT5 = "Eventually you hear nothing but silence.",
-INTER07_TXT6 = "Your team were utterly unprepared for what",
-INTER07_TXT7 = "was waiting at the landing site",
-INTER07_TXT8 = "After a moment you come to realise that you are alone",
-INTER07_TXT9 = "The feeling inside the base feels wrong and that smell,",
-INTER07_TXT10 = "you remember well that smell of death.",
-INTER07_TXT11 = "There is no turning back now.",
-INTER07_TXT12 = "You ready your weapon and proceed into the base."
+INTER07_TXT = "You have decided to venture off into the unknown\n"
+"before confronting the menace that lurks at the heart of Hell.\n"
+"\n"
+"After arriving in a strange dimension, you\n"
+"\n"
+"see an \csold friend\c- wants to have you for dinner.\n"
+"\n"
+"Let the entertainment \cgbegin!\n";
 
-INTER08_TXT1 = "You have decided to venture off into the unknown",
-INTER08_TXT2 = "before confronting the menace that lurks at the heart of Hell.",
-INTER08_TXT3 = "After arriving in a strange dimension, you",
-INTER08_TXT4 = "see an \csold friend\c- wants to have you for dinner.",
-INTER08_TXT5 = "Let the entertainment \cgbegin!"
+INTER08_TXT = "At last you have finally arrived at the mother demons lair\n"
+"\n"
+"After battling through hell, the mother of demons is now before you\n"
+"\n"
+"Go and pay her your respects\n"
+"\n"
+"She is \cgwaiting for you\c-...\n";
 
-INTER09_TXT1 = "At last you have finally arrived at the mother demons lair",
-INTER09_TXT2 = "After battling through hell, the mother of demons is now before you",
-INTER09_TXT3 = "Go and pay her your respects",
-INTER09_TXT4 = "She is \cgwaiting for you\c-..."
 
 //////////////////////////////////////////////////////////////////
 //Tags for bots
