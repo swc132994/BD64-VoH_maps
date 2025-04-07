@@ -446,65 +446,63 @@ cluster 1
 {
 	pic = "INTERPIC"
 	music = "PLOTA"
-	entertext =	"INTER01_TXT"
+	entertext = lookup, "INTER01_TXT"
 }
 
 cluster 2
 {
 	pic = "INTERPIC"
 	music = "PLOTA"
-	entertext =	"INTER02_TXT"			
+	entertext = lookup, "INTER02_TXT"			
 }
 
 cluster 3
 {
 	pic = "INTERPIC"
 	music = "PLOTB"
-	entertext =	"INTER03_TXT"
+	entertext = lookup, "INTER03_TXT"
 }
 
 cluster 4
 {
 	pic = "INTERPIC"
 	music = "PLOTB"
-	entertext =	"INTER04_TXT"
+	entertext = lookup, "INTER04_TXT"
 }
 
 cluster 5
 {
 	pic = "INTERPIC"
 	music = "PLOTC"
-	entertext =	"INTER05_TXT"
+	entertext = lookup, "INTER05_TXT"
 }
 
 clusterdef 15
 {
 	pic = "BOSBACK2"
 	music = "END"
-	exittext =	"INTER06_TXT"
+	entertext = lookup, "INTER06_TXT"
 }
 
 cluster 16	//Map00 exit intermission.
 {
 	pic = "INTERPIC"
 	music = "D_ALGMAN"
-	entertext =	"INTRO01_TXT"
+	exittext = lookup, "INTRO01_TXT"
 }
 
 cluster 17	//Map24 secret exit to Fun maps.
 {
 	pic = "INTERPIC3"
 	music = "PLOTC"
-	entertext = "",
-			"INTER07_TXT"
+	entertext = lookup, "INTER07_TXT"
 }
 
 cluster 18	//Arriving at the final battle
 {
 	pic = "INTERPIC3"
 	music = "PLOTC"
-	entertext = "",
-			"INTER08_TXT"
+	entertext = lookup, "INTER08_TXT"
 }
 
 //DEATHMATCH MAPS
