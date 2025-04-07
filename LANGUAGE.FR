@@ -145,7 +145,7 @@ INTER06_TXT = "Après de nombreux efforts.../n"
 "quitte à ce que l'UAC vous croient mort au combat.\n"
 "\n"
 "Sachant mieux que quiconque que l'Enfer ne se repose pas,\n"
-"vous décidez d'y rester pour vous battre,"\n"
+"vous décidez d'y rester pour vous battre,\n"
 "espèrant éradiquer l'engeance démoniaque.\n"
 "Plus jamais malheur ne reviendra tant que l'Enfer craindra votre \cgnom\c-...\n";
 
