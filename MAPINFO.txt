@@ -446,135 +446,49 @@ cluster 1
 {
 	pic = "INTERPIC"
 	music = "PLOTA"
-	entertext =	"The UAC's orders were to eliminate the demonic threat.",
-			"",
-			"You have cleared the base and made it to the portal.",
-			"However, It seems the UAC hasn't learnt anything",
-			"since the first demonic invasion!",
-			"",
-			"You consider deactivating the destuct sequence, ",
-			"but you know that the UAC will never learn.",
-			"",
-			"You are going to make sure that the",
-			"UAC won't be able to screw it up again!",
-			"Let the gate and the UAC experiments be \cgdestroyed\c-",
-			"along with the base.",
-			"",
-			"As you step through the portal and the haze clears,",
-			"the familiarity of the situation dawns on you.",
-			"Your cackle and bloodthirsty scream echo as",
-			"once again you find yourself",
-			"amidst..."
+	entertext =	"INTER01_TXT"
 }
 
 cluster 2
 {
 	pic = "INTERPIC"
 	music = "PLOTA"
-	entertext =	"The vast silence reminds",
-			"you of the military morgue.",
-			"",
-			"You knew the installation",
-			"had a classified level.",
-			"",
-			"The UAC. had some good",
-			"reason to hide this place.",
-			"",
-			"You wonder what it",
-			"could be..."
+	entertext =	"INTER02_TXT"			
 }
 
 cluster 3
 {
 	pic = "INTERPIC"
 	music = "PLOTB"
-	entertext =	"You smile.",
-			"",
-			"What strange place have",
-			"you stumbled upon?",
-			"",
-			"The Demons did not expect",
-			"you to survive this far.",
-			"You feel their demonic",
-			"presence waiting for you...",
-			"",
-			"Let them taste their guts!"
+	entertext =	"INTER03_TXT"
 }
 
 cluster 4
 {
 	pic = "INTERPIC"
 	music = "PLOTB"
-	entertext =	"As you step through",
-			"the acrid odour makes you feel wretched.",
-			"",
-			"Death and demon carcasses everywhere!",
-			"",
-			"No nightmare could have",
-			"prepared you for this reality.",
-			"",
-			"You realise that this",
-			"place was not meant for",
-			"the living."
+	entertext =	"INTER04_TXT"
 }
 
 cluster 5
 {
 	pic = "INTERPIC"
 	music = "PLOTC"
-	entertext =	"Congratulations!",
-			"You found...",
-			"",
-			"HECTIC",
-			"",
-			"Only the best will reap",
-			"its rewards."
+	entertext =	"INTER05_TXT"
 }
 
 clusterdef 15
 {
 	pic = "BOSBACK2"
 	music = "END"
-	exittext =	"Finally...",
-			"The \clmother beast\c- has been slain!",
-			"For the first time, the demons know what fear is.",
-			"while blood and sweat pour from your helmet,",
-			"you witness the pure terror of the demons as they escape.",
-			"",
-			"You wanted to have your vacation and therapy,",
-			"but unfortunately, your sense of victory is short lived.",
-			"",
-			"The base and portal are destoyed. There is no way back!",
-			"",
-			"As the madness and bloodlust slowly consume your mind,",
-			"you think it's better to let the UAC think you died.",
-			"",
-			"Knowing that Hell cannot be destroyed,",
-			"you decide to remain in Hell.",
-			"You continue your endless slaying to ensure that",
-			"Doom shall not return, while hell fears your \cgname\c-..."
+	exittext =	"INTER06_TXT"
 }
 
 cluster 16	//Map00 exit intermission.
 {
 	pic = "INTERPIC"
 	music = "D_ALGMAN"
-	entertext =	"You succesfully made it through!",
-			"As the elevator's door closes behind you,",
-			"you hear human and demonic moans and screams,",
-			"mixed with gun fire and explosions.",
-			"",
-			"Eventually you hear nothing but silence.",
-			"Your team were utterly unprepared for what",
-			"was waiting at the landing site",
-			"",
-			"After a moment you come to realise that you are alone",
-			"",
-			"The feeling inside the base feels wrong and that smell,",
-			"you remember well that smell of death.",
-			"",
-			"There is no turning back now.",
-			"You ready your weapon and proceed into the base."
+	entertext =	"INTRO01_TXT"
 }
 
 cluster 17	//Map24 secret exit to Fun maps.
@@ -582,14 +496,7 @@ cluster 17	//Map24 secret exit to Fun maps.
 	pic = "INTERPIC3"
 	music = "PLOTC"
 	entertext = "",
-			"You have decided to venture off into the unknown",
-			"before confronting the menace that lurks at the heart of Hell.",
-			"",
-			"After arriving in a strange dimension, you",
-			"",
-			"see an \csold friend\c- wants to have you for dinner.",
-			"",
-			"Let the entertainment \cgbegin!"
+			"INTER07_TXT"
 }
 
 cluster 18	//Arriving at the final battle
@@ -597,14 +504,7 @@ cluster 18	//Arriving at the final battle
 	pic = "INTERPIC3"
 	music = "PLOTC"
 	entertext = "",
-			"",
-			"At last you have finally arrived at the mother demons lair",
-			"",
-			"After battling through hell, the mother of demons is now before you",
-			"",
-			"Go and pay her your respects",
-			"",
-			"She is \cgwaiting for you\c-..."
+			"INTER08_TXT"
 }
 
 //DEATHMATCH MAPS
