@@ -4,6 +4,11 @@
 
 [enu default]
 
+D64EP1 = "Doom 64";
+D64EP2 = "Doom 64 (Skip Intro)";
+D64EP3 = "Deathmatch (Zandronum)";
+D64EP4 = "Test Facility";
+
 D64QUIT = "Quit Brutal Doom 64?";
 
 ////////////////////////////////////////////////////////////////////////////////
