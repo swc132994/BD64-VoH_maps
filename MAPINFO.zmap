@@ -1,22 +1,22 @@
 //EPISODES
 Episode D6400
 {
-name = "Doom 64"
+name = "$D64EP1"
 }
 
 Episode D6401
 {
-Name = "Doom 64 (Skip Intro)"
+Name = "$D64EP2"
 }
 
 Episode 64DM1
 {
-Name = "Deathmatch (Zandronum)"
+Name = "$D64EP3"
 }
 
 Episode D64TM
 {
-Name = "Test Facility"
+Name = "$$D64EP4"
 }
 
 //GAME SETTINGS
