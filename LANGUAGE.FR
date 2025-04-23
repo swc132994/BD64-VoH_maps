@@ -1,8 +1,13 @@
 //=====================================
-//French strings updated by Pygargue00fr.
+//French strings written by Pygargue00fr.
 //=====================================
 
 [fr]
+
+D64EP1 = "Doom 64";
+D64EP2 = "Doom 64 (Passer introduction)";
+D64EP3 = "Match à mort (Zandronum)";
+D64EP4 = "Centre de test";
 
 D64QUIT = "Quitter Brutal Doom 64 ?";
 
