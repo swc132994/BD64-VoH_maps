@@ -43,6 +43,7 @@ map TITLEMAP lookup "TITLEMAP"	//was called "Title"
 
 map D6400 Lookup "D6400"
 {
+	cluster = "16"
 	Sky1 = "SKY08"
 	Music = "DINTRO"
 	Next = "D6401"
@@ -51,7 +52,6 @@ map D6400 Lookup "D6400"
 
 map D6401 Lookup "D6401"
 {
-	cluster = "16"
 	Sky1 = "SKY08"
 	Music = "MAPWD01"
 	Next = "D6402"
