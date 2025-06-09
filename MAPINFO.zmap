@@ -116,7 +116,7 @@ map D6407 Lookup "D6407"
 	REDIRECT = "TCMapCheck","D6407TC"	//Jumps to TC NUKAGE FACILITY
 }
 
-map D6408A Lookup "D6408"	//vanilla version
+map D6408A Lookup "D6408"	//original version
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD08"
@@ -132,7 +132,7 @@ map D6408 Lookup "D6408"
 	Next = "D6409"
 	InterMusic = "INTERB"
 	exitpic = "INTERPI1"
-	REDIRECT = "VMapCheck","D6408A"	//Jumps to VAMILLA FINAL OUTPOST
+	REDIRECT = "VMapCheck","D6408A"	//Jumps to original FINAL OUTPOST
 }
 
 map D6409 Lookup "D6409"
@@ -302,7 +302,7 @@ map D6425 Lookup "D6425"
 	exitpic = "INTERPI3"
 }
 
-map D6426 Lookup "$D6426"
+map D6426 Lookup "D6426"
 {
 	Sky1 = "VOIDSKY1"
 	Fade = "00 56 56"
@@ -325,7 +325,7 @@ map D6427 Lookup "D6427"
 	exitpic = "INTERPI3"
 }
 
-map D6428A Lookup "$D6428A"
+map D6428A Lookup "D6428A"	//Original BD64 Absolution
 {
 	Cluster = "18"
 	Sky1 = "SKY-b052"
@@ -481,7 +481,7 @@ clusterdef 15
 {
 	pic = "BOSBACK2"
 	music = "END"
-	entertext = lookup, "INTER06_TXT"
+	exittext = lookup, "INTER06_TXT"
 }
 
 cluster 16	//Map00 exit intermission.

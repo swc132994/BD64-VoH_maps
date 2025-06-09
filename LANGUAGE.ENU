@@ -43,8 +43,8 @@ D6424 = "No Escape";
 D6425 = "Cat And Mouse";
 D6426 = "HardCore";
 D6427 = "Playground";
-D6428 = "The Absolution";
-D6428A = "The Ultimate Absolution";
+D6428 = "The Ultimate Absolution";
+D6428A = "The Absolution";
 D6429 = "Outpost Omega";
 D6430 = "The Lair";
 D6431 = "In The Void";
@@ -88,7 +88,7 @@ INTER01_TXT = "The UAC's orders were to eliminate the demonic threat.\n"
 "\n"
 "You are going to make sure that the\n"
 "UAC won't be able to screw it up again!\n"
-"Let the gate and the UAC experiments be \cgdestroyed\c-\n"
+"Let the gate and the UAC experiments be destroyed\n"
 "along with the base.\n"
 "\n"
 "As you step through the portal and the haze clears,\n"
@@ -141,7 +141,7 @@ INTER05_TXT = "Congratulations!\n"
 "its rewards.\n";
 
 INTER06_TXT = "Finally...\n"
-"The \clmother beast\c- has been slain!\n"
+"The mother beast has been slain!\n"
 "For the first time, the demons know what fear is.\n"
 "while blood and sweat pour from your helmet,\n"
 "you witness the pure terror of the demons as they escape.\n"
@@ -157,16 +157,16 @@ INTER06_TXT = "Finally...\n"
 "Knowing that Hell cannot be destroyed,\n"
 "you decide to remain in Hell.\n"
 "You continue your endless slaying to ensure that\n"
-"Doom shall not return, while hell fears your \cgname\c-...\n";
+"Doom shall not return, while hell fears your name...\n";
 
 INTER07_TXT = "You have decided to venture off into the unknown\n"
 "before confronting the menace that lurks at the heart of Hell.\n"
 "\n"
 "After arriving in a strange dimension, you\n"
 "\n"
-"see an \csold friend\c- wants to have you for dinner.\n"
+"see an old friend wants to have you for dinner.\n"
 "\n"
-"Let the entertainment \cgbegin!\n";
+"Let the entertainment begin!\n";
 
 INTER08_TXT = "At last you have finally arrived at the mother demons lair\n"
 "\n"
@@ -174,7 +174,7 @@ INTER08_TXT = "At last you have finally arrived at the mother demons lair\n"
 "\n"
 "Go and pay her your respects\n"
 "\n"
-"She is \cgwaiting for you\c-...\n";
+"She is waiting for you...\n";
 
 
 //////////////////////////////////////////////////////////////////
@@ -254,9 +254,3 @@ BOT1_LOSE_TXT5 = "You won't be as lucky next time!";
 BOT1_LOSE_TXT6 = "Give yourself a big pat on the back!";
 BOT1_LOSE_TXT7 = "Lucky bastard!";
 BOT1_LOSE_TXT8 = "This isn't the end. I'll be back to finish this!";
-
-
-
-
-
-

@@ -1683,7 +1683,7 @@ ACTOR AmbientSoundHeavyWind 21009
 	}
 }
 
-ACTOR SplashGenerator 8859
+/*ACTOR SplashGenerator 8859
 {
 //$category "Maps/BD64_Effects"
 Scale 0.3
@@ -1698,7 +1698,7 @@ Mass 15
 		TNT1 A 1
 		Loop
 	}
-}
+}*/
 
 ACTOR WaterMistGenerator 8860
 {
