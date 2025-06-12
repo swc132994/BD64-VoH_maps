@@ -52,10 +52,10 @@ D6432 = "Trépidant";
 
 ENDINGMA = "La fin";
 
-D6407TC = "Installation nucléaire (TC)";
-D6427TC = "Profondeurs interdites (TC)";
-D6428TC = "Tapis dans l'ombre (TC)";
-D6434TC = "Crise (TC)";
+D6407TC = "Installation nucléaire (ABS)";
+D6427TC = "Profondeurs interdites (ABS)";
+D6428TC = "Tapis dans l'ombre (ABS)";
+D6434TC = "Crise (ABS)";
 
 ////////////////////////////////////////////////////////////////////////////////
 // Intermission screens
@@ -89,7 +89,7 @@ INTER01_TXT = "Les ordres de l'UAC d'éliminer la menace démoniaque était clai
 "Vous allez vous assurer que tant que vous vivrez plus jamais\n"
 "l'UAC ne pourra tout ruiner !\n"
 "De cette base, comme le portail et leurs experiences,"
-"vous n'en laisserez \cgaucune trace\c-.\n"
+"vous n'en laisserez aucune trace.\n"
 "\n"
 "Alors que vous franchissez le portail et que la brume se dissipe,\n"
 "la familiarité de la situation vous apparaît tel un fantôme du passé.\n"
@@ -137,7 +137,7 @@ INTER05_TXT = "Félicitations !\n"
 "les récompenses.\n";
 
 INTER06_TXT = "Après de nombreux efforts.../n"
-"TLa \clMère maudite\c- tombe enfin sous vos coups!\n"
+"TLa Mère maudite tombe enfin sous vos coups!\n"
 "Pour la première fois, les démons découvrent ce qu’est la peur.\n"
 "\n"
 "Seul témoin de leurs fuite impétueuse,\n"
@@ -152,16 +152,16 @@ INTER06_TXT = "Après de nombreux efforts.../n"
 "Sachant mieux que quiconque que l'Enfer ne se repose pas,\n"
 "vous décidez d'y rester pour vous battre,\n"
 "espèrant éradiquer l'engeance démoniaque.\n"
-"Plus jamais malheur ne reviendra tant que l'Enfer craindra votre \cgnom\c-...\n";
+"Plus jamais malheur ne reviendra tant que l'Enfer craindra votre nom...\n";
 
 INTER07_TXT = "Avant de comfronter la menace directement en Enfer\n"
 "Vous avez choisi un petit détour vers l'inconnu.\n"
 "\n"
 "Une fois le pied posé dans une étrange dimension,\n"
 "\n"
-"un \csvieil ami\c- vous invita à dîner.\n"
+"un vieil ami vous invita à dîner.\n"
 "\n"
-"Que le spectacle \cgcommence !\n";
+"Que le spectacle commence !\n";
 
 INTER08_TXT = "Après avoir combattu en Enfer, vous voilà enfin devant son repère.\n"
 "\n"
@@ -169,7 +169,7 @@ INTER08_TXT = "Après avoir combattu en Enfer, vous voilà enfin devant son rep�
 "\n"
 "alors allez lui rendre un dernier hommage\n"
 "\n"
-"Elle vous \cgattend\c-...n";
+"Elle vous attend...n";
 
 //////////////////////////////////////////////////////////////////
 //Tags for Bots

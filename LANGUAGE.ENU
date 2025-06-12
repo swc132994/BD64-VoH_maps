@@ -14,7 +14,11 @@ D64QUIT = "Quit Brutal Doom 64?";
 ////////////////////////////////////////////////////////////////////////////////
 // Level names
 
+
+
 TITLEMAP = "Main Menu";
+D64TM = "Test Facility";
+
 D6400 = "Landing Site";
 D6401 = "Staging Area";
 D6402 = "The Terraformer";
@@ -52,10 +56,22 @@ D6432 = "Hectic";
 
 ENDINGMA = "End";
 
-D6407TC = "Nukage Facility (TC)";
-D6427TC = "Forbidden Deeper (TC)";
-D6428TC = "Shadows Watching (TC)";
-D6434TC = "Crisis (TC)";
+D6407TC = "Nukage Facility (ABS)";
+D6427TC = "Forbidden Deeper (ABS)";
+D6428TC = "Shadows Watching (ABS)";
+D6434TC = "Crisis (ABS)";
+
+REC01 = "Tunnels (REC)";
+REC02 = "The Hazard Pits (REC)";
+REC03 = "Delta Quadrant (REC)";
+
+64DM1 = "Simple Death (DM)";
+64DM2 = "Dying Alone (DM)";
+64DM3 = "Altar of Agony (DM)";
+64DM4 = "The Downward Spiral (DM)";
+64DM5 = "Slaughter Tower (DM)";
+64DM6 = "Torture Hive (DM)";
+64DM7 = "Showdown (DM)";
 
 ////////////////////////////////////////////////////////////////////////////////
 // Intermission screens

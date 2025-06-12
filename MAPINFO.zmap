@@ -41,6 +41,13 @@ map TITLEMAP lookup "TITLEMAP"	//was called "Title"
 	compat_crossdropoff = 0
 }
 
+map D64TM Lookup "D64TM"
+{
+	Next = "D6400"
+	AllowRespawn
+	NoIntermission
+}
+
 map D6400 Lookup "D6400"
 {
 	cluster = "16"
@@ -393,7 +400,7 @@ map D6431 Lookup "D6431"
 	exitpic = "INTERPI2"
 }
 
-map D6432 "D6432"
+map D6432 Lookup "D6432"
 {
 	Cluster = "5"
 	Sky1 = "SKY-G052"
@@ -506,7 +513,7 @@ cluster 18	//Arriving at the final battle
 }
 
 //DEATHMATCH MAPS
-map 64DM1 Lookup "Simple Death"
+map 64DM1 Lookup "64DM1"
 {
 	Cluster = "1"
 	Sky1 = "SKY05"
@@ -516,7 +523,7 @@ map 64DM1 Lookup "Simple Death"
 	exitpic = "INTERPI2"
 }
 
-map 64DM2 Lookup "Dying Alone"
+map 64DM2 Lookup "64DM2"
 {
 	Cluster = "1"
 	Sky1 = "SKY05"
@@ -526,7 +533,7 @@ map 64DM2 Lookup "Dying Alone"
 	exitpic = "INTERPI2"
 }
 
-map 64DM3 Lookup "Altar of Agony"
+map 64DM3 Lookup "64DM3"
 {
 	Cluster = "1"
 	Sky1 = "SKY05"
@@ -536,7 +543,7 @@ map 64DM3 Lookup "Altar of Agony"
 	exitpic = "INTERPI2"
 }
 
-map 64DM4 Lookup "The Downward Spiral"
+map 64DM4 Lookup "64DM4"
 {
 	Cluster = "1"
 	Sky1 = "SKY05"
@@ -546,7 +553,7 @@ map 64DM4 Lookup "The Downward Spiral"
 	exitpic = "INTERPI2"
 }
 
-map 64DM5 Lookup "Slaughter Tower"
+map 64DM5 Lookup "64DM5"
 {
 	Cluster = "1"
 	Sky1 = "SKY-0052"
@@ -556,7 +563,7 @@ map 64DM5 Lookup "Slaughter Tower"
 	exitpic = "INTERPI2"
 }
 
-map 64DM6 Lookup "Torture Hive"
+map 64DM6 Lookup "64DM6"
 {
 	Cluster = "1"
 	Sky1 = "SKY-0052"
@@ -566,7 +573,7 @@ map 64DM6 Lookup "Torture Hive"
 	exitpic = "INTERPI2"
 }
 
-map 64DM7 Lookup "Showdown"
+map 64DM7 Lookup "64DM7"
 {
 	Cluster = "1"
 	Sky1 = "SKY-0052"
@@ -577,7 +584,7 @@ map 64DM7 Lookup "Showdown"
 }
 
 // The Reckoning
-map REC01 Lookup "Tunnels"
+map REC01 Lookup "REC01"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD01"
@@ -586,7 +593,7 @@ map REC01 Lookup "Tunnels"
 	exitpic = "INTERPI1"
 }
 
-map REC02 Lookup "The Hazard Pits"
+map REC02 Lookup "REC02"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD02"
@@ -595,18 +602,11 @@ map REC02 Lookup "The Hazard Pits"
 	exitpic = "INTERPI1"
 }
 
-map REC03 Lookup "Delta Quadrant"
+map REC03 Lookup "REC03"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD03"
 	Next = "REC04"
 	InterMusic = "N64INTER"
 	exitpic = "INTERPI1"
-}
-
-map D64TM "Test Facility"
-{
-	Next = "D6400"
-	AllowRespawn
-	NoIntermission
 }
