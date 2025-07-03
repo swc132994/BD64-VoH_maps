@@ -50,12 +50,24 @@ D6430 = "Le repaire";
 D6431 = "Dans le vide";
 D6432 = "Trépidant";
 
-ENDINGMA = "La fin";
+ENDINGMA = "Finale";
 
 D6407TC = "Installation nucléaire (ABS)";
 D6427TC = "Profondeurs interdites (ABS)";
 D6428TC = "Tapis dans l'ombre (ABS)";
 D6434TC = "Crise (ABS)";
+
+REC01 = "Tunnels (REC)";
+REC02 = "Les fosses mortelles (REC)";
+REC03 = "Quadrant Delta (REC)";
+
+64DM1 = "Herbe mortelle (DM)";
+64DM2 = "Mort solitaire (DM)";
+64DM3 = "Autel de l'agonie (DM)";
+64DM4 = "La spirale descendante (DM)";
+64DM5 = "Tour d'abattage (DM)";
+64DM6 = "Ruche malveillante(DM)";
+64DM7 = "Confrontation (DM)";
 
 ////////////////////////////////////////////////////////////////////////////////
 // Intermission screens
@@ -207,7 +219,7 @@ BOT1_FRAG_TXT12 = "Je me souviens de toi sur Phobos. Tu t'es enfui. Je t'ai retr
 BOT1_KILLED_TXT = "Chance de cocu !";
 BOT1_KILLED_TXT = "Tu vas payer pour ça ,salopard !";
 BOT1_KILLED_TXT = "Sale petit con !";
-BOT1_KILLED_TXT = "D'où diable viens-tu ?!";
+BOT1_KILLED_TXT = "D'où diable sort-tu ?!";
 BOT1_KILLED_TXT = "Ça crains, putain !";
 
 BOT1_ROAMING_TXT1 = "Où es-tu, bordel ?";
@@ -232,13 +244,13 @@ BOT1_DEMORALIZED_TXT1 = "J'aimerais tellement que ce foutoire s'arrête.";
 BOT1_DEMORALIZED_TXT2 = "Je vais faire une sieste. Réveillez-moi quand sa sera fini.";
 BOT1_DEMORALIZED_TXT3 = "Je me faisais toujours avoir à chaque fois !";
 BOT1_DEMORALIZED_TXT4 = "Je n'en peut plus de toute cette merde !";
-BOT1_DEMORALIZED_TXT5 = "I might as well quit!";
+BOT1_DEMORALIZED_TXT5 = "Je n'est plus qu'à allez me rhabiller!";
 
 BOT1_WIN_TXT1 = "J'adore repeindre la carte avec du sang et des tripes !";
 BOT1_WIN_TXT2 = "Et bah, ça s'est bien passé !";
 BOT1_WIN_TXT3 = "J'ai apprécié votre agonie !";
 BOT1_WIN_TXT4 = "Mon travail ici est terminé. Il est temps de passer à autre chose…";
-BOT1_WIN_TXT5 = "All roads lead to hell for you.";
+BOT1_WIN_TXT5 = "Tous les chemins mènent à l'enfer pour toi.";
 
 BOT1_LOSE_TXT1 = "La prochaine fois, tu ferais mieux de surveiller tes arrières.";
 BOT1_LOSE_TXT2 = "Bordel c'est enfin fini !";
@@ -246,5 +258,5 @@ BOT1_LOSE_TXT3 = "Quel merdier !";
 BOT1_LOSE_TXT4 = "Je pense que j'en ai fini pour aujourd'hui !";
 BOT1_LOSE_TXT5 = "Vous n’aurez pas autant de chance la prochaine fois !";
 BOT1_LOSE_TXT6 = "Donnez-vous une grande tape dans le dos !";
-BOT1_LOSE_TXT7 = "Chanceux salaupard !";
+BOT1_LOSE_TXT7 = "Chanceux salopard !";
 BOT1_LOSE_TXT8 = "Ce n'est pas fini. Je reviendrai pour te refaire le portrait !";
