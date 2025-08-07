@@ -150,6 +150,11 @@ brightmap sprite TILEC571	{map "brightmaps/SKKEYPS_BR.png"}
 
 brightmap sprite TILEC6E3	{map "brightmaps/EXIT_BR.png"}
 
+//CLUB DOOM 64
+brightmap Sprite BRIXWIND	{map "brightmaps/BMBRXWN.png"}
+brightmap Sprite SNACK1		{map "brightmaps/BMSNAX.png"}
+brightmap Sprite SNACK2		{map "brightmaps/BMSNAX.png"}
+
 //GLOWING FLATS
 Glow
 {

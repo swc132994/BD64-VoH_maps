@@ -610,3 +610,11 @@ map REC03 Lookup "REC03"
 	InterMusic = "N64INTER"
 	exitpic = "INTERPI1"
 }
+
+//CLUB DOOM 64
+map CD64 Lookup "CD64"
+{
+	Author = "$AUTH_CRAN"
+	Music = "CLUBAMB"
+	InterMusic = "N64INTER"
+}

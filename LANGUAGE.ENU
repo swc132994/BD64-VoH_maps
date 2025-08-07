@@ -73,6 +73,10 @@ REC03 = "Delta Quadrant (REC)";
 64DM6 = "Torture Hive (DM)";
 64DM7 = "Showdown (DM)";
 
+CD64 = "Club Doom 64";
+
+AUTH_CRAN = "Remake by Craneo";
+
 ////////////////////////////////////////////////////////////////////////////////
 // Intermission screens
 
