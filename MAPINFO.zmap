@@ -396,6 +396,7 @@ map D6431 Lookup "D6431"
 	Sky1 = "VOIDSKY1"
 	Music = "MAPWD31"
 	Next = "D6419"
+	SecretNext = "CD64"
 	InterMusic = "INTERD"
 	exitpic = "INTERPI2"
 }
@@ -616,5 +617,7 @@ map CD64 Lookup "CD64"
 {
 	Author = "$AUTH_CRAN"
 	Music = "CLUBAMB"
+	Next = "D6419"
 	InterMusic = "N64INTER"
+	exitpic = "INTERPI2"
 }
