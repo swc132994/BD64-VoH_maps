@@ -90,6 +90,13 @@ brightmap sprite SW2EVIL	{map "brightmaps/SW2COMBR.png"}
 brightmap sprite SW2FOUR	{map "brightmaps/SW2SKNBR.png"}
 brightmap sprite SW2EPAN	{map "brightmaps/SW2SLDBR.png"}
 
+//brightmap sprite TILE4BB3	{map "brightmaps/TILE4BB3BR.png"}
+//brightmap sprite TILE5EFE	{map "brightmaps/TILE5EFEBR.png"}
+//brightmap sprite TILE6CEC	{map "brightmaps/TILE6CECBR.png"}
+//brightmap sprite TILE94FE	{map "brightmaps/TILE94FEBR.png"}
+//brightmap sprite TILE1710	{map "brightmaps/TILE1710BR.png"}
+//brightmap sprite OUTC45		{map "brightmaps/OUTC45BR.png"}
+
 //TEXTURES
 brightmap sprite TILE44BE	{map "brightmaps/TILE44BE_BR.png"}
 brightmap sprite GARGOY1	{map "brightmaps/DBRAIN1_BR.png"}
