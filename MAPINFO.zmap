@@ -55,6 +55,7 @@ map D6400 Lookup "D6400"
 	Music = "DINTRO"
 	Next = "D6401"
 	NOINTERMISSION
+	Author = "$AUTH_SGTMARK"
 }
 
 map D6401 Lookup "D6401"
@@ -65,6 +66,7 @@ map D6401 Lookup "D6401"
 	SecretNext = "D6432"
 	InterMusic = "INTERA"
 	exitpic = "INTERPI1"
+	Author = "$AUTH_RANDY_SAM"
 }
 
 map D6402 Lookup "D6402"
@@ -74,6 +76,7 @@ map D6402 Lookup "D6402"
 	Next = "D6403"
 	InterMusic = "INTERA"
 	exitpic = "INTERPI1"
+	Author = "$AUTH_RANDY_SAM"
 }
 
 map D6403 Lookup "D6403"
@@ -83,6 +86,7 @@ map D6403 Lookup "D6403"
 	Next = "D6404"
 	InterMusic = "INTERA"
 	exitpic = "INTERPI1"
+	Author = "$AUTH_DANNY_SAM"
 }
 
 map D6404 Lookup "D6404"
@@ -93,6 +97,7 @@ map D6404 Lookup "D6404"
 	SecretNext = "D6429"
 	InterMusic = "INTERA"
 	exitpic = "INTERPI1"
+	Author = "$AUTH_RANDY_SAM"
 }
 
 map D6405 Lookup "D6405"
@@ -102,6 +107,7 @@ map D6405 Lookup "D6405"
 	Next = "D6406"
 	InterMusic = "INTERA"
 	exitpic = "INTERPI1"
+	Author = "$AUTH_TIM_LUTA"
 }
 
 map D6406 Lookup "D6406"
@@ -111,6 +117,7 @@ map D6406 Lookup "D6406"
 	Next = "D6407"
 	InterMusic = "INTERB"
 	exitpic = "INTERPI1"
+	Author = "$AUTH_DANNY_SAM"
 }
 
 map D6407 Lookup "D6407"
@@ -121,6 +128,7 @@ map D6407 Lookup "D6407"
 	InterMusic = "INTERB"
 	exitpic = "INTERPI1"
 	REDIRECT = "TCMapCheck","D6407TC"	//Jumps to TC NUKAGE FACILITY
+	Author = "$AUTH_TIM_DOOMER_SAM"
 }
 
 map D6408A Lookup "D6408"	//original version
@@ -130,6 +138,7 @@ map D6408A Lookup "D6408"	//original version
 	Next = "D6409"
 	InterMusic = "INTERB"
 	exitpic = "INTERPI1"
+	Author = "$AUTH_RANDY_SAM"
 }
 
 map D6408 Lookup "D6408"
@@ -140,6 +149,7 @@ map D6408 Lookup "D6408"
 	InterMusic = "INTERB"
 	exitpic = "INTERPI1"
 	REDIRECT = "VMapCheck","D6408A"	//Jumps to original FINAL OUTPOST
+	Author = "$AUTH_SGTMARK"
 }
 
 map D6409 Lookup "D6409"
@@ -150,6 +160,7 @@ map D6409 Lookup "D6409"
 	Next = "D6410"
 	InterMusic = "INTERB"
 	exitpic = "INTERPI2"
+	Author = "$AUTH_RANDY_SAM"
 }
 
 map D6410 Lookup "D6410"
@@ -159,6 +170,7 @@ map D6410 Lookup "D6410"
 	Next = "D6411"
 	InterMusic = "INTERC"
 	exitpic = "INTERPI2"
+	Author = "$AUTH_DANNY_SAM"
 }
 
 map D6411 Lookup "D6411"
@@ -168,6 +180,7 @@ map D6411 Lookup "D6411"
 	Next = "D6412"
 	InterMusic = "INTERC"
 	exitpic = "INTERPI2"
+	Author = "$AUTH_DANNY_SAM"
 }
 
 map D6412 Lookup "D6412"
@@ -178,6 +191,7 @@ map D6412 Lookup "D6412"
 	SecretNext = "D6430"
 	InterMusic = "INTERC"
 	exitpic = "INTERPI2"
+	Author = "$AUTH_TIM_SAM_MEL"
 }
 
 map D6413 Lookup "D6413"
@@ -187,6 +201,7 @@ map D6413 Lookup "D6413"
 	Next = "D6414"
 	InterMusic = "INTERC"
 	exitpic = "INTERPI2"
+	Author = "$AUTH_TIM_SAM"
 }
 
 map D6414 Lookup "D6414"
@@ -196,6 +211,7 @@ map D6414 Lookup "D6414"
 	Next = "D6415"
 	InterMusic = "INTERD"
 	exitpic = "INTERPI2"
+	Author = "$AUTH_DANNY_DOOMER_SAM"
 }
 
 map D6415 Lookup "D6415"
@@ -205,6 +221,7 @@ map D6415 Lookup "D6415"
 	Next = "D6416"
 	InterMusic = "INTERD"
 	exitpic = "INTERPI2"
+	Author = "$AUTH_RANDY_SAM"
 }
 
 map D6416 Lookup "D6416"
@@ -214,6 +231,7 @@ map D6416 Lookup "D6416"
 	Next = "D6417"
 	InterMusic = "INTERD"
 	exitpic = "INTERPI2"
+	Author = "$AUTH_RANDY_SAM"
 }
 
 map D6417 Lookup "D6417"
@@ -226,6 +244,7 @@ map D6417 Lookup "D6417"
 	Next = "D6418"
 	InterMusic = "INTERD"
 	exitpic = "INTERPI2"
+	Author = "$AUTH_DANNY_SAM"
 }
 
 map D6418 Lookup "D6418"
@@ -236,6 +255,7 @@ map D6418 Lookup "D6418"
 	SecretNext = "D6431"
 	InterMusic = "INTERD"
 	exitpic = "INTERPI2"
+	Author = "$AUTH_TIM_SAM"
 }
 
 map D6419 Lookup "D6419"
@@ -245,6 +265,7 @@ map D6419 Lookup "D6419"
 	Next = "D6420"
 	InterMusic = "INTERD"
 	exitpic = "INTERPI2"
+	Author = "$AUTH_TIM_SAM"
 }
 
 map D6420 Lookup "D6420"
@@ -254,6 +275,7 @@ map D6420 Lookup "D6420"
 	Next = "D6421"
 	InterMusic = "INTERE"
 	exitpic = "INTERPI3"
+	Author = "$AUTH_RANDY_SAM"
 }
 
 map D6421 Lookup "D6421"
@@ -263,6 +285,7 @@ map D6421 Lookup "D6421"
 	Next = "D6422"
 	InterMusic = "INTERE"
 	exitpic = "INTERPI3"
+	Author = "$AUTH_TIM_SAM"
 }
 
 map D6422 Lookup "D6422"
@@ -273,6 +296,7 @@ map D6422 Lookup "D6422"
 	Next = "D6423"
 	InterMusic = "INTERE"
 	exitpic = "INTERPI3"
+	Author = "$AUTH_RANDY_SAM"
 }
 
 map D6423 Lookup "D6423"
@@ -282,6 +306,7 @@ map D6423 Lookup "D6423"
 	Next = "D6424"
 	InterMusic = "INTERE"
 	exitpic = "INTERPI3"
+	Author = "$AUTH_TIM_SAM"
 }
 
 map D6424 Lookup "D6424"
@@ -294,6 +319,7 @@ map D6424 Lookup "D6424"
 	InterMusic = "INTERF"
 	exitpic = "INTERPI3"
 	REDIRECT = "TCMapCheck","D6427TC"	//Jumps to TC Forbidden Deeper
+	Author = "$AUTH_RANDY_SAM_MEL"	
 }
 
 map D6425 Lookup "D6425"
@@ -307,6 +333,7 @@ map D6425 Lookup "D6425"
 	Next = "D6426"
 	InterMusic = "INTERF"
 	exitpic = "INTERPI3"
+	Author = "$AUTH_TIM_SAM"
 }
 
 map D6426 Lookup "D6426"
@@ -318,6 +345,7 @@ map D6426 Lookup "D6426"
 	Next = "D6427"
 	InterMusic = "INTERF"
 	exitpic = "INTERPI3"
+	Author = "$AUTH_DANNY_SAM"
 }
 
 map D6427 Lookup "D6427"
@@ -330,6 +358,7 @@ map D6427 Lookup "D6427"
 	Next = "D6428"
 	InterMusic = "INTERF"
 	exitpic = "INTERPI3"
+	Author = "$AUTH_RANDY_SAM"
 }
 
 map D6428A Lookup "D6428A"	//Original BD64 Absolution
@@ -341,6 +370,7 @@ map D6428A Lookup "D6428A"	//Original BD64 Absolution
 	InterMusic = "INTERG"
 	Next = "ENDINGMA"
 	exitpic = "INTERPI3"
+	Author = "$AUTH_SGTMARK"
 }
 
 map D6428 Lookup "D6428"
@@ -353,6 +383,7 @@ map D6428 Lookup "D6428"
 	Next = "ENDINGMA"
 	exitpic = "INTERPI3"
 	REDIRECT = "VMapCheck","D6428A"	//Jump to original BD64 Map28
+	Author = "$AUTH_STYD"
 }
 
 map ENDINGMA Lookup "ENDINGMA"
@@ -365,6 +396,7 @@ map ENDINGMA Lookup "ENDINGMA"
 	Next = "EndGameC"
 	exitpic = "INTERPI3"
 	nointermission
+	Author = "$SGTMARK"
 }
 
 map D6429 Lookup "D6429"
@@ -376,6 +408,7 @@ map D6429 Lookup "D6429"
 	InterMusic = "INTERA"
 	exitpic = "INTERPI1"
 	SecretNext = "D6434TC"		//CRISIS TC MAP - UNAVAILABLE IF TCMAPCHECK NOT ENABLED
+	Author = "$AUTH_DANNNY_SAM"
 }
 
 map D6430 Lookup "D6430"
@@ -386,6 +419,7 @@ map D6430 Lookup "D6430"
 	Next = "D6413"
 	InterMusic = "INTERC"
 	exitpic = "INTERPI2"
+	Author = "$AUTH_DANNNY_SAM"
 }
 
 map D6431 Lookup "D6431"
@@ -399,6 +433,7 @@ map D6431 Lookup "D6431"
 	SecretNext = "CD64"
 	InterMusic = "INTERD"
 	exitpic = "INTERPI2"
+	Author = "$AUTH_TIM_DOOMER_SAM"
 }
 
 map D6432 Lookup "D6432"
@@ -409,6 +444,7 @@ map D6432 Lookup "D6432"
 	Next = "D6402"
 	InterMusic = "INTERA"
 	exitpic = "INTERPI1"
+	Author = "$AUTH_RANDY_DANNY_TIM_SAM"	
 }
 
 //TC MAPS
@@ -419,6 +455,7 @@ map D6407TC Lookup "D6407TC"
 	Next = "D6407"				//RESERACH LAB
 	InterMusic = "INTERB"
 	exitpic = "INTERPI1"
+	Author = "$AUTH_SAM"
 }
 
 map D6427TC Lookup "D6427TC"
@@ -429,6 +466,7 @@ map D6427TC Lookup "D6427TC"
 	Next = "D6428TC"		//SHADOWS WATCHING
 	InterMusic = "INTERF"
 	exitpic = "INTERPI3"
+	Author = "$AUTH_SAM"
 }
 
 map D6428TC Lookup "D6428TC"
@@ -438,6 +476,7 @@ map D6428TC Lookup "D6428TC"
 	Next = "D6424"		//NO ESCAPE
 	InterMusic = "INTERF"
 	exitpic = "INTERPI3"
+	Author = "$AUTH_TIM_ELBRY"	
 }
 
 map D6434TC Lookup "D6434TC"
@@ -448,6 +487,7 @@ map D6434TC Lookup "D6434TC"
 	Next = "D6405"	//TECH CENTRE
 	InterMusic = "INTERA"
 	exitpic = "INTERPI1"
+	Author = "$AUTH_SAM"
 }
 
 cluster 1
@@ -592,6 +632,7 @@ map REC01 Lookup "REC01"
 	Next = "REC02"
 	InterMusic = "N64INTER"
 	exitpic = "INTERPI1"
+	Author = "$AUTH_SEARLE"
 }
 
 map REC02 Lookup "REC02"
@@ -601,6 +642,7 @@ map REC02 Lookup "REC02"
 	Next = "REC03"
 	InterMusic = "N64INTER"
 	exitpic = "INTERPI1"
+	Author = "$AUTH_SEARLE"
 }
 
 map REC03 Lookup "REC03"
@@ -610,6 +652,7 @@ map REC03 Lookup "REC03"
 	Next = "REC04"
 	InterMusic = "N64INTER"
 	exitpic = "INTERPI1"
+	Author = "$AUTH_SEARLE"
 }
 
 //CLUB DOOM 64

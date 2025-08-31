@@ -76,6 +76,20 @@ REC03 = "Delta Quadrant (REC)";
 CD64 = "Club Doom 64";
 
 AUTH_CRAN = "Remake by Craneo";
+AUTH_RANDY_SAM = "Randy Estrella/Sam Villarreal";
+AUTH_DANNY_SAM = "Danny Lewis/Sam Villarreal";
+AUTH_TIM_LUTA = "Tim Heydelaar/Lutarez";
+AUTH_SAM = "Sam Villarreal";
+AUTH_TIM_DOOMER_SAM = "Tim Heydelaar/The Doomer/Sam Villarreal";
+AUTH_SGTMARK = "Sgt Mark IV";
+AUTH_TIM_SAM_MEL = "Tim Heydelaar/Sam Villarreal/Melfice";
+AUTH_TIM_SAM = "Tim Heydelaar/Sam Villarreal";
+AUTH_DANNY_DOOMER_SAM = "Danny Lewis/The Doomer/Sam Villarreal";
+AUTH_RANDY_SAM_MEL = "Randy Estrella/Sam Villarreal/Melfice";
+AUTH_TIM_ELBRY = "Sam Villarreal/Elbryan42";
+AUTH_STYD = "Styd051";
+AUTH_RANDY_DANNY_TIM_SAM = "Randy Estrella/Danny Lewis/Tim Heydelaar/Sam Villarreal";
+AUTH_SEARLE = "Steven Searle";
 
 ////////////////////////////////////////////////////////////////////////////////
 // Intermission screens
