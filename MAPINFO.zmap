@@ -655,6 +655,16 @@ map REC03 Lookup "REC03"
 	Author = "$AUTH_SEARLE"
 }
 
+map REC04 Lookup "REC04"
+{
+	Sky1 = "SKY08"
+	Music = "MAPWD04"
+	Next = ""
+	InterMusic = "N64INTER"
+	exitpic = "INTERPI1"
+	Author = "$AUTH_SEARLE"
+}
+
 //CLUB DOOM 64
 map CD64 Lookup "CD64"
 {
