@@ -669,6 +669,16 @@ map REC05 Lookup "REC05"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD05"
+	Next = "REC06"
+	InterMusic = "N64INTER"
+	exitpic = "INTERPI1"
+	Author = "$AUTH_SEARLE"
+}
+
+map REC06 Lookup "REC06"
+{
+	Sky1 = "SKY-R052"
+	Music = "MAPWD06"
 	Next = ""
 	InterMusic = "N64INTER"
 	exitpic = "INTERPI1"
