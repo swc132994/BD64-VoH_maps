@@ -67,6 +67,7 @@ REC03 = "Delta Quadrant (REC)";
 REC04 = "Data Labs (REC)";
 REC05 = "Portal Core (REC)";
 REC06 = "Incinerated Offerings (REC)";
+REC07 = "Shadow Crypt (REC)";
 
 64DM1 = "Simple Death (DM)";
 64DM2 = "Dying Alone (DM)";
