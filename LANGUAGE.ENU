@@ -6,6 +6,7 @@
 
 D64EP1 = "Doom 64";
 D64EP2 = "Doom 64 (Skip Intro)";
+D64REC = "The Reckoning";
 D64EP3 = "Deathmatch (Zandronum)";
 D64EP4 = "Test Facility";
 
@@ -69,6 +70,7 @@ REC05 = "Portal Core (REC)";
 REC06 = "Incinerated Offerings (REC)";
 REC07 = "Shadow Crypt (REC)";
 REC08 = "The Circle Of Chaos (REC)";
+REC09 = "Source Of Evil (REC)";
 
 64DM1 = "Simple Death (DM)";
 64DM2 = "Dying Alone (DM)";
@@ -215,6 +217,16 @@ INTER08_TXT = "At last you have finally arrived at the mother demons lair\n"
 "\n"
 "She is waiting for you...\n";
 
+RECEND_TXT = "The agonizing scream of hell's most\n"
+"powerful being shatters your senses, and echos\n"
+"throughout the untold miles of hell's surface.\n"
+"an aged portal reveals itself, and as you step\n"
+"through it, you breathe a heavy sigh of\n"
+"relief. at last, the diseased terrors' that\n"
+"invaded your world have been crushed\n"
+"by your mighty hand, and should they ever rise\n"
+"again, they will always fear you and the\n"
+"reckoning that you brought down upon them...\n";
 
 //////////////////////////////////////////////////////////////////
 //Tags for bots

@@ -9,6 +9,11 @@ Episode D6401
 Name = "$D64EP2"
 }
 
+Episode REC01
+{
+Name = "$D64REC"
+}
+
 Episode 64DM1
 {
 Name = "$D64EP3"
@@ -553,6 +558,13 @@ cluster 18	//Arriving at the final battle
 	entertext = lookup, "INTER08_TXT"
 }
 
+cluster 19	//REC09 exit intermission.
+{
+	pic = "BOSBACK2"
+	music = "END"
+	exittext = lookup, "RECEND_TXT"
+}
+
 //DEATHMATCH MAPS
 map 64DM1 Lookup "64DM1"
 {
@@ -699,7 +711,18 @@ map REC08 Lookup "REC08"
 {
 	Sky1 = "SKY08"
 	Music = "MAPWD15"
-	Next = ""
+	Next = "REC09"
+	InterMusic = "N64INTER"
+	exitpic = "INTERPI1"
+	Author = "$AUTH_SEARLE"
+}
+
+map REC09 Lookup "REC09"
+{
+	cluster = "19"
+	Sky1 = "SKY-R052"
+	Music = "MAPWD18"
+	Next = "EndGameC"
 	InterMusic = "N64INTER"
 	exitpic = "INTERPI1"
 	Author = "$AUTH_SEARLE"
