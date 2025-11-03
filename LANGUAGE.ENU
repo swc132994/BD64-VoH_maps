@@ -217,12 +217,24 @@ INTER08_TXT = "At last you have finally arrived at the mother demons lair\n"
 "\n"
 "She is waiting for you...\n";
 
+
+//Reckoning Episode Intermissions
+
+RECMID_TXT = "Standing amongst the decaying husks\n"
+"of the portal guardian and it's minions, you\n"
+"laugh at hell's feeble efforts to stop\n"
+"you entering their homeworld.\n"
+"Ahead lies the one remaining gate to the\n"
+"demon's wretched domain, and your only chance\n"
+"to put an end to this nightmare\n"
+"once and for all...\n";
+
 RECEND_TXT = "The agonizing scream of hell's most\n"
 "powerful being shatters your senses, and echos\n"
 "throughout the untold miles of hell's surface.\n"
-"an aged portal reveals itself, and as you step\n"
+"An aged portal reveals itself, and as you step\n"
 "through it, you breathe a heavy sigh of\n"
-"relief. at last, the diseased terrors' that\n"
+"relief. At last, the diseased terrors' that\n"
 "invaded your world have been crushed\n"
 "by your mighty hand, and should they ever rise\n"
 "again, they will always fear you and the\n"

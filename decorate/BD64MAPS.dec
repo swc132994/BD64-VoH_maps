@@ -1998,3 +1998,17 @@ DeathSound "polt/break2"
 		Stop
 	}
 }
+
+ACTOR 64RedParticleFountain : RedParticleFountain Replaces RedParticleFountain
+{
+-NOBLOCKMAP
+-NOGRAVITY
++MOVEWITHSECTOR
+}
+
+ACTOR 64GreenParticleFountain : GreenParticleFountain Replaces GreenParticleFountain
+{
+-NOBLOCKMAP
+-NOGRAVITY
++MOVEWITHSECTOR
+}

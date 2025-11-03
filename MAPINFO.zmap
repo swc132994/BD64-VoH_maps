@@ -558,7 +558,14 @@ cluster 18	//Arriving at the final battle
 	entertext = lookup, "INTER08_TXT"
 }
 
-cluster 19	//REC09 exit intermission.
+cluster 19	//REC05 exit intermission.
+{
+	pic = "INTERPIC"
+	music = "PLOTA"
+	exittext = lookup, "RECMID_TXT"
+}
+
+cluster 20	//REC09 exit intermission.
 {
 	pic = "BOSBACK2"
 	music = "END"
@@ -679,6 +686,7 @@ map REC04 Lookup "REC04"
 
 map REC05 Lookup "REC05"
 {
+	cluster = "19"
 	Sky1 = "SKY08"
 	Music = "MAPWD05"
 	Next = "REC06"
@@ -709,7 +717,9 @@ map REC07 Lookup "REC07"
 
 map REC08 Lookup "REC08"
 {
-	Sky1 = "SKY08"
+	Sky1 = "SKY04"
+	Fade = "5D 45 63"
+	Fogdensity = 200
 	Music = "MAPWD15"
 	Next = "REC09"
 	InterMusic = "N64INTER"
@@ -719,7 +729,7 @@ map REC08 Lookup "REC08"
 
 map REC09 Lookup "REC09"
 {
-	cluster = "19"
+	cluster = "20"
 	Sky1 = "SKY-R052"
 	Music = "MAPWD18"
 	Next = "EndGameC"

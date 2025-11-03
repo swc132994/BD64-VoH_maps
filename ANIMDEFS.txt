@@ -523,41 +523,6 @@ FLAT SLIME05
 	pic SS0030 tics 1
 	pic SS0031 tics 1
 
-//SEWAGE FALL
-texture SWFALL1
-	pic SF0000 tics 1
-	pic SF0001 tics 1
-	pic SF0002 tics 1
-	pic SF0003 tics 1
-	pic SF0004 tics 1
-	pic SF0005 tics 1
-	pic SF0006 tics 1
-	pic SF0007 tics 1
-	pic SF0008 tics 1
-	pic SF0009 tics 1
-	pic SF0010 tics 1
-	pic SF0011 tics 1
-	pic SF0012 tics 1
-	pic SF0013 tics 1
-	pic SF0014 tics 1
-	pic SF0015 tics 1
-	pic SF0016 tics 1
-	pic SF0017 tics 1
-	pic SF0018 tics 1
-	pic SF0019 tics 1
-	pic SF0020 tics 1
-	pic SF0021 tics 1
-	pic SF0022 tics 1
-	pic SF0023 tics 1
-	pic SF0024 tics 1
-	pic SF0025 tics 1
-	pic SF0026 tics 1
-	pic SF0027 tics 1
-	pic SF0028 tics 1
-	pic SF0029 tics 1
-	pic SF0030 tics 1
-	pic SF0031 tics 1
-
 //RED FIRESKY
 TEXTURE SKY-0052
 	pic SKY-0052 rand 2 2
