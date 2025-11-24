@@ -1,4 +1,4 @@
-ACTOR TeleportHelishSound 8741
+ACTOR TeleportHellishSound 8741
 {
 //$category "Maps/BD64_Effects"
 Height 16
