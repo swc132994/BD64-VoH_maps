@@ -95,7 +95,6 @@ brightmap sprite SW2EPAN	{map "brightmaps/SW2SLDBR.png"}
 //brightmap sprite TILE6CEC	{map "brightmaps/TILE6CECBR.png"}
 //brightmap sprite TILE94FE	{map "brightmaps/TILE94FEBR.png"}
 //brightmap sprite TILE1710	{map "brightmaps/TILE1710BR.png"}
-//brightmap sprite OUTC45		{map "brightmaps/OUTC45BR.png"}
 
 //TEXTURES
 brightmap sprite TILE44BE	{map "brightmaps/TILE44BE_BR.png"}
@@ -161,6 +160,21 @@ brightmap sprite TILEC6E3	{map "brightmaps/EXIT_BR.png"}
 brightmap Sprite BRIXWIND	{map "brightmaps/BMBRXWN.png"}
 brightmap Sprite SNACK1		{map "brightmaps/BMSNAX.png"}
 brightmap Sprite SNACK2		{map "brightmaps/BMSNAX.png"}
+
+//OUTCAST
+brightmap Sprite OUTC21		{map "brightmaps/OUTC21_BR.png"}
+brightmap Sprite OUTC22		{map "brightmaps/OUTC22_BR.png"}
+brightmap Sprite OUTC25		{map "brightmaps/OUTC25_BR.png"}
+brightmap Sprite OUTC4		{map "brightmaps/OUTC4_BR.png"}
+brightmap Sprite OUTC41		{map "brightmaps/OUTC41_BR.png"}
+brightmap Sprite OUTC54		{map "brightmaps/OUTC54_BR.png"}
+brightmap Sprite OUTC55		{map "brightmaps/OUTC55_BR.png"}
+brightmap Sprite OUTSW01A	{map "brightmaps/OUTSW01A_BR.png"}
+brightmap Sprite OUTSW01B	{map "brightmaps/OUTSW01B_BR.png"}
+brightmap Sprite OUTSW02A	{map "brightmaps/OUTSW02A_BR.png"}
+brightmap Sprite OUTSW02B	{map "brightmaps/OUTSW02B_BR.png"}
+brightmap Sprite OUTSW03A	{map "brightmaps/OUTSW03A_BR.png"}
+brightmap Sprite OUTSW03B	{map "brightmaps/OUTSW03B_BR.png"}
 
 //GLOWING FLATS
 Glow
