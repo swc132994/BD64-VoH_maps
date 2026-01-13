@@ -114,36 +114,36 @@ FLAT ZPORTAL1
 
 //HOT ROCK FLAT
 FLAT SLIME12
-	pic SLIME09 rand 8 8
-	pic SLIME10 rand 8 8
-	pic SLIME11 rand 8 8
-	pic SLIME12 rand 8 8
-	pic SLIME11 rand 8 8
-	pic SLIME10 rand 8 8
+	pic SLIME09 rand 35 35
+	pic SLIME10 rand 16 16
+	pic SLIME11 rand 16 16
+	pic SLIME12 rand 35 35
+	pic SLIME11 rand 16 16
+	pic SLIME10 rand 16 16
 
 FLAT SLIME11
-	pic SLIME09 rand 8 8
-	pic SLIME10 rand 8 8
-	pic SLIME11 rand 8 8
-	pic SLIME12 rand 8 8
-	pic SLIME11 rand 8 8
-	pic SLIME10 rand 8 8
+	pic SLIME09 rand 35 35
+	pic SLIME10 rand 16 16
+	pic SLIME11 rand 16 16
+	pic SLIME12 rand 35 35
+	pic SLIME11 rand 16 16
+	pic SLIME10 rand 16 16
 
 FLAT SLIME10
-	pic SLIME09 rand 8 8
-	pic SLIME10 rand 8 8
-	pic SLIME11 rand 8 8
-	pic SLIME12 rand 8 8
-	pic SLIME11 rand 8 8
-	pic SLIME10 rand 8 8
+	pic SLIME09 rand 35 35
+	pic SLIME10 rand 16 16
+	pic SLIME11 rand 16 16
+	pic SLIME12 rand 35 35
+	pic SLIME11 rand 16 16
+	pic SLIME10 rand 16 16
 
 FLAT SLIME09
-	pic SLIME09 rand 8 8
-	pic SLIME10 rand 8 8
-	pic SLIME11 rand 8 8
-	pic SLIME12 rand 8 8
-	pic SLIME11 rand 8 8
-	pic SLIME10 rand 8 8
+	pic SLIME09 rand 35 35
+	pic SLIME10 rand 16 16
+	pic SLIME11 rand 16 16
+	pic SLIME12 rand 35 35
+	pic SLIME11 rand 16 16
+	pic SLIME10 rand 16 16
 
 //RED FIRESKY
 TEXTURE SKY-0052
