@@ -6,6 +6,7 @@
 
 D64EP1 = "Doom 64";
 D64EP2 = "Doom 64 (Passer introduction)";
+D64REC = "Le châtiment";
 D64EP3 = "Match à mort (Zandronum)";
 D64EP4 = "Centre de test";
 
@@ -14,7 +15,11 @@ D64QUIT = "Quitter Brutal Doom 64 ?";
 ////////////////////////////////////////////////////////////////////////////////
 // Level names
 
+
+
 TITLEMAP = "Menu principal";
+D64TH = "Centre de test";
+
 D6400 = "Site d'atterrissage";
 D6401 = "Zone de transit";
 D6402 = "Le Terraformateur";
@@ -60,6 +65,12 @@ D6434TC = "Crise (ABS)";
 REC01 = "Tunnels (REC)";
 REC02 = "Les fosses mortelles (REC)";
 REC03 = "Quadrant Delta (REC)";
+REC04 = "Centre de données (REC)";
+REC05 = "Noyau du portail (REC)";
+REC06 = "Offrandes incinérées (REC)";
+REC07 = "Crypte de l'Ombre (REC)";
+REC08 = "Le Cercle du Chaos (REC)";
+REC09 = "La source du mal (REC)";
 
 64DM1 = "Herbe mortelle (DM)";
 64DM2 = "Mort solitaire (DM)";
@@ -68,6 +79,24 @@ REC03 = "Quadrant Delta (REC)";
 64DM5 = "Tour d'abattage (DM)";
 64DM6 = "Ruche malveillante(DM)";
 64DM7 = "Confrontation (DM)";
+
+CD64 = "Boîte de nuit Doom 64";
+
+AUTH_CRAN = "Remasterisé par Craneo";
+AUTH_RANDY_SAM = "Randy Estrella / Sam Villarreal";
+AUTH_DANNY_SAM = "Danny Lewis / Sam Villarreal";
+AUTH_TIM_LUTA = "Tim Heydelaar / Lutarez";
+AUTH_SAM = "Sam Villarreal";
+AUTH_TIM_DOOMER_SAM = "Tim Heydelaar / The Doomer / Sam Villarreal";
+AUTH_SGTMARK = "Sgt Mark IV";
+AUTH_TIM_SAM_MEL = "Tim Heydelaar / Sam Villarreal / Melfice";
+AUTH_TIM_SAM = "Tim Heydelaar / Sam Villarreal";
+AUTH_DANNY_DOOMER_SAM = "Danny Lewis / The Doomer / Sam Villarreal";
+AUTH_RANDY_SAM_MEL = "Randy Estrella / Sam Villarreal / Melfice";
+AUTH_TIM_ELBRY = "Sam Villarreal / Elbryan42";
+AUTH_STYD = "Styd051";
+AUTH_RANDY_DANNY_TIM_SAM = "Randy Estrella / Danny Lewis / Tim Heydelaar / Sam Villarreal";
+AUTH_SEARLE = "Steven Searle";
 
 ////////////////////////////////////////////////////////////////////////////////
 // Intermission screens
@@ -146,7 +175,7 @@ INTER05_TXT = "Félicitations !\n"
 "HECTIC\n"
 "\n"
 "Seuls les meilleurs récolteront\n"
-"les récompenses.\n";
+"ses récompenses.\n";
 
 INTER06_TXT = "Après de nombreux efforts.../n"
 "TLa Mère maudite tombe enfin sous vos coups!\n"
@@ -181,7 +210,29 @@ INTER08_TXT = "Après avoir combattu en Enfer, vous voilà enfin devant son rep�
 "\n"
 "alors allez lui rendre un dernier hommage\n"
 "\n"
-"Elle vous attend...n";
+"Elle vous attend...\n";
+
+//Reckoning Episode Intermissions
+
+RECMID_TXT = "Debout au milieu des carcasses\n"
+"du gardien du portail et de ses sbires, vous\n"
+"vous jouer des efforts pitoresques de l'enfer pour.\n"
+"vous empêcher d'atteindre leur monde.\n"
+"\n"
+"Devant vous se trouve le dernier portail\n"
+"menant au domaine infernal du démon\n"
+"et votre unique chance de mettre fin à ce\n"
+"cauchemar une fois pour toutes...\n";
+
+RECEND_TXT = "Le cri déchirant de l'être le plus puissant\n"
+"des enfers vous brise les sens, et résonne\n"
+"à travers les kilomètres de la surface infernale.\n"
+"Un portail ancestral se dévoile, et en le franchissant,\n"
+"vous poussez un profond soupir de soulagement.\n"
+"Enfin, les terreurs maléfiques qui ont envahi votre monde\n"
+"ont été anéanties par vos propres mains, et si jamais\n" 
+"elles venaient à se relever, elles vous craindraient à jamais,\n"
+"vous et le châtiment que vous leur avez infligé...\n";
 
 //////////////////////////////////////////////////////////////////
 //Tags for Bots
