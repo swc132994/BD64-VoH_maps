@@ -494,4 +494,10 @@ Texture "F_SKY1", 64, 64
 	Patch "SKY1", 0, 0
 }
 
+Texture "TGLASS", 64, 128
+{
+	Patch "TILE9A5C", 0, 0
+	Patch "TILE9A5C", 0, 64
+}
+
 // End of texture definitions
