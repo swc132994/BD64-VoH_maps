@@ -1,0 +1,14 @@
+//=====================================
+//Portuguese(Brasil) by: C. Arriba
+//100% Done
+//=====================================
+
+[ptg pt]
+
+//BD64 MAP OPTIONS
+FO_OPTION_MAP_OP = "Opções de Mapa";
+FO_OPTION_MAP_OP_TXT ="(Essas opções funcionam APENAS com os Mapas do BD64)";
+FO_OPTION_MAP_EASY ="Jogar Map08 e Map28 Mais Fáceis (Sem a Batalha (Estendida) do Chefe Final) =";
+FO_OPTION_MAP_TC ="Adicionar Mapas do Absolution TC à Campanha =";
+FO_OPTION_MAP_TITLE ="Mostrar sequência do título de abertura original do Doom 64 na inicialização";
+FO_OPTION_MAP_TITLE_TXT ="Mostrar Mapa do Título de Abertura (Requer Reinicialização) =";

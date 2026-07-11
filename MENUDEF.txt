@@ -1,0 +1,57 @@
+OptionMenu "BD64Menu"
+{
+	Title "$FO_64OPTIONS_MAIN"
+	StaticText "$FO_64OPTIONS_MAIN_TXT1", 1
+	StaticText "$FO_64OPTIONS_MAIN_TXT2",1
+	Command "$FO_64SYSTEM_APPLIED","PukeName BD64Respawn"
+	StaticText " "
+	StaticText "$FO_64OPTIONS_PRESET",1
+	StaticText "$FO_64MNU_BEFORE",1
+	StaticText "$FO_64MNU_APPLY",1
+	TextField "$FO_64MNU_LAST", "BD64_Preset"
+	StaticText "$FO_64MNU_COMFIRM",1
+	StaticText "$FO_64MNU_NOTHING",1
+	StaticText " "
+	SafeCommand "$FO_64MNU_DEFAULT", "pukename DefaultCvars"
+	StaticText "$FO_64MNU_DEFAULT_TXT",1
+	SafeCommand "$FO_64MNU_CLASSICAL", "pukename ClassicalCvars"
+	StaticText "$FO_64MNU_CLASSICAL_TXT",1	
+	SafeCommand "$FO_64MNU_SWC", "pukename StevenCvars"
+	StaticText "$FO_64MNU_SWC_TXT1",1
+	StaticText "$FO_64MNU_SWC_TXT2",1
+	StaticText " "
+	StaticText "$FO_64MNU_RANDOM_TXT1",1
+	SafeCommand "$FO_64MNU_RANDOM", "pukename RandomCvars"
+	StaticText " "
+	StaticText "$FO_64OPTIONS_OPTIONS",1
+	StaticText " "
+	Submenu "$FO_64MNU_OTHER_ITEMS",		"BrutalDoom64Item/WeaponOptions"
+	Submenu "$FO_64MNU_OHTHER_MONSTER",			"BrutalDoom64OptionsOtherMonster"
+	Submenu "$FO_64MNU_PERFORMANCE",		"BrutalDoom64OptionsPerformance"
+	Submenu "$FO_64MNU_LEVEL_OPTIONS",			"BD64MapOptions"	//ADDED LINE
+	StaticText " "
+	StaticText "$FO_64OPTIONS_GAMEPLAY",1
+	StaticText " "
+	Submenu "$FO_64MNU_WEAPONS_SPAWN",		"BrutalDoom64OptionsItem/WeaponSpawner"	
+	Submenu "$FO_64MNU_MONSTER_SPAWN",			"BrutalDoom64OptionsMonsterSpawner"	
+	StaticText " "
+	StaticText ""
+	Submenu 	"$FO_64MNU_ENGINE",		"GZDShortcuts"
+}
+
+OptionMenu "BD64MapOptions"
+{
+	Title "$FO_OPTION_MAP_OP"
+	StaticText "$FO_64OPTIONS_MAIN_TXT1",1
+	StaticText "$FO_64OPTIONS_MAIN_TXT2",1
+	Command "$FO_64SYSTEM_APPLIED","PukeName BD64Respawn"
+		StaticText ""
+		StaticText "$FO_OPTION_MAP_OP_TXT",1
+		StaticText ""
+	Option "$FO_OPTION_MAP_EASY","VMapCheckCvar","YesNo"
+	Option "$FO_OPTION_MAP_TC","TCMapCheckCvar","YesNo"
+		StaticText ""
+		StaticText "$FO_OPTION_MAP_TITLE",1
+		StaticText ""
+	Option "$FO_OPTION_MAP_TITLE_TXT","BD64_SkipTitleMap","NoYes"
+}

@@ -15,8 +15,6 @@ D64QUIT = "Quit Brutal Doom 64?";
 ////////////////////////////////////////////////////////////////////////////////
 // Level names
 
-
-
 TITLEMAP = "Main Menu";
 D64TM = "Test Facility";
 
@@ -317,3 +315,11 @@ BOT1_LOSE_TXT5 = "You won't be as lucky next time!";
 BOT1_LOSE_TXT6 = "Give yourself a big pat on the back!";
 BOT1_LOSE_TXT7 = "Lucky bastard!";
 BOT1_LOSE_TXT8 = "This isn't the end. I'll be back to finish this!";
+
+//BD64 MAP OPTIONS
+FO_OPTION_MAP_OP = "Map Options";
+FO_OPTION_MAP_OP_TXT ="(These options ONLY work with the BD64 Maps)";
+FO_OPTION_MAP_EASY ="Play Easier Map08 and Map28 (No Extended Final) Boss Fight) =";
+FO_OPTION_MAP_TC ="Add Absolution Maps to Campaign (Modified Outpost Omega) =";
+FO_OPTION_MAP_TITLE ="Show orignal Doom 64 opening title sequence at startup";
+FO_OPTION_MAP_TITLE_TXT ="Show Opening Title Map (Restart Required) =";

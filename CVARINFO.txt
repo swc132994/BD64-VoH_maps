@@ -1,0 +1,3 @@
+server int VMapCheckCvar = 0;				//to access vanilla map08 and map28
+server int TCMapCheckCvar = 1;				//to access absolution TC maps
+server int BD64_SkipTitleMap = 0;			//used for skipping title map

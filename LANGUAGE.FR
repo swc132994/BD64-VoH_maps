@@ -15,8 +15,6 @@ D64QUIT = "Quitter Brutal Doom 64 ?";
 ////////////////////////////////////////////////////////////////////////////////
 // Level names
 
-
-
 TITLEMAP = "Menu principal";
 D64TH = "Centre de test";
 
@@ -311,3 +309,11 @@ BOT1_LOSE_TXT5 = "Vous n’aurez pas autant de chance la prochaine fois !";
 BOT1_LOSE_TXT6 = "Donnez-vous une grande tape dans le dos !";
 BOT1_LOSE_TXT7 = "Chanceux salopard !";
 BOT1_LOSE_TXT8 = "Ce n'est pas fini. Je reviendrai pour te refaire le portrait !";
+
+//BD64 MAP OPTIONS
+FO_OPTION_MAP_OP = "Options des niveaux :";
+FO_OPTION_MAP_OP_TXT = "(Ces options fonctionnent UNIQUEMENT avec les cartes BD64).";
+FO_OPTION_MAP_EASY = "Jouez aux cartes plus faciles Map08 et Map28 (pas de combat de boss ((étendue finale)) =";
+FO_OPTION_MAP_TC = "Ajouter les cartes Absolution TC à la campagne principale =";
+FO_OPTION_MAP_TITLE = "Afficher la séquence d'ouverture originale de Doom 64 au démarrage.";
+FO_OPTION_MAP_TITLE_TXT = "Afficher le niveau d'ouverture du jeu (redémarrage requis) =";
