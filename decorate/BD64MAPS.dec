@@ -763,16 +763,19 @@ Radius 6
 	{
 	Spawn:
 		RNDR A 0 NoDelay ThrustThingZ(0,955,0,1)
-		Goto Spawn2
-	Spawn2:
+	ACSCheck:
+		TNT1 A 2 ACS_NamedExecuteAlways("RainCheckerACS")
 		TNT1 A 0 A_CheckSight("SpawnLess")
 		TNT1 A 0 A_PlaySound("AMBRAIN",CHAN_7,1,TRUE)
 		TNT1 A 2 A_SpawnItemEx("RainDrop",Random(-256,256),0,-2,0,0,0,Random(0,360),128,1)	//WAS 1 TIC
-		Loop
+		Goto ACSCheck
 	SpawnLess:
 		TNT1 A 0 A_StopSound(CHAN_7)
 		TNT1 A 8 A_SpawnItemEx("RainDrop",Random(-256,256),0,-2,0,0,0,Random(0,360),128,1)
-		Goto Spawn2
+		Goto ACSCheck
+	Death:
+		TNT1 A 35 A_StopSound(CHAN_7)
+		Goto ACSCheck
 	}
 }
 

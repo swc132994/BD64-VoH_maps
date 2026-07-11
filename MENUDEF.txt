@@ -54,4 +54,8 @@ OptionMenu "BD64MapOptions"
 		StaticText "$FO_OPTION_MAP_TITLE",1
 		StaticText ""
 	Option "$FO_OPTION_MAP_TITLE_TXT","BD64_SkipTitleMap","NoYes"
+		StaticText ""
+		StaticText "$FO_MENU_MAP_EFX",1		//BD64 Map EFX
+		StaticText ""
+	Option "$FO_OPTION_EFX_RAIN","RainChecker_Cvar","YesNo"
 }
