@@ -28,6 +28,7 @@ ACTOR D64HomingFireBallLauncher
 		TNT1 AAAAAAA 1 A_Chase
 		Goto Missile
 	Missile:
+		TNT1 A 0 A_JumpIfInTargetInventory("PowerInvisibility",1,"DontFire")
 		TNT1 A 1 A_CheckSight("DontFire")
 		TNT1 A 2 A_FaceTarget
 		TNT1 A 1 A_CustomMissile("RevenantTracer",40)
@@ -756,6 +757,7 @@ Actor SFXRainSpawner256 4543
 //$category "Maps/BD64_Effects"
 Height 4
 Radius 6
++CLIENTSIDEONLY
 +NOCLIP
 +SPAWNCEILING
 +NOGRAVITY
@@ -767,11 +769,11 @@ Radius 6
 		TNT1 A 8 ACS_NamedExecuteAlways("RainCheckerACS")
 		TNT1 A 0 A_CheckSight("SpawnLess")
 		TNT1 A 0 A_PlaySound("AMBRAIN",CHAN_7,1,TRUE)
-		TNT1 AAAAAAAAAA 0 A_SpawnItemEx("RainDrop",Random(-256,256),0,-2,0,0,0,Random(0,360),128,1)	
+		TNT1 AAAAAAAAAA 0 A_SpawnItemEx("RainDrop",Random(-256,256),0,-2,0,0,0,Random(0,360))	
 		Goto ACSCheck
 	SpawnLess:
 		TNT1 A 0 A_StopSound(CHAN_7)
-		TNT1 AA 8 A_SpawnItemEx("RainDrop",Random(-256,256),0,-2,0,0,0,Random(0,360),128,1)
+		TNT1 AA 4 A_SpawnItemEx("RainDrop",Random(-256,256),0,-2,0,0,0,Random(0,360))
 		Goto ACSCheck
 	Death:
 		TNT1 A 35 A_StopSound(CHAN_7)
@@ -784,42 +786,32 @@ Actor RainDrop
 Scale 1.0
 Height 2
 Radius 3
-Mass 0
-Speed 0
 Alpha 0.8
-Gravity 1.2
 Renderstyle Translucent
 +MISSILE
--NOGRAVITY
 +CLIENTSIDEONLY
++NOBLOCKMAP
 +DONTSPLASH
+-NOGRAVITY
 	States
 	{
 	Spawn:
-		TNT1 A 0 A_Jump(256,1,2,3,4,5,6)
-		TNT1 A 0 A_SetGravity(1.1)
-		Goto SetDrop
-		TNT1 A 0 A_SetGravity(1.0)
-		Goto SetDrop
-		TNT1 A 0 A_SetGravity(0.9)
-		Goto SetDrop
-		TNT1 A 0 A_SetGravity(0.8)
-		Goto SetDrop
-		TNT1 A 0 A_SetGravity(0.7)
-	SetDrop:
+		TNT1 A 0 NoDelay A_SetGravity(FRandom(0.6,1.2))
 		RNDR A -1
 		Stop
 	Death:
-		RNDR BCDEFGH 1 A_FadeOut(0.15)
+		//RNDR BCDEFGH 1 A_FadeOut(0.15)
+		TNT1 A 1
 		Stop
 	}
 }
 
-Actor SnowSpawner512 7544		//repurposed to ash for fire sky maps
+Actor AshSpawner512 7544
 {
 //$category "Maps/BD64_Effects"
 Height 1
 Radius 6
++CLIENTSIDEONLY
 +NOCLIP
 +SPAWNCEILING
 +NOGRAVITY
@@ -827,38 +819,33 @@ Radius 6
 	{
 	Spawn:
 		SNOW A 0 NoDelay ThrustThingZ(0,955,0,1)
-		Goto Spawn2
-	Spawn2:
-		TNT1 A 6 A_SpawnItemEx("SnowParticle",Random(-256,256),0,-2,0,0,0,Random(0,360),128,1)
-		Loop
+		TNT1 A 8 A_SpawnItemEx("AshParticle",Random(-256,256),0,-2,0,0,0,Random(0,360))
+		Wait
 	}
 }
 
-Actor SnowParticle
+Actor AshParticle
 {
-Translation "0:255=%[0,0,0]:[0,0,0]"	//changes colour to black
-Scale 0.6
-Height 1
-Radius 1
-Damage 0
-Mass 0
-Gravity 0.05
-Alpha 0
-RenderStyle Translucent
+Scale 0.7
+Height 2
+Radius 3
+Alpha 0.9
+RenderStyle Stencil
+StencilColor "48 48 48"
 +MISSILE
--NOGRAVITY
++CLIENTSIDEONLY
 +NOBLOCKMAP
 +DONTSPLASH
+-NOGRAVITY
 	States
 	{
 	Spawn:
-		SNOW AAAAAAAAA 2 NoDelay A_FadeIn(0.1)
-	SpawnHold:
+		TNT1 A 0 NoDelay A_SetGravity(FRandom(0.01,0.03))
 		SNOW A -1
 		Stop
 	Death:
-		SNOW A 1 A_FadeOut(0.05)
-		Loop
+		TNT1 A 1
+		Stop
 	}
 }
 
