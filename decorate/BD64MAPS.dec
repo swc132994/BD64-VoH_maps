@@ -17,10 +17,8 @@ Radius 16
 ACTOR D64HomingFireBallLauncher
 {
 +NOGRAVITY
-+FLOAT
 +LOOKALLAROUND
 +NOCLIP
-+MISSILEMORE
 +MISSILEEVENMORE
 	States
 	{
@@ -530,19 +528,7 @@ radius 4
 	Active:
 	Spawn:
 		TNT1 A 0 NoDelay A_PlaySound("Sparks/Spawn",CHAN_AUTO)
-		TNT1 A 0 A_Jump(256,1,2,3,4,5,6)
 		TNT1 A 1 A_SpawnItemEx("SparkFlare_W1")
-		goto SpawnSparks
-		TNT1 A 1 A_SpawnItemEx("SparkFlare_W1")
-		goto SpawnSparks
-		TNT1 A 1 A_SpawnItemEx("SparkFlare_W1")
-		goto SpawnSparks
-		TNT1 A 1 A_SpawnItemEx("SparkFlare_W1")
-		goto SpawnSparks
-		TNT1 A 1 A_SpawnItemEx("SparkFlare_W1")
-		goto SpawnSparks
-		TNT1 A 1 A_SpawnItemEx("SparkFlare_W1")
-	SpawnSparks:
 		TNT1 AA 0 A_CustomMissile("Spark_W1",0.0,0,random(0,360),2,random(270,315))
 		TNT1 AA 0 A_CustomMissile("Spark_W2",0.0,0,random(0,360),2,random(270,315))
 		TNT1 AA 0 A_CustomMissile("Spark_W3",0.0,0,random(0,360),2,random(270,315))
@@ -592,19 +578,7 @@ radius 4
 	Active:
 	Spawn:
 		TNT1 A 0 NoDelay A_PlaySound("Sparks/Spawn",CHAN_AUTO)
-		TNT1 A 0 A_Jump(256,1,2,3,4,5,6)
 		TNT1 A 1 A_SpawnItemEx("SparkFlare_W1")
-		goto SpawnSparks
-		TNT1 A 1 A_SpawnItemEx("SparkFlare_W1")
-		goto SpawnSparks
-		TNT1 A 1 A_SpawnItemEx("SparkFlare_W1")
-		goto SpawnSparks
-		TNT1 A 1 A_SpawnItemEx("SparkFlare_W1")
-		goto SpawnSparks
-		TNT1 A 1 A_SpawnItemEx("SparkFlare_W1")
-		goto SpawnSparks
-		TNT1 A 1 A_SpawnItemEx("SparkFlare_W1")
-	SpawnSparks:
 		TNT1 AA 0 A_CustomMissile("Spark_W1",0.0,0,random(0,360),2,random(67,113))
 		TNT1 AA 0 A_CustomMissile("Spark_W2",0.0,0,random(0,360),2,random(67,113))
 		TNT1 AA 0 A_CustomMissile("Spark_W3",0.0,0,random(0,360),2,random(67,113))
@@ -656,7 +630,7 @@ renderstyle Add
 	{
 	Spawn:
 		SPRK A 1 bright A_FadeOut(0.1)
-		loop
+		Wait
 	}
 }
 
@@ -1016,7 +990,7 @@ Radius 0
 	states
 	{
 	Spawn:
-		TNT1 AAAAAAA 0 NoDelay A_SpawnItemEx("GlassOntheFloor",random(45,-45),random(45,-45))
+		TNT1 AAAAAAA 0 NoDelay A_SpawnItemEx("GlassOnTheFloor",random(45,-45),random(45,-45))
 		TNT1 A 1
 		Stop
 	}
@@ -1074,6 +1048,7 @@ ACTOR BasicParticle
 {
 Radius 0
 Height 0
+Mass 5
 +MISSILE
 -NOGRAVITY
 +NOTELEPORT
@@ -1792,18 +1767,17 @@ Damage 500
 Speed 15
 FastSpeed 15
 Gravity 1.0
-DamageType "ExplosiveImpact"
-PROJECTILE
--NOGRAVITY
-+FORCERADIUSDMG
+DamageType "Extreme"
++MISSILE
+//+FORCERADIUSDMG
 	States
 	{
 	Spawn:
-		ARST A 100
-		Loop
+		ARST A -1
+		Stop
 	XDeath:
 	Death:
-		TNT1 A 0 A_Explode(6000,700,0)
+//		TNT1 A 0 A_Explode(6000,700,0)	//damage added to map script to boost overall performance
 		TNT1 A 0 A_SpawnItemEx("DetectFloorCrater")
 		TNT1 A 0 A_SpawnItemEx("DetectCeilCrater")
 		TNT1 A 0 A_SpawnItemEx("ExplosionFlareSpawner")
