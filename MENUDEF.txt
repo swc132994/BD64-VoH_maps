@@ -57,5 +57,5 @@ OptionMenu "BD64MapOptions"
 		StaticText ""
 		StaticText "$FO_MENU_MAP_EFX",1		//BD64 Map EFX
 		StaticText ""
-	Option "$FO_OPTION_EFX_RAIN","RainChecker_Cvar","YesNo"
+	Option "$FO_OPTION_EFX_RAIN","RainCheckerCvar","YesNo"
 }
