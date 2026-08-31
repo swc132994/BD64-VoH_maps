@@ -11,19 +11,17 @@ Renderstyle Add
 	States
 	{
 	Spawn:
-		TNT1 A 3
-	SpawnLoop:
-		"####" "#" 2 ACS_NamedExecuteAlways("LightAndFogChecker")
+		TNT1 A 0 NoDelay A_JumpIf(CallACS("LightFogDisabledACS") == 1,"NoShaft")
 	Live:
 		SHF1 ABCDEFGHIJKLMNOPQRSTUVWXYZ 2
 		SHF2 ABCDEFGHIJKLMNOPQRSTUVWXYZ 2
 		SHF3 ABCDEFGHIJKLMNOPQRSTUVWXYZ 2
 		SHF4 ABCDEFGHIJKLMNOPQRSTUVWXYZ 2
 		SHF5 ABCDEFGHIJKLMNOPQRSTUVW 2
-		Goto SpawnLoop
+		Goto Spawn
 	NoShaft:
-		TNT1 A 105
-		Goto SpawnLoop
+		TNT1 A 35
+		Goto Spawn
 	}
 }
 
@@ -34,17 +32,15 @@ Alpha 0.15
 	States
 	{
 	Spawn:
-		TNT1 A 3
-	SpawnLoop:
-		"####" "#" 2 ACS_NamedExecuteAlways("LightAndFogChecker")
+		TNT1 A 0 NoDelay A_JumpIf(CallACS("LightFogDisabledACS") == 1,"NoShaft")
 	Live:
 		FBB3 ABCDEFGHIJKLMNOPQRSTUVWXYZ 2
 		FBB4 ABCDEFGHIJKLMNOPQRSTUVWXYZ 2
 		FBB5 ABCDEFGHIJKL 2
-		Goto SpawnLoop
+		Goto Spawn
 	NoShaft:
-		TNT1 A 105
-		Goto SpawnLoop
+		TNT1 A 35
+		Goto Spawn
 	}
 }
 
@@ -79,16 +75,14 @@ Scale 5.0
 	States
 	{
 	Spawn:
-		TNT1 A 3
-	SpawnLoop:
-		"####" "#" 2 ACS_NamedExecuteAlways("LightAndFogChecker")
+		TNT1 A 0 NoDelay A_JumpIf(CallACS("LightFogDisabledACS") == 1,"NoShaft")
 	Live:
 		FBB1 ABCDEFGHIJKLMNOPQRSTUVWXYZ 2
 		FBB2 ABCDE 2
-		Goto SpawnLoop
+		Goto Spawn
 	NoShaft:
-		TNT1 A 105
-		Goto SpawnLoop
+		TNT1 A 35
+		Goto Spawn
 	}
 }
 
@@ -150,15 +144,13 @@ Renderstyle Add
 	States
 	{
 	Spawn:
-		S9FA A 3
-	SpawnLoop:
-		"####" "#" 2 ACS_NamedExecuteAlways("LightAndFogChecker")
+		TNT1 A 0 NoDelay A_JumpIf(CallACS("LightFogDisabledACS") == 1,"NoShaft")
 	Live:
 		S9FA A 35
-		Goto SpawnLoop
+		Goto Spawn
 	NoShaft:
-		TNT1 A 105
-		Goto SpawnLoop
+		TNT1 A 35
+		Goto Spawn
 	}
 }
 
@@ -177,15 +169,13 @@ Renderstyle Add
 	States
 	{
 	Spawn:
-		S9FA B 3
-	SpawnLoop:
-		"####" "#" 2 ACS_NamedExecuteAlways("LightAndFogChecker")
+		TNT1 A 0 NoDelay A_JumpIf(CallACS("LightFogDisabledACS") == 1,"NoShaft")
 	Live:
 		S9FA B 35
-		Goto SpawnLoop
+		Goto Spawn
 	NoShaft:
-		TNT1 A 105
-		Goto SpawnLoop
+		TNT1 A 35
+		Goto Spawn
 	}
 }
 
@@ -234,15 +224,13 @@ alpha 0.7
 	states
 	{
 	Spawn:
-		TNT1 A 3
-	SpawnLoop:
-		"####" A 2 ACS_NamedExecuteAlways("LightAndFogChecker")
+		TNT1 A 0 NoDelay A_JumpIf(CallACS("HaloDisabledACS") == 1,"NoLight")
 	Live:
 		LENS A 35
-		Goto SpawnLoop
+		Goto Spawn
 	NoLight:
-		TNT1 A 105
-		Goto SpawnLoop
+		TNT1 A 35
+		Goto Spawn
 	}
 }
 
@@ -260,15 +248,13 @@ alpha 0.7
 	states
 	{
 	Spawn:
-		TNT1 A 3
-	SpawnLoop:
-		"####" A 2 ACS_NamedExecuteAlways("LightAndFogChecker")
+		TNT1 A 0 NoDelay A_JumpIf(CallACS("HaloDisabledACS") == 1,"NoLight")
 	Live:
 		LENS A 35
-		Goto SpawnLoop
+		Goto Spawn
 	NoLight:
-		TNT1 A 105
-		Goto SpawnLoop
+		TNT1 A 35
+		Goto Spawn
 	}
 }
 
@@ -300,15 +286,13 @@ Yscale 0.3
 	states
 	{
 	Spawn:
-		TNT1 A 3
-	SpawnLoop:
-		"####" A 2 ACS_NamedExecuteAlways("LightAndFogChecker")
+		TNT1 A 0 NoDelay A_JumpIf(CallACS("HaloDisabledACS") == 1,"NoLight")
 	Live:
 		LENS A 35
-		Goto SpawnLoop
+		Goto Spawn
 	NoLight:
-		TNT1 A 105
-		Goto SpawnLoop
+		TNT1 A 35
+		Goto Spawn
 	}
 }
 
@@ -324,15 +308,13 @@ alpha 1
 	states
 	{
 	Spawn:
-		TNT1 A 3
-	SpawnLoop:
-		"####" A 2 ACS_NamedExecuteAlways("LightAndFogChecker")
+		TNT1 A 0 NoDelay A_JumpIf(CallACS("HaloDisabledACS") == 1,"NoLight")
 	Live:
 		LENS A 35
-		Goto SpawnLoop
+		Goto Spawn
 	NoLight:
-		TNT1 A 105
-		Goto SpawnLoop
+		TNT1 A 35
+		Goto Spawn
 	}
 }
 
@@ -348,15 +330,13 @@ alpha 0.4
 	states
 	{
 	Spawn:
-		TNT1 A 3
-	SpawnLoop:
-		"####" A 2 ACS_NamedExecuteAlways("LightAndFogChecker")
+		TNT1 A 0 NoDelay A_JumpIf(CallACS("HaloDisabledACS") == 1,"NoLight")
 	Live:
 		LENS A 35
-		Goto SpawnLoop
+		Goto Spawn
 	NoLight:
-		TNT1 A 105
-		Goto SpawnLoop
+		TNT1 A 35
+		Goto Spawn
 	}
 }
 

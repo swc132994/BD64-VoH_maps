@@ -7,4 +7,7 @@ Delay(5);
 SetActorProperty(0,APROP_JUMPZ,6.0);
 }
 
-script "MapRainCheckerACS" (void) CLIENTSIDE { SetResultValue(GetCVar("RainCheckerCvar")); }
+script "MapRainCheckerACS" (void) NET CLIENTSIDE 
+{ 
+    SetResultValue(GetUserCVar(ConsolePlayerNumber(),"RainCheckerCvar")); 
+}
