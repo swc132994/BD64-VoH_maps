@@ -48,7 +48,7 @@ map TITLEMAP lookup "TITLEMAP"	//was called "Title"
 
 map D64TM Lookup "D64TM"
 {
-	Next = "D6400"
+	Next = "D6401"
 	AllowRespawn
 	NoIntermission
 }
