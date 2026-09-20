@@ -1,14 +1,323 @@
-//=====================================
-//Portuguese(Brasil) by: C. Arriba
-//100% Done
-//=====================================
+[ptg pt]	//Portuguese (Brasil)
 
-[ptg pt]
+D64EP1 = "Doom 64";
+D64EP2 = "Doom 64 (Pular Intro)";
+D64REC = "O Acerto de Contas";
+D64EP3 = "Mata-Mata (Zandronum)";
+D64EP4 = "Centro de Testes";
+
+D64QUIT = "Sair do Brutal Doom 64?";
+
+////////////////////////////////////////////////////////////////////////////////
+// Level names
+
+TITLEMAP = "Menu Principal";
+D64TM = "Centro de Testes";
+
+D6400 = "Ponto de Desembarque";
+D6401 = "Área de Concentração";
+D6402 = "O Terraformador";
+D6403 = "Engenharia Principal";
+D6404 = "Área de Contenção";
+D6405 = "Centro Técnico";
+D6406 = "Quadrante Alfa";
+D6407 = "Laboratório de Pesquisa";
+D6408 = "Posto Avançado Final";
+D6409 = "Ainda Mais Simples";
+D6410 = "O Sangramento";
+D6411 = "Núcleo do Terror";
+D6412 = "Altar da Dor";
+D6413 = "Cidadela Sombria";
+D6414 = "Olho da Tempestade";
+D6415 = "Entradas Sombrias";
+D6416 = "Fortaleza de Sangue";
+D6417 = "Cuidado Onde Pisa";
+D6418 = "Medo Gerado";
+D6419 = "A Espiral";
+D6420 = "Colapso";
+D6421 = "Armadilhas";
+D6422 = "Oferendas Queimadas";
+D6423 = "Templo Profano";
+D6424 = "Sem Saída";
+D6425 = "Gato e Rato";
+D6426 = "Puro Sangue";
+D6427 = "Playground";
+D6428 = "A Absolvição Final";
+D6428A = "A Absolvição";
+D6429 = "Posto Avançado Ômega";
+D6430 = "O Covil";
+D6431 = "No Vazio";
+D6432 = "Héctico";
+
+ENDINGMA = "Fim";
+
+D6407TC = "Instalação TÓXICA (ABS)";
+D6427TC = "Mais Profundo Proibido (ABS)";
+D6428TC = "Sombras Observando (ABS)";
+D6434TC = "Crise (ABS)";
+
+REC01 = "Túneis (REC)";
+REC02 = "Fossos de Perigo (REC)";
+REC03 = "Quadrante Delta (REC)";
+REC04 = "Laboratórios de Dados (REC)";
+REC05 = "Núcleo do Portal (REC)";
+REC06 = "Oferendas Incineradas (REC)";
+REC07 = "Cripta das Sombras (REC)";
+REC08 = "O Círculo do Caos (REC)";
+REC09 = "Fonte do Mal (REC)";
+
+64DM1 = "Morte Simples (DM)";
+64DM2 = "Morrendo Sozinho (DM)";
+64DM3 = "Altar da Agonia (DM)";
+64DM4 = "A Espiral Descendente (DM)";
+64DM5 = "Torre do Massacre (DM)";
+64DM6 = "Colmeia de Tortura (DM)";
+64DM7 = "Confronto Final (DM)";
+
+CD64 = "Club Doom 64";
+
+AUTH_CRAN = "Recriado por Craneo";
+AUTH_RANDY_SAM = "Randy Estrella/Sam Villarreal";
+AUTH_DANNY_SAM = "Danny Lewis/Sam Villarreal";
+AUTH_TIM_LUTA = "Tim Heydelaar/Lutarez";
+AUTH_SAM = "Sam Villarreal";
+AUTH_TIM_DOOMER_SAM = "Tim Heydelaar/The Doomer/Sam Villarreal";
+AUTH_SGTMARK = "Sgt Mark IV";
+AUTH_TIM_SAM_MEL = "Tim Heydelaar/Sam Villarreal/Melfice";
+AUTH_TIM_SAM = "Tim Heydelaar/Sam Villarreal";
+AUTH_DANNY_DOOMER_SAM = "Danny Lewis/The Doomer/Sam Villarreal";
+AUTH_RANDY_SAM_MEL = "Randy Estrella/Sam Villarreal/Melfice";
+AUTH_TIM_ELBRY = "Sam Villarreal/Elbryan42";
+AUTH_STYD = "Styd051";
+AUTH_RANDY_DANNY_TIM_SAM = "Randy Estrella/Danny Lewis/Tim Heydelaar/Sam Villarreal";
+AUTH_SEARLE = "Steven Searle";
+
+////////////////////////////////////////////////////////////////////////////////
+// Intermission screens
+
+INTRO01_TXT = "Você conseguiu passar com sucesso!\n"
+"Enquanto a porta do elevador se fecha atrás de você,\n"
+"você ouve gemidos e gritos humanos e demoníacos,\n"
+"misturados com tiros e explosões.\n"
+"\n"
+"Com o tempo, você não ouve nada além de silêncio.\n"
+"Sua equipe estava totalmente despreparada para o que\n"
+"estava à espera no local de desembarque.\n"
+"\n"
+"Após um momento, você percebe que está sozinho.\n"
+"\n"
+"A sensação dentro da base é estranha, e aquele cheiro,\n"
+"você se lembra bem daquele cheiro de morte.\n"
+"\n"
+"Não há mais volta agora.\n"
+"Você prepara sua arma e avança para dentro da base.\n";
+
+INTER01_TXT = "As ordens da UAC eram para eliminar a ameaça demoníaca.\n"
+"\n"
+"Você limpou a base e chegou ao portal.\n"
+"No entanto, parece que a UAC não aprendeu nada\n"
+"desde a primeira invasão demoníaca!\n"
+"\n"
+"Você considera desativar a sequência de autodestruição,\n"
+"mas sabe que a UAC nunca aprenderá.\n"
+"\n"
+"Você vai garantir que a\n"
+"UAC não possa arruinar tudo de novo!\n"
+"Deixe que o portal e os experimentos da UAC sejam destruídos\n"
+"junto com a base.\n"
+"\n"
+"Conforme você atravessa o portal e a névoa se dissipa,\n"
+"a familiaridade da situação toma conta de você.\n"
+"Sua gargalhada e seu grito sedento de sangue ecoam enquanto\n"
+"mais uma vez você se encontra\n"
+"no meio de...\n";
+
+INTER02_TXT = "O vasto silêncio lembra\n"
+	"você do necrotério militar.\n"
+	"\n"
+	"Você sabia que a instalação\n"
+	"tinha um nível confidencial.\n"
+	"\n"
+	"A U.A.C. tinha um bom motivo\n"
+	"para esconder este lugar.\n"
+	"\n"
+	"Você se pergunta o que\n"
+	"poderia ser...";
+
+INTER03_TXT = "Você sorri.\n"
+"Em que lugar estranho\n"
+"você tropeçou?\n"
+"\n"
+"Os demônios não esperavam\n"
+"que você sobrevivesse até aqui.\n"
+"Você sente a presença demoníaca\n"
+"deles esperando por você...\n"
+"\n"
+"Hora de fazê-los engolir as próprias entranhas!\n";
+
+INTER04_TXT = "Ao dar o primeiro passo,\n"
+"o odor acre faz você se sentir miserável.\n"
+"\n"
+"Morte e carcaças de demônios por toda parte!\n"
+"\n"
+"Nenhum pesadelo poderia ter\n"
+"preparado você para esta realidade.\n"
+"\n"
+"Você percebe que este lugar\n"
+"não foi feito para\n"
+"os vivos.\n";
+
+INTER05_TXT = "Parabéns!\n"
+"Você encontrou...\n"
+"\n"
+"HÉCTICO\n"
+"\n"
+"Apenas os melhores colherão\n"
+"suas recompensas.\n";
+
+INTER06_TXT = "Finalmente...\n"
+"A mãe das bestas foi morta!\n"
+"Pela primeira vez, os demônios sabem o que é o medo.\n"
+"Enquanto sangue e suor escorrem do seu capacete,\n"
+"você testemunha o puro terror dos demônios enquanto eles escapam.\n"
+"\n"
+"Você queria ter suas férias e sua terapia,\n"
+"mas infelizmente, seu sentimento de vitória dura pouco.\n"
+"\n"
+"A base e o portal foram destruídos. Não há como voltar!\n"
+"\n"
+"Conforme a loucura e a sede de sangue consomem sua mente,\n"
+"você acha melhor deixar a UAC pensar que você morreu.\n"
+"\n"
+"Sabendo que o Inferno não pode ser destruído,\n"
+"você decide permanecer no Inferno.\n"
+"Você continua sua matança infinita para garantir que\n"
+"o Doom não retorne, enquanto o inferno teme seu nome...\n";
+
+INTER07_TXT = "Você decidiu se aventurar pelo desconhecido\n"
+"antes de confrontar a ameaça que espreita no coração do Inferno.\n"
+"\n"
+"Após chegar a uma dimensão estranha, você\n"
+"\n"
+"vê que um velho amigo quer ter você para o jantar.\n"
+"\n"
+"Que comece o entretenimento!\n";
+
+INTER08_TXT = "Finalmente você chegou ao covil da mãe dos demônios\n"
+"\n"
+"Após batalhar pelo inferno, a mãe dos demônios está diante de você\n"
+"\n"
+"Vá e preste suas homenagens\n"
+"\n"
+"Ela está esperando por você...\n";
+
+//Reckoning Episode Intermissions
+
+RECMID_TXT = "Em pé entre as carcaças em decomposição\n"
+"do guardião do portal e seus lacaios, você\n"
+"ri dos esforços fracos do inferno para impedi-lo\n"
+"de entrar em seu mundo natal.\n"
+"À frente está o único portal restante para o\n"
+"domínio miserável dos demônios, e sua única chance\n"
+"de pôr um fim a este pesadelo\n"
+"uma vez por todas...\n";
+
+RECEND_TXT = "O grito agonizante do ser mais poderoso\n"
+"do inferno despedaça seus sentidos e ecoa\n"
+"por milhas incontáveis da superfície do inferno.\n"
+"Um portal estranho se revela, e ao atravessá-lo,\n"
+"você solta um profundo suspiro de\n"
+"alívio. Finalmente, os terrores demoníacos que\n"
+"invadiram seu mundo foram esmagados\n"
+"por sua mão poderosa, e se eles algum dia se levantarem\n"
+"novamente, sempre temerão você e o\n"
+"acerto de contas que você trouxe sobre eles...\n";
+
+//////////////////////////////////////////////////////////////////
+// Tags for bots
+
+TAGBD_BOT1 = "Recruta";
+TAGBD_BOT2 = "Destruidor";
+TAGBD_BOT3 = "Executor";
+TAGBD_BOT4 = "Belicista";
+
+BOT1_INTRO_TXT1 = "Bem-vindo ao paraíso!";
+BOT1_INTRO_TXT2 = "Vamos começar essa festa.";
+BOT1_INTRO_TXT3 = "Hora de me divertir um pouco!";
+BOT1_INTRO_TXT4 = "Ótimo, esse buraco de minhoca de novo!";
+BOT1_INTRO_TXT5 = "Quanto tempo teremos que aguentar nesses buracos?";
+BOT1_INTRO_TXT6 = "Eu vou matar todos vocês!";
+BOT1_INTRO_TXT7 = "Hora do show!";
+BOT1_INTRO_TXT8 = "Estou indo te pegar!";
+BOT1_INTRO_TXT9 = "Apenas espere aí. Chego já já.";
+BOT1_INTRO_TXT10 = "Eu vou adorar isso.";
+BOT1_INTRO_TXT11 = "Hora de quebrar uns dentes!";
+BOT1_INTRO_TXT12 = "Vocês não têm a menor chance!";
+
+BOT1_FRAG_TXT1 = "Fique no chão, porra!";
+BOT1_FRAG_TXT2 = "Fique morto dessa vez!";
+BOT1_FRAG_TXT3 = "Não se levante por minha causa!";
+BOT1_FRAG_TXT4 = "Surpresa! Você está morto!";
+BOT1_FRAG_TXT5 = "Ganancioso como um porco!";
+BOT1_FRAG_TXT6 = "Como estão as coisas aí embaixo?";
+BOT1_FRAG_TXT7 = "Descanse em pedaços.";
+BOT1_FRAG_TXT8 = "Dormindo no trabalho?";
+BOT1_FRAG_TXT9 = "Demais!";
+BOT1_FRAG_TXT10 = "Levante-se, seu preguiçoso. É só um arranhão!";
+BOT1_FRAG_TXT11 = "Por um momento, seus gritos doces de agonia calaram as vozes.";
+BOT1_FRAG_TXT12 = "Eu me lembro de você em Phobos. Você fugiu. Eu te achei agora.";
+
+BOT1_KILLED_TXT1 = "Desgraçado de sorte!";
+BOT1_KILLED_TXT2 = "Você vai pagar caro por isso!";
+BOT1_KILLED_TXT3 = "Seu mijo de cachorro!";
+BOT1_KILLED_TXT4 = "De onde diabos você veio?!";
+BOT1_KILLED_TXT5 = "Isso fede a mijo!";
+
+BOT1_ROAMING_TXT1 = "Onde diabos você está?";
+BOT1_ROAMING_TXT2 = "Recue ou vai se foder!";
+BOT1_ROAMING_TXT3 = "Você não pode se esconder de mim para sempre!";
+BOT1_ROAMING_TXT4 = "Vamos fazer uma redecoração!";
+BOT1_ROAMING_TXT5 = "Apareça, apareça onde quer que esteja!";
+
+BOT1_NOROAMING_TXT1 = "Vocês não vão me parar!";
+BOT1_NOROAMING_TXT2 = "Ainda não terminamos!";
+BOT1_NOROAMING_TXT3 = "Espere! Não acabou ainda!";
+BOT1_NOROAMING_TXT4 = "Me dê uma chance, porra!";
+BOT1_NOROAMING_TXT5 = "Isso está virando uma droga!";
+
+BOT1_ENRAGED_TXT1 = "VAI SE FODER, SEU OTÁRIO!";
+BOT1_ENRAGED_TXT2 = "VOCÊ ESTÁ PEDINDO PARA SER TORTURADO!!";
+BOT1_ENRAGED_TXT3 = "EU VOU TE ARREBENTAR!";
+BOT1_ENRAGED_TXT4 = "CAIA FORA DAQUI!";
+BOT1_ENRAGED_TXT5 = "EU VOU FAZER VOCÊ PAGAR!";
+
+BOT1_DEMORALIZED_TXT1 = "Eu só queria que esse show de horrores parasse.";
+BOT1_DEMORALIZED_TXT2 = "Vou tirar um cochilo. Me acorda depois.";
+BOT1_DEMORALIZED_TXT3 = "Eu só me ferro toda vez!";
+BOT1_DEMORALIZED_TXT4 = "Não aguento mais essa porcaria!";
+BOT1_DEMORALIZED_TXT5 = "É melhor eu desistir!";
+
+BOT1_WIN_TXT1 = "Eu adoro pintar o mapa com sangue e tripas!";
+BOT1_WIN_TXT2 = "Bom, isso correu bem!";
+BOT1_WIN_TXT3 = "Eu me diverti!";
+BOT1_WIN_TXT4 = "Meu trabalho aqui acabou. Hora de ir em frente...";
+BOT1_WIN_TXT5 = "Todos os caminhos levam ao inferno para você.";
+
+BOT1_LOSE_TXT1 = "Da próxima vez é melhor tomar cuidado.";
+BOT1_LOSE_TXT2 = "Ainda bem que isso acabou.";
+BOT1_LOSE_TXT3 = "Que monte de merda!";
+BOT1_LOSE_TXT4 = "Acho que chega por hoje!";
+BOT1_LOSE_TXT5 = "Você não terá tanta sorte da próxima vez!";
+BOT1_LOSE_TXT6 = "Dê um tapinha nas próprias costas!";
+BOT1_LOSE_TXT7 = "Maldito de sorte!";
+BOT1_LOSE_TXT8 = "Isso não é o fim. Eu voltarei para terminar isso!";
 
 //BD64 MAP OPTIONS
 FO_OPTION_MAP_OP = "Opções de Mapa";
-FO_OPTION_MAP_OP_TXT ="(Essas opções funcionam APENAS com os Mapas do BD64)";
-FO_OPTION_MAP_EASY ="Jogar Map08 e Map28 Mais Fáceis (Sem a Batalha (Estendida) do Chefe Final) =";
-FO_OPTION_MAP_TC ="Adicionar Mapas do Absolution TC à Campanha =";
-FO_OPTION_MAP_TITLE ="Mostrar sequência do título de abertura original do Doom 64 na inicialização";
-FO_OPTION_MAP_TITLE_TXT ="Mostrar Mapa do Título de Abertura (Requer Reinicialização) =";
+FO_OPTION_MAP_OP_TXT = "(Essas opções funcionam APENAS com os Mapas do BD64)";
+FO_OPTION_MAP_EASY = "Jogar Map08 e Map28 Mais Fáceis (Sem a Batalha (Estendida) do Chefe Final) =";
+FO_OPTION_MAP_TC = "Adicionar Mapas do Absolution TC à Campanha =";
+FO_OPTION_MAP_TITLE = "Mostrar sequência do título de abertura original do Doom 64 na inicialização";
+FO_OPTION_MAP_TITLE_TXT = "Mostrar Mapa do Título de Abertura (Requer Reinicialização) =";
+FO_MENU_MAP_EFX = "Efeitos do Mapa";
+FO_OPTION_EFX_RAIN = "Ativar Efeito de Chuva =";

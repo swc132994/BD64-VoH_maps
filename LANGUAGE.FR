@@ -1,8 +1,4 @@
-//=====================================
-//French strings written by Pygargue00fr.
-//=====================================
-
-[fr]
+[fr]	//French (by Pygargue00fr)
 
 D64EP1 = "Doom 64";
 D64EP2 = "Doom 64 (Passer introduction)";
@@ -16,7 +12,7 @@ D64QUIT = "Quitter Brutal Doom 64 ?";
 // Level names
 
 TITLEMAP = "Menu principal";
-D64TH = "Centre de test";
+D64TM = "Centre de test";
 
 D6400 = "Site d'atterrissage";
 D6401 = "Zone de transit";
@@ -46,8 +42,8 @@ D6424 = "Aucune issue";
 D6425 = "Chat et souris";
 D6426 = "Cœur du mal";
 D6427 = "Aire de jeux";
-D6428A = "L'Absolution";
 D6428 = "L'absolution ultime";
+D6428A = "L'Absolution";
 D6429 = "Avant-poste Oméga";
 D6430 = "Le repaire";
 D6431 = "Dans le vide";
@@ -127,13 +123,8 @@ INTER01_TXT = "Les ordres de l'UAC d'éliminer la menace démoniaque était clai
 "\n"
 "Vous vivant, vous allez vous assurer que plus jamais\n"
 "l'UAC ne pourra de nouveau provoquer l'apocalypse !\n"
-"De cette base, comme le portail et leurs experiences,"
-"vous n'en laisserez aucune trace.\n"
-"\n"
-"Alors que vous franchissez le portail et que la brume se dissipe,\n"
-"la familiarité de la situation vous apparaît tel un fantôme du passé.\n"
-"Votre cri sanguinaire résonne dans la pénombre,\n"
-"alors qu'une fois de plus vous vous retrouvez seul dans les tréfonds...\n";
+"De cette base, comme le portail et leurs experiences,\n"
+"vous n'en laisserez aucune trace.\n";
 
 INTER02_TXT = "Le vaste silence\n"
 	"vous rappelle la morgue militaire.\n"
@@ -147,7 +138,7 @@ INTER02_TXT = "Le vaste silence\n"
 	"Que peut-il bien ce trouver dans ces murs ?...\n";
 
 INTER03_TXT = "Le sourir au lèvres, vous vous demandez\n"
-"dans quel autre endroit sordide avez-vous donc mis les pieds ?"
+"dans quel autre endroit sordide avez-vous donc mis les pieds ?\n"
 "\n"
 "Aucun démon n'aurait imaginé\n"
 "vous voir survivre aussi longtemps.\n"
@@ -175,8 +166,8 @@ INTER05_TXT = "Félicitations !\n"
 "Seuls les meilleurs récolteront\n"
 "ses récompenses.\n";
 
-INTER06_TXT = "Après de nombreux efforts.../n"
-"TLa Mère maudite tombe enfin sous vos coups!\n"
+INTER06_TXT = "Après de nombreux efforts...\n"
+"La Mère maudite tombe enfin sous vos coups!\n"
 "Pour la première fois, les démons découvrent ce qu’est la peur.\n"
 "\n"
 "Seul témoin de leurs fuite impétueuse,\n"
@@ -225,10 +216,10 @@ RECMID_TXT = "Debout au milieu des carcasses\n"
 RECEND_TXT = "Le cri déchirant de l'être le plus puissant\n"
 "des enfers vous brise les sens, et résonne\n"
 "à travers les kilomètres de la surface infernale.\n"
-"Un portail ancestral se dévoile, et en le franchissant,\n"
+"Un étrange portail se dévoile, et en le franchissant,\n"
 "vous poussez un profond soupir de soulagement.\n"
-"Enfin, les terreurs maléfiques qui ont envahi votre monde\n"
-"ont été anéanties par vos propres mains, et si jamais\n" 
+"Enfin, les terreurs démoniaques qui ont envahi votre monde\n"
+"ont été anéanties par vos propres mains, et si jamais\n"
 "elles venaient à se relever, elles vous craindraient à jamais,\n"
 "vous et le châtiment que vous leur avez infligé...\n";
 
@@ -240,7 +231,7 @@ TAGBD_BOT3 = "Exécuteur";
 TAGBD_BOT4 = "Belliciste";
 
 BOT1_INTRO_TXT1 = "Bienvenue au paradis !";
-BOT1_INTRO_TXT2 = "Que la fête commence !.";
+BOT1_INTRO_TXT2 = "Que la fête commence !";
 BOT1_INTRO_TXT3 = "Il est temps de s'amuser un peu !";
 BOT1_INTRO_TXT4 = "Super,encore ce foutu trou à rats !";
 BOT1_INTRO_TXT5 = "Combien de temps allons-nous devoir nous battre dans ces trous à rats ?";
@@ -249,12 +240,12 @@ BOT1_INTRO_TXT7 = "C'est parti !";
 BOT1_INTRO_TXT8 = "Je vous vous chercher !";
 BOT1_INTRO_TXT9 = "Part te planquer, je te retrouverai tôt ou tard !";
 BOT1_INTRO_TXT10 = "Je vais vraiment me faire plaisir.";
-BOT1_INTRO_TXT11 = "Je vais vous exploser les dents !".;
+BOT1_INTRO_TXT11 = "Je vais vous exploser les dents !";
 BOT1_INTRO_TXT12 = "Vous n'avez aucune chance, bande d'abrutis !";
 
 BOT1_FRAG_TXT1 = "Reste à terre !";
 BOT1_FRAG_TXT2 = "Reste mort cette fois !";
-BOT1_FRAG_TXT3 = "Que je ne te revois plus dans le coin !"
+BOT1_FRAG_TXT3 = "Que je ne te revois plus dans le coin !";
 BOT1_FRAG_TXT4 = "Surprise ! t'es mort !";
 BOT1_FRAG_TXT5 = "Aussi avare qu'un  gros rat !";
 BOT1_FRAG_TXT6 = "Comment ça se passe là-dessous ?";
@@ -265,17 +256,17 @@ BOT1_FRAG_TXT10 = "Relève-toi, espèce de fainéant. Ce n'est qu'une blessure s
 BOT1_FRAG_TXT11 = "Pendant un instant, vos doux cris d'agonie ont fait taire les voix.";
 BOT1_FRAG_TXT12 = "Je me souviens de toi sur Phobos. Tu t'es enfui. Je t'ai retrouvé.";
 
-BOT1_KILLED_TXT = "Chance de cocu !";
-BOT1_KILLED_TXT = "Tu vas payer pour ça ,salopard !";
-BOT1_KILLED_TXT = "Sale petit con !";
-BOT1_KILLED_TXT = "D'où diable sort-tu ?!";
-BOT1_KILLED_TXT = "Ça crains, putain !";
+BOT1_KILLED_TXT1 = "Chance de cocu !";
+BOT1_KILLED_TXT2 = "Tu vas payer pour ça ,salopard !";
+BOT1_KILLED_TXT3 = "Sale petit con !";
+BOT1_KILLED_TXT4 = "D'où diable sort-tu ?!";
+BOT1_KILLED_TXT5 = "Ça crains, putain !";
 
 BOT1_ROAMING_TXT1 = "Où es-tu, bordel ?";
 BOT1_ROAMING_TXT2 = "Rammène toi où vas bien te faire foutre !";
 BOT1_ROAMING_TXT3 = "Tu ne peux pas te planquer pour toujours !";
-BOT1_ROAMING_TXT4= "On va repeindre les murs avec ton sang";
-BOT1_ROAMING_TXT4 = "Sort, sort, où que tu soit !";
+BOT1_ROAMING_TXT4 = "On va repeindre les murs avec ton sang";
+BOT1_ROAMING_TXT5 = "Sort, sort, où que tu soit !";
 
 BOT1_NOROAMING_TXT1 = "Vous ne m'arrêterez pas, bande de connards !";
 BOT1_NOROAMING_TXT2 = "J'en est pas fini avec vous !";
@@ -308,7 +299,7 @@ BOT1_LOSE_TXT4 = "Je pense que j'en ai fini pour aujourd'hui !";
 BOT1_LOSE_TXT5 = "Vous n’aurez pas autant de chance la prochaine fois !";
 BOT1_LOSE_TXT6 = "Donnez-vous une grande tape dans le dos !";
 BOT1_LOSE_TXT7 = "Chanceux salopard !";
-BOT1_LOSE_TXT8 = "Ce n'est pas fini. Je reviendrai pour te refaire le portrait !";
+BOT1_LOSE_TXT8 = "Ce n'est pas fini. Je reviendrai pour te refaire le portrait !";
 
 //BD64 MAP OPTIONS
 FO_OPTION_MAP_OP = "Options des niveaux :";

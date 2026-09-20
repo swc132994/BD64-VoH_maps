@@ -1,8 +1,4 @@
-//=====================================
-//English strings updated by Pygargue00fr.
-//=====================================
-
-[enu default]
+[enu default]	//English strings updated by Pygargue00fr.
 
 D64EP1 = "Doom 64";
 D64EP2 = "Doom 64 (Skip Intro)";
@@ -99,7 +95,7 @@ AUTH_SEARLE = "Steven Searle";
 ////////////////////////////////////////////////////////////////////////////////
 // Intermission screens
 
-INTRO01_TXT = "You succesfully made it through!\n"
+INTRO01_TXT = "You successfully made it through!\n"
 "As the elevator's door closes behind you,\n"
 "you hear human and demonic moans and screams,\n"
 "mixed with gun fire and explosions.\n"
@@ -122,7 +118,7 @@ INTER01_TXT = "The UAC's orders were to eliminate the demonic threat.\n"
 "However, It seems the UAC hasn't learnt anything\n"
 "since the first demonic invasion!\n"
 "\n"
-"You consider deactivating the destuct sequence,\n"
+"You consider deactivating the destruct sequence,\n"
 "but you know that the UAC will never learn.\n"
 "\n"
 "You are going to make sure that the\n"
@@ -137,16 +133,16 @@ INTER01_TXT = "The UAC's orders were to eliminate the demonic threat.\n"
 "amidst...\n";
 
 INTER02_TXT = "The vast silence reminds\n"
-	"you of the military morgue.\n"
-	"\n"
-	"You knew the installation\n"
-	"had a classified level.\n"
-	"\n"
-	"The U.A.C. had some good\n"
-	"reason to hide this place.\n"
-	"\n"
-	"You wonder what it\n"
-	"could be...";
+"you of the military morgue.\n"
+"\n"
+"You knew the installation\n"
+"had a classified level.\n"
+"\n"
+"The U.A.C. had some good\n"
+"reason to hide this place.\n"
+"\n"
+"You wonder what it\n"
+"could be...";
 
 INTER03_TXT = "You smile.\n"
 "What strange place have\n"
@@ -188,7 +184,7 @@ INTER06_TXT = "Finally...\n"
 "You wanted to have your vacation and therapy,\n"
 "but unfortunately, your sense of victory is short lived.\n"
 "\n"
-"The base and portal are destoyed. There is no way back!\n"
+"The base and portal are destroyed. There is no way back!\n"
 "\n"
 "As the madness and bloodlust slowly consume your mind,\n"
 "you think it's better to let the UAC think you died.\n"
@@ -230,9 +226,9 @@ RECMID_TXT = "Standing amongst the decaying husks\n"
 RECEND_TXT = "The agonizing scream of hell's most\n"
 "powerful being shatters your senses, and echos\n"
 "throughout the untold miles of hell's surface.\n"
-"An aged portal reveals itself, and as you step\n"
+"A strange portal reveals itself, and as you step\n"
 "through it, you breathe a heavy sigh of\n"
-"relief. At last, the diseased terrors' that\n"
+"relief. At last, the demonic terrors that\n"
 "invaded your world have been crushed\n"
 "by your mighty hand, and should they ever rise\n"
 "again, they will always fear you and the\n"
@@ -280,10 +276,10 @@ BOT1_KILLED_TXT5 = "This smells of shite!";
 BOT1_ROAMING_TXT1 = "Where the fuck are you?";
 BOT1_ROAMING_TXT2 = "Back off or get fucked off!";
 BOT1_ROAMING_TXT3 = "You can't hide from me forever!";
-BOT1_ROAMING_TXT4= "Let's do some decorating";
-BOT1_ROAMING_TXT4 = "Come out, come out wherever you are!";
+BOT1_ROAMING_TXT4 = "Let's do some decorating";
+BOT1_ROAMING_TXT5 = "Come out, come out wherever you are!";
 
-BOT1_NOROAMING_TXT1 = "You fuckers arn't stopping me!";
+BOT1_NOROAMING_TXT1 = "You fuckers aren't stopping me!";
 BOT1_NOROAMING_TXT2 = "We're not done yet!";
 BOT1_NOROAMING_TXT3 = "Hold on! We're not done yet!";
 BOT1_NOROAMING_TXT4 = "Give me a bloody chance!";
@@ -297,7 +293,7 @@ BOT1_ENRAGED_TXT5 = "I WILL MAKE YOU PAY!";
 
 BOT1_DEMORALIZED_TXT1 = "I wish this shit show would just stop.";
 BOT1_DEMORALIZED_TXT2 = "I am going to take a nap. Wake me up after.";
-BOT1_DEMORALIZED_TXT3 = "I just keeped getting screwed over every time!";
+BOT1_DEMORALIZED_TXT3 = "I just kept getting screwed over every time!";
 BOT1_DEMORALIZED_TXT4 = "I can't take much more of this crap!";
 BOT1_DEMORALIZED_TXT5 = "I might as well quit!";
 
@@ -319,9 +315,9 @@ BOT1_LOSE_TXT8 = "This isn't the end. I'll be back to finish this!";
 //BD64 MAP OPTIONS
 FO_OPTION_MAP_OP = "Map Options";
 FO_OPTION_MAP_OP_TXT ="(These options ONLY work with the BD64 Maps)";
-FO_OPTION_MAP_EASY ="Play Easier Map08 and Map28 (No Extended Final) Boss Fight) =";
+FO_OPTION_MAP_EASY ="Play Easier Map08 and Map28 (No Extended Final) Boss Fight =";
 FO_OPTION_MAP_TC ="Add Absolution Maps to Campaign (Modified Outpost Omega) =";
-FO_OPTION_MAP_TITLE ="Show orignal Doom 64 opening title sequence at startup";
+FO_OPTION_MAP_TITLE ="Show original Doom 64 opening title sequence at startup";
 FO_OPTION_MAP_TITLE_TXT ="Show Opening Title Map (Restart Required) =";
 FO_MENU_MAP_EFX ="Map Effects";
 FO_OPTION_EFX_RAIN ="Enable Rain EFX =";
